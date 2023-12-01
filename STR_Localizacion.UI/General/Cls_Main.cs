@@ -19,9 +19,9 @@ namespace STR_Localizacion.UI
             ExceptionPrepared = new internalexception(lc_NameClass, lc_NameLayout);
 
             sb_SetApplication();
-           // sb_setApplicationMenu()
+            // sb_setApplicationMenu()
             if (go_SBOApplication != null && go_SBOCompany != null)
-            {   
+            {
                 go_SBOApplication.MenuEvent += new SAPbouiCOM._IApplicationEvents_MenuEventEventHandler(lo_SBOApplication_MenuEvent);
                 go_SBOApplication.ItemEvent += new SAPbouiCOM._IApplicationEvents_ItemEventEventHandler(lo_SBOApplication_ItemEvent);
                 go_SBOApplication.FormDataEvent += new SAPbouiCOM._IApplicationEvents_FormDataEventEventHandler(lo_SBOApplication_FormDataEvent);
@@ -50,6 +50,8 @@ namespace STR_Localizacion.UI
             }
         }
 
+
+
         private void sb_CargarDatosDeConfiguracion()
         {
             try
@@ -63,7 +65,7 @@ namespace STR_Localizacion.UI
 
                 go_RecordSet = Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, null);
 
-                if(go_RecordSet.RecordCount == 0)
+                if (go_RecordSet.RecordCount == 0)
                     Cls_QueryManager.Procesa(Cls_Query.create_LOCConfig, "E", "F", "E");
 
                 Cls_Global.metCalculoTC = Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, "U_STR_MCTC");
@@ -89,7 +91,8 @@ namespace STR_Localizacion.UI
 
         }
 
-        public void sb_setApplicationMenu(SAPbobsCOM.Company po_company, SAPbouiCOM.Application po_application) {
+        public void sb_setApplicationMenu(SAPbobsCOM.Company po_company, SAPbouiCOM.Application po_application)
+        {
             Cls_Global.go_SBOApplication = po_application;
             Cls_Global.go_SBOCompany = po_company;
         }
@@ -117,7 +120,6 @@ namespace STR_Localizacion.UI
             lo_GenerarAsientoProvision = new Cls_ReprocesarAsientoProvision();
 
             go_Localizacion_Init = new MetaData.Cls_Localizacion_Init();
-            go_Localizacion_Code = new Cls_CodigoAddon();
 
             lo_ListaMateriales = new Cls_ListaMateriales();
             // Generar TXT de Orden de Venta
@@ -214,7 +216,6 @@ namespace STR_Localizacion.UI
 
             lo_EventFilter = lo_EventFilters.Add(SAPbouiCOM.BoEventTypes.et_ALL_EVENTS);
 
-            lo_EventFilter.AddEx(go_Localizacion_Code.gs_FormName);
             lo_EventFilter.AddEx(lo_AnulCorrelativo.gs_FormName);
             lo_EventFilter.AddEx(lo_PagaDetracciones.gs_FormName);
             lo_EventFilter.AddEx(lo_GenerarAsiento.gs_FormName);
@@ -254,7 +255,7 @@ namespace STR_Localizacion.UI
 
             go_SBOApplication.SetFilter(lo_EventFilters);
 
-            lo_EventFilter = lo_EventFilters.Add(SAPbouiCOM.BoEventTypes.et_FORM_LOAD);          
+            lo_EventFilter = lo_EventFilters.Add(SAPbouiCOM.BoEventTypes.et_FORM_LOAD);
             go_SBOApplication.SetFilter(lo_EventFilters);
 
             lo_EventFilter = lo_EventFilters.Add(SAPbouiCOM.BoEventTypes.et_MENU_CLICK);

@@ -4,6 +4,7 @@ using System.Linq;
 using STR_Localizacion.UI;
 using STR_Localizacion.UTIL;
 using System;
+using STR_Localizacion.BL;
 
 namespace STR_Localizacion.UI
 {
@@ -22,12 +23,13 @@ namespace STR_Localizacion.UI
             pb_BubbleEvent = true;
             if (go_SBOFormActive == null) return;
 
-            try {
+            try
+            {
                 if (ps_FormUID.Equals("-141"))
                 {
                 }
                 go_SBOFormEvent = go_SBOApplication.Forms.Item(ps_FormUID);
-                }
+            }
             catch (Exception)
             {
                 go_SBOFormEvent = null;
@@ -38,9 +40,9 @@ namespace STR_Localizacion.UI
             try
             {
                 string ls_FormTypeEx = pe_itemEvent.FormTypeEx;
-                if (pe_itemEvent.FormTypeEx == "ConfLocalizacion")                
+                if (pe_itemEvent.FormTypeEx == "ConfLocalizacion")
                     pb_BubbleEvent = lo_MenuConfiguracion.itemevent.Perform(pe_itemEvent);
-               
+
 
                 if (go_SBOApplication.Forms.ActiveForm.TypeEx == "42")
                 {
@@ -51,8 +53,6 @@ namespace STR_Localizacion.UI
                     }
                 }
 
-                if (go_Localizacion_Code.gs_FormName == pe_itemEvent.FormTypeEx)
-                    pb_BubbleEvent = go_Localizacion_Code.itemevent.Perform(pe_itemEvent);
 
                 else if (lo_NumeracionVenta.go_InternalFormID.Any(s => s.Equals(ls_FormTypeEx)))
                 {
@@ -167,23 +167,37 @@ namespace STR_Localizacion.UI
                     switch (pe_MenuEvent.MenuUID)
                     {
                         case "ST_LOC_GenAsProv":
-                            lo_GenerarAsientoProvision.sb_FormLoad();
+                            if (Validacion.fn_getComparacion(1) == true)
+                                lo_GenerarAsientoProvision.sb_FormLoad();
+                            else return;
                             break;
                         case "STR_LOC_AnulCorrelativo":
-                            lo_AnulCorrelativo.sb_FormLoad();
+                            if (Validacion.fn_getComparacion(1) == true)
+                                lo_AnulCorrelativo.sb_FormLoad();
+                            else return;
                             break;
                         case "STR_LOC_PagoMasivoDtr":
-                            lo_PagaDetracciones.sb_FormLoad();
+                            if (Validacion.fn_getComparacion(1) == true)
+                                lo_PagaDetracciones.sb_FormLoad();
+                            else return;
                             break;
                         case "STR_LOC_GeneradorAsiento":
-                            lo_GenerarAsiento.sb_FormLoad();
+                            if (Validacion.fn_getComparacion(1) == true)
+                                lo_GenerarAsiento.sb_FormLoad();
+                            else return;
                             break;
                         case "STR_LOC_AsientoDestino":
-                            lo_AsientoCtaDestino.FormLoad();
-                            lo_AsientoCtaDestino.sb_PrepareDataSource(go_SBOApplication.Forms.ActiveForm);
+                            if (Validacion.fn_getComparacion(1) == true)
+                            {
+                                lo_AsientoCtaDestino.FormLoad();
+                                lo_AsientoCtaDestino.sb_PrepareDataSource(go_SBOApplication.Forms.ActiveForm);
+                            }
+                            else return;
                             break;
                         case "MNU_AdlntClnt":
-                            lo_AdelantoCliente.sb_FormLoad();
+                            if (Validacion.fn_getComparacion(1) == true)
+                                lo_AdelantoCliente.sb_FormLoad();
+                            else return;
                             break;
                         case Cls_AdelantoCliente.gs_MnuBorrarFila:
                             if (pe_MenuEvent.BeforeAction)
@@ -206,7 +220,11 @@ namespace STR_Localizacion.UI
                         //case "2053":
                         //    snSolidario.formLoad();
                         //    break;
-                        case "STR_mnu_Settings": lo_MenuConfiguracion.Sb_FormLoad(); break;
+                        case "STR_mnu_Settings":
+                            if (Validacion.fn_getComparacion(1) == true)
+                                lo_MenuConfiguracion.Sb_FormLoad();
+                            else return;
+                            break;
                         case "1284":
                             if (pe_MenuEvent.BeforeAction)
                             {
@@ -231,7 +249,11 @@ namespace STR_Localizacion.UI
                             else if (go_SBOFormActive.TypeEx.Contains(lo_GenerarAsiento.gs_FormName))
                             {
                                 if (pe_MenuEvent.MenuUID.Equals("1282"))
-                                    lo_GenerarAsiento.sb_DataFormLoad();
+                                {
+                                    if (Validacion.fn_getComparacion(1) == true)
+                                        lo_GenerarAsiento.sb_DataFormLoad();
+                                    else return;
+                                }
                             }
                             else if (go_SBOFormActive.TypeEx.Contains(lo_AdelantoCliente.gs_FormName))
                                 if (pe_MenuEvent.MenuUID.Equals("1282"))
@@ -300,14 +322,14 @@ namespace STR_Localizacion.UI
                         {
                             lo_Detraccion.sb_generarAsientoDetraccion();
 
-                            if(pe_BusinessObjectInfo.FormTypeEx.Equals("141"))
+                            if (pe_BusinessObjectInfo.FormTypeEx.Equals("141"))
                             {
                                 lo_Provisiones.sb_generarAsientoAjustePorTipoDeCambio();
                                 lo_FondoDeGarantia.GenerarAsientoRetencionDeGarantia();
                                 lo_ProvisionesNoDomiciliado.GenerarAsientoProvisionIGVNoDomiciliado();
                             }
                         }
-                            
+
                         break;
                     case "frmPagoMasivoDetraccion":
                         if (pe_BusinessObjectInfo.ActionSuccess)

@@ -16,6 +16,8 @@ namespace STR_Localizacion.UTIL
         public static SAPbobsCOM.SBObob go_SBObob = null;
         public static SAPbouiCOM.SboGuiApi go_SBOGUIAPI = null;
 
+        public static string gs_hardwarek = "";
+
         //Objeto para CopnayService
         public static SAPbobsCOM.CompanyService go_SBOCompanyService;
 
@@ -139,6 +141,11 @@ namespace STR_Localizacion.UTIL
         /// <param name="ps_cadena"></param>
         /// <param name="po_param"></param>
         /// <returns>Query armado incluido parametros</returns>
+        /// 
+        public static void sb_CargarHardwareKey(string hardware)
+        {
+            gs_hardwarek = hardware;
+        }
         public static string fn_defineParametros(string ps_cadena, params object[] po_param)
         {
             try
@@ -236,7 +243,7 @@ namespace STR_Localizacion.UTIL
             {
                 //Agrega nuevo item
                 string caaa = po_Recordset.Fields.Item(0).Value;
-                string daaa = po_Recordset.Fields.Item(1).Value; 
+                string daaa = po_Recordset.Fields.Item(1).Value;
                 po_Combo.ValidValues.Add(po_Recordset.Fields.Item(0).Value, po_Recordset.Fields.Item(1).Value);
                 po_Recordset.MoveNext(); //Pasa a la siguiente fila del recordSet
             }
@@ -569,6 +576,24 @@ namespace STR_Localizacion.UTIL
         }
 
         #endregion "Metodos Privados"
+    }
+
+    public enum PeruAddon
+    {
+        Localizacion = 1,
+        Sire = 2,
+        CCEAR = 3,
+        Letras = 4,
+        TipoCambio = 5
+    }
+
+    public enum CodigoAddon
+    {
+        RAMOLOCALI = 1,
+        RAMOSIRE = 2,
+        RAMOEAR = 3,
+        RAMOLETRAS = 4,
+        RAMOCAMBIO = 5
     }
 
     partial class WindowWrapper : IWin32Window

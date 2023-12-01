@@ -6,7 +6,6 @@ namespace STR_Localizacion.UI
     partial class Cls_Main
     {
         /// Declaracion de objetos para luego instanciarlos y usarlos en esta clase
-        private Cls_CodigoAddon go_Localizacion_Code;
         private Cls_Localizacion_Init go_Localizacion_Init;
 
         //private Cls_Numeracion lo_Numeracion;
