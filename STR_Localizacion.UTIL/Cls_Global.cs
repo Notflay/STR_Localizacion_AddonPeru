@@ -142,10 +142,7 @@ namespace STR_Localizacion.UTIL
         /// <param name="po_param"></param>
         /// <returns>Query armado incluido parametros</returns>
         /// 
-        public static void sb_CargarHardwareKey(string hardware)
-        {
-            gs_hardwarek = hardware;
-        }
+
         public static string fn_defineParametros(string ps_cadena, params object[] po_param)
         {
             try

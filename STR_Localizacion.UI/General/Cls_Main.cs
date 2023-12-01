@@ -19,7 +19,7 @@ namespace STR_Localizacion.UI
             ExceptionPrepared = new internalexception(lc_NameClass, lc_NameLayout);
 
             sb_SetApplication();
-            // sb_setApplicationMenu()
+            //sb_setApplicationMenu()
             if (go_SBOApplication != null && go_SBOCompany != null)
             {
                 go_SBOApplication.MenuEvent += new SAPbouiCOM._IApplicationEvents_MenuEventEventHandler(lo_SBOApplication_MenuEvent);
@@ -51,7 +51,10 @@ namespace STR_Localizacion.UI
         }
 
 
-
+        public static void sb_CargarHardwareKey(string hardware)
+        {
+            Cls_Global.gs_hardwarek = hardware;
+        }
         private void sb_CargarDatosDeConfiguracion()
         {
             try
