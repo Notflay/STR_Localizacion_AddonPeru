@@ -524,7 +524,6 @@ D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UI\bin\x64\Form
 D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UI\bin\x64\Forms\AnularCorrelativos.srf
 D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UI\bin\x64\Forms\AsientoDestino.srf
 D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UI\bin\x64\Forms\CajasChicas.srf
-D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UI\bin\x64\Forms\CodigoAddon.srf
 D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UI\bin\x64\Forms\ConsultaSunat.srf
 D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UI\bin\x64\Forms\FrmAsientosProvision.srf
 D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UI\bin\x64\Forms\FrmConfiguracion.srf

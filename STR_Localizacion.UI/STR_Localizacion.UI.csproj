@@ -99,7 +99,6 @@
       <DependentUpon>Cls_AnulCorrelativo.cs</DependentUpon>
     </Compile>
     <Compile Include="Cls_AsientoCtaDestino.cs" />
-    <Compile Include="Cls_CodigoAddon.cs" />
     <Compile Include="Cls_COM_DescargaInventario.cs" />
     <Compile Include="Cls_Folio.cs" />
     <Compile Include="Cls_FondoDeGarantia.cs" />
@@ -234,9 +233,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Forms\CajasChicas.srf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Forms\CodigoAddon.srf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Forms\ConsultaSunat.srf">
