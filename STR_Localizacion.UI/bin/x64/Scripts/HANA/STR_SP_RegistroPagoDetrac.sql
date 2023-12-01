@@ -1,0 +1,8 @@
+CREATE PROCEDURE STR_SP_RegistroPagoDetrac
+(
+	IN Codigo INTEGER
+)
+AS
+BEGIN
+	SELECT * FROM "@BPP_PAYDTRDET" WHERE "DocEntry"=:Codigo AND COALESCE("U_BPP_DEPg", '')='' ORDER BY "U_BPP_CgPv";
+END;

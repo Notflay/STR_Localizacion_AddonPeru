@@ -1,0 +1,5 @@
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.UTIL\bin\Release\x86\STR_Localizacion.UTIL.dll
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x86\Release\Interop.SAPbobsCOM.dll
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x86\Release\Interop.SAPbouiCOM.dll
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x86\Release\STR_Localizacion.UTIL.csproj.ResolveComReference.cache
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x86\Release\STR_Localizacion.UTIL.dll

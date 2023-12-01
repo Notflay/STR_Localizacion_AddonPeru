@@ -1,0 +1,70 @@
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.UTIL\bin\x64\Debug\STR_Localizacion.UTIL.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.UTIL\bin\x64\Debug\STR_Localizacion.UTIL.pdb
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\Interop.SAPbobsCOM.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\Interop.SAPbouiCOM.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.ResolveComReference.cache
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.CoreCompileInputs.cache
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.pdb
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.UTIL\bin\x64\Debug\STR_Localizacion.UTIL.dll
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.UTIL\bin\x64\Debug\STR_Localizacion.UTIL.pdb
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\Interop.SAPbobsCOM.dll
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\Interop.SAPbouiCOM.dll
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.ResolveComReference.cache
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.dll
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.pdb
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.UTIL\bin\x64\Debug\STR_Localizacion.UTIL.dll
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.UTIL\bin\x64\Debug\STR_Localizacion.UTIL.pdb
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\Interop.SAPbobsCOM.dll
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\Interop.SAPbouiCOM.dll
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.ResolveComReference.cache
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.dll
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.pdb
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.UTIL\bin\x64\Debug\STR_Localizacion.UTIL.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.UTIL\bin\x64\Debug\STR_Localizacion.UTIL.pdb
+C:\Users\DRUITON\Documents\STRAT\STR_Addon\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.dll
+C:\Users\DRUITON\Documents\STRAT\STR_Addon\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.pdb
+C:\Users\DRUITON\Documents\STRAT\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\Interop.SAPbobsCOM.dll
+C:\Users\DRUITON\Documents\STRAT\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\Interop.SAPbouiCOM.dll
+C:\Users\DRUITON\Documents\STRAT\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.ResolveComReference.cache
+C:\Users\DRUITON\Documents\STRAT\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.dll
+C:\Users\DRUITON\Documents\STRAT\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.pdb
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.pdb
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csprojAssemblyReference.cache
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\Interop.SAPbobsCOM.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\Interop.SAPbouiCOM.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.ResolveComReference.cache
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.pdb
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.dll
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.pdb
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.AssemblyReference.cache
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\Interop.SAPbobsCOM.dll
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\Interop.SAPbouiCOM.dll
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.ResolveComReference.cache
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.CoreCompileInputs.cache
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.dll
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.pdb
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.dll
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.pdb
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.AssemblyReference.cache
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\Interop.SAPbobsCOM.dll
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\Interop.SAPbouiCOM.dll
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.ResolveComReference.cache
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.CoreCompileInputs.cache
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.dll
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.pdb
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.dll
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.pdb
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.AssemblyReference.cache
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\Interop.SAPbobsCOM.dll
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\Interop.SAPbouiCOM.dll
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.ResolveComReference.cache
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.CoreCompileInputs.cache
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.dll
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.pdb

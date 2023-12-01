@@ -1,0 +1,5 @@
+CREATE PROCEDURE STR_SP_ObtConfigLocaliz () 
+AS
+BEGIN
+	SELECT * FROM "@STR_LC_CONF" WHERE "Code" = '01';
+END;

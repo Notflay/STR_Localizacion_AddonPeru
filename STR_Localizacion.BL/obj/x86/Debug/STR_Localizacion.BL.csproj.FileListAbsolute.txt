@@ -1,0 +1,640 @@
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\ST_LOC_GET_PENDIENTES_ASIENTO_PROV.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ActualizaPagoDetraccion.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_DetraccionesPagadas.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_DetraccionesXPagar.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_FacturasSinAsiento.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_FechaAnulacion.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_InfoAsientoDestino.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_InfoAsientoDestinoAlternativo.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtCodigoDetrac.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtCodigoFormato.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtConfigLocaliz.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtCorrSunatTxtTipSer.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtDetailData.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtFacturasPendientesAD.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtHeaderData.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtLineaId.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtMoneda.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNombreCuenta.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumDias.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumeroDocumento.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumSerie.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumSiguiente.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtPagosEfectuados.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtRutaArchivoTxt.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtSerieSunat.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtSerieSunatAnul.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTipoDefXForm.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTipoXForm.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTipoXFormAnul.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTransferencias.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_RegistroPagoDetrac.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_UpdEstadoAnulado.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ValidaAnulSUNAT.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ValidarRegistroSAP.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_Valida_AppStrat.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_VerNumAnul.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ActualizaPagoDetraccion.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_BPP_LocalizacionSTRAT.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_DetraccionesPagadas.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_DetraccionesXPagar.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_FacturasSinAsiento.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_FechaAnulacion.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_InfoAsientoDestino.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_InfoAsientoDestinoAlternativo.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtCodigoDetrac.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtCodigoFormato.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtCorrSunatTxtTipSer.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtFacturasPendientesAD.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtLineaId.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtMoneda.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNombreCuenta.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumDias.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumeroDocumento.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumSerie.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumSiguiente.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtPagosEfectuados.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtSerieSunat.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtSerieSunatAnul.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTipoDefXForm.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTipoXForm.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTipoXFormAnul.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTransferencias.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_RegistroPagoDetrac.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_UpdEstadoAnulado.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ValidaAnulSUNAT.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ValidarRegistroSAP.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_VerNumAnul.sql
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\liblept168.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\liblept172.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\libtesseract302.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\libtesseract304.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\liblept168.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\liblept172.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\libtesseract302.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\libtesseract304.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Properties\Resources.resx
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Properties\Resources.Designer.cs
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Resources\Queries.xml
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Resources\tessdata\eng.traineddata
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.BL.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.BL.pdb
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.DL.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.UTIL.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Tesseract.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.DL.pdb
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.UTIL.pdb
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Tesseract.xml
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csprojAssemblyReference.cache
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\Interop.SAPbobsCOM.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\Interop.SAPbouiCOM.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.ResolveComReference.cache
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.CoreCompileInputs.cache
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.CopyComplete
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.pdb
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\ST_LOC_GET_PENDIENTES_ASIENTO_PROV.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ActualizaPagoDetraccion.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_DetraccionesPagadas.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_DetraccionesXPagar.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_FacturasSinAsiento.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_FechaAnulacion.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_InfoAsientoDestino.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_InfoAsientoDestinoAlternativo.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtCodigoDetrac.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtCodigoFormato.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtConfigLocaliz.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtCorrSunatTxtTipSer.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtDetailData.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtFacturasPendientesAD.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtHeaderData.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtLineaId.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtMoneda.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNombreCuenta.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumDias.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumeroDocumento.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumSerie.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumSiguiente.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtPagosEfectuados.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtRutaArchivoTxt.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtSerieSunat.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtSerieSunatAnul.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTipoDefXForm.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTipoXForm.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTipoXFormAnul.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTransferencias.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_RegistroPagoDetrac.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_UpdEstadoAnulado.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ValidaAnulSUNAT.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ValidarRegistroSAP.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_Valida_AppStrat.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_VerNumAnul.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ActualizaPagoDetraccion.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_BPP_LocalizacionSTRAT.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_DetraccionesPagadas.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_DetraccionesXPagar.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_FacturasSinAsiento.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_FechaAnulacion.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_InfoAsientoDestino.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_InfoAsientoDestinoAlternativo.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtCodigoDetrac.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtCodigoFormato.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtCorrSunatTxtTipSer.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtFacturasPendientesAD.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtLineaId.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtMoneda.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNombreCuenta.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumDias.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumeroDocumento.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumSerie.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumSiguiente.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtPagosEfectuados.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtSerieSunat.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtSerieSunatAnul.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTipoDefXForm.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTipoXForm.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTipoXFormAnul.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTransferencias.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_RegistroPagoDetrac.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_UpdEstadoAnulado.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ValidaAnulSUNAT.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ValidarRegistroSAP.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_VerNumAnul.sql
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\liblept168.dll
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\liblept172.dll
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\libtesseract302.dll
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\libtesseract304.dll
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\liblept168.dll
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\liblept172.dll
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\libtesseract302.dll
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\libtesseract304.dll
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Properties\Resources.resx
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Properties\Resources.Designer.cs
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Resources\Queries.xml
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Resources\tessdata\eng.traineddata
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.BL.dll
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.BL.pdb
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.DL.dll
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.UTIL.dll
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Tesseract.dll
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.DL.pdb
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.UTIL.pdb
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Tesseract.xml
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csprojAssemblyReference.cache
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\Interop.SAPbobsCOM.dll
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\Interop.SAPbouiCOM.dll
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.ResolveComReference.cache
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.CoreCompileInputs.cache
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.CopyComplete
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.dll
+C:\Users\ncondori\Desktop\ADDONS\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.pdb
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\ST_LOC_GET_PENDIENTES_ASIENTO_PROV.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ActualizaPagoDetraccion.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_DetraccionesPagadas.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_DetraccionesXPagar.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_FacturasSinAsiento.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_FechaAnulacion.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_InfoAsientoDestino.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_InfoAsientoDestinoAlternativo.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtCodigoDetrac.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtCodigoFormato.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtConfigLocaliz.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtCorrSunatTxtTipSer.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtDetailData.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtFacturasPendientesAD.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtHeaderData.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtLineaId.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtMoneda.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNombreCuenta.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumDias.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumeroDocumento.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumSerie.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumSiguiente.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtPagosEfectuados.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtRutaArchivoTxt.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtSerieSunat.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtSerieSunatAnul.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTipoDefXForm.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTipoXForm.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTipoXFormAnul.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTransferencias.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_RegistroPagoDetrac.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_UpdEstadoAnulado.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ValidaAnulSUNAT.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ValidarRegistroSAP.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_Valida_AppStrat.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_VerNumAnul.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ActualizaPagoDetraccion.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_BPP_LocalizacionSTRAT.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_DetraccionesPagadas.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_DetraccionesXPagar.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_FacturasSinAsiento.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_FechaAnulacion.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_InfoAsientoDestino.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_InfoAsientoDestinoAlternativo.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtCodigoDetrac.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtCodigoFormato.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtCorrSunatTxtTipSer.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtFacturasPendientesAD.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtLineaId.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtMoneda.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNombreCuenta.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumDias.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumeroDocumento.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumSerie.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumSiguiente.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtPagosEfectuados.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtSerieSunat.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtSerieSunatAnul.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTipoDefXForm.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTipoXForm.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTipoXFormAnul.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTransferencias.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_RegistroPagoDetrac.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_UpdEstadoAnulado.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ValidaAnulSUNAT.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ValidarRegistroSAP.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_VerNumAnul.sql
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\liblept168.dll
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\liblept172.dll
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\libtesseract302.dll
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\libtesseract304.dll
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\liblept168.dll
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\liblept172.dll
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\libtesseract302.dll
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\libtesseract304.dll
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Properties\Resources.resx
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Properties\Resources.Designer.cs
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Resources\Queries.xml
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Resources\tessdata\eng.traineddata
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.BL.dll
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.BL.pdb
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.DL.dll
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.UTIL.dll
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Tesseract.dll
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.DL.pdb
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.UTIL.pdb
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Tesseract.xml
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csprojResolveAssemblyReference.cache
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\Interop.SAPbobsCOM.dll
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\Interop.SAPbouiCOM.dll
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.ResolveComReference.cache
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.dll
+C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.pdb
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\ST_LOC_GET_PENDIENTES_ASIENTO_PROV.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ActualizaPagoDetraccion.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_DetraccionesPagadas.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_DetraccionesXPagar.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_FacturasSinAsiento.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_FechaAnulacion.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_InfoAsientoDestino.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_InfoAsientoDestinoAlternativo.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtCodigoDetrac.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtCodigoFormato.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtConfigLocaliz.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtCorrSunatTxtTipSer.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtDetailData.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtFacturasPendientesAD.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtHeaderData.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtLineaId.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtMoneda.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNombreCuenta.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumDias.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumeroDocumento.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumSerie.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumSiguiente.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtPagosEfectuados.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtRutaArchivoTxt.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtSerieSunat.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtSerieSunatAnul.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTipoDefXForm.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTipoXForm.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTipoXFormAnul.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTransferencias.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_RegistroPagoDetrac.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_UpdEstadoAnulado.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ValidaAnulSUNAT.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ValidarRegistroSAP.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_Valida_AppStrat.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_VerNumAnul.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ActualizaPagoDetraccion.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_BPP_LocalizacionSTRAT.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_DetraccionesPagadas.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_DetraccionesXPagar.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_FacturasSinAsiento.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_FechaAnulacion.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_InfoAsientoDestino.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_InfoAsientoDestinoAlternativo.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtCodigoDetrac.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtCodigoFormato.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtCorrSunatTxtTipSer.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtFacturasPendientesAD.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtLineaId.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtMoneda.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNombreCuenta.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumDias.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumeroDocumento.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumSerie.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumSiguiente.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtPagosEfectuados.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtSerieSunat.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtSerieSunatAnul.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTipoDefXForm.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTipoXForm.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTipoXFormAnul.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTransferencias.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_RegistroPagoDetrac.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_UpdEstadoAnulado.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ValidaAnulSUNAT.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ValidarRegistroSAP.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_VerNumAnul.sql
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\liblept168.dll
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\liblept172.dll
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\libtesseract302.dll
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\libtesseract304.dll
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\liblept168.dll
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\liblept172.dll
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\libtesseract302.dll
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\libtesseract304.dll
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Properties\Resources.resx
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Properties\Resources.Designer.cs
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Resources\Queries.xml
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Resources\tessdata\eng.traineddata
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.BL.dll
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.BL.pdb
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.DL.dll
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.UTIL.dll
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Tesseract.dll
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.DL.pdb
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.UTIL.pdb
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Tesseract.xml
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csprojAssemblyReference.cache
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\Interop.SAPbobsCOM.dll
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\Interop.SAPbouiCOM.dll
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.ResolveComReference.cache
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.CopyComplete
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.dll
+D:\Desarrollo\STRAT\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.pdb
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\ST_LOC_GET_PENDIENTES_ASIENTO_PROV.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ActualizaPagoDetraccion.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_DetraccionesPagadas.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_DetraccionesXPagar.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_FacturasSinAsiento.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_FechaAnulacion.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_InfoAsientoDestino.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_InfoAsientoDestinoAlternativo.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtCodigoDetrac.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtCodigoFormato.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtConfigLocaliz.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtCorrSunatTxtTipSer.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtDetailData.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtFacturasPendientesAD.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtHeaderData.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtLineaId.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtMoneda.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNombreCuenta.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumDias.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumeroDocumento.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumSerie.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumSiguiente.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtPagosEfectuados.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtRutaArchivoTxt.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtSerieSunat.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtSerieSunatAnul.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTipoDefXForm.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTipoXForm.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTipoXFormAnul.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTransferencias.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_RegistroPagoDetrac.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_UpdEstadoAnulado.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ValidaAnulSUNAT.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ValidarRegistroSAP.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_Valida_AppStrat.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_VerNumAnul.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ActualizaPagoDetraccion.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_BPP_LocalizacionSTRAT.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_DetraccionesPagadas.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_DetraccionesXPagar.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_FacturasSinAsiento.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_FechaAnulacion.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_InfoAsientoDestino.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_InfoAsientoDestinoAlternativo.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtCodigoDetrac.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtCodigoFormato.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtCorrSunatTxtTipSer.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtFacturasPendientesAD.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtLineaId.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtMoneda.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNombreCuenta.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumDias.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumeroDocumento.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumSerie.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumSiguiente.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtPagosEfectuados.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtSerieSunat.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtSerieSunatAnul.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTipoDefXForm.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTipoXForm.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTipoXFormAnul.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTransferencias.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_RegistroPagoDetrac.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_UpdEstadoAnulado.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ValidaAnulSUNAT.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ValidarRegistroSAP.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_VerNumAnul.sql
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\liblept168.dll
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\liblept172.dll
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\libtesseract302.dll
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\libtesseract304.dll
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\liblept168.dll
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\liblept172.dll
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\libtesseract302.dll
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\libtesseract304.dll
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Properties\Resources.resx
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Properties\Resources.Designer.cs
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Resources\Queries.xml
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Resources\tessdata\eng.traineddata
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.BL.dll
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.BL.pdb
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.DL.dll
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.UTIL.dll
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Tesseract.dll
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.DL.pdb
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.UTIL.pdb
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Tesseract.xml
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\Interop.SAPbobsCOM.dll
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\Interop.SAPbouiCOM.dll
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.ResolveComReference.cache
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.CopyComplete
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.dll
+C:\Users\Administrator\Documents\FE\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.pdb
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\ST_LOC_GET_PENDIENTES_ASIENTO_PROV.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ActualizaPagoDetraccion.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_DetraccionesPagadas.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_DetraccionesXPagar.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_FacturasSinAsiento.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_FechaAnulacion.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_InfoAsientoDestino.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_InfoAsientoDestinoAlternativo.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtCodigoDetrac.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtCodigoFormato.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtConfigLocaliz.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtCorrSunatTxtTipSer.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtDetailData.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtFacturasPendientesAD.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtHeaderData.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtLineaId.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtMoneda.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNombreCuenta.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumDias.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumeroDocumento.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumSerie.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtNumSiguiente.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtPagosEfectuados.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtRutaArchivoTxt.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtSerieSunat.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtSerieSunatAnul.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTipoDefXForm.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTipoXForm.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTipoXFormAnul.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ObtTransferencias.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_RegistroPagoDetrac.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_UpdEstadoAnulado.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ValidaAnulSUNAT.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_ValidarRegistroSAP.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_Valida_AppStrat.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\HANA\STR_SP_VerNumAnul.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ActualizaPagoDetraccion.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_BPP_LocalizacionSTRAT.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_DetraccionesPagadas.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_DetraccionesXPagar.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_FacturasSinAsiento.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_FechaAnulacion.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_InfoAsientoDestino.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_InfoAsientoDestinoAlternativo.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtCodigoDetrac.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtCodigoFormato.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtCorrSunatTxtTipSer.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtFacturasPendientesAD.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtLineaId.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtMoneda.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNombreCuenta.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumDias.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumeroDocumento.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumSerie.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtNumSiguiente.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtPagosEfectuados.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtSerieSunat.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtSerieSunatAnul.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTipoDefXForm.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTipoXForm.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTipoXFormAnul.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ObtTransferencias.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_RegistroPagoDetrac.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_UpdEstadoAnulado.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ValidaAnulSUNAT.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_ValidarRegistroSAP.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Scripts\SQL\STR_SP_VerNumAnul.sql
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\liblept168.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\liblept172.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\libtesseract302.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x64\libtesseract304.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\liblept168.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\liblept172.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\libtesseract302.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\x86\libtesseract304.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Properties\Resources.resx
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Properties\Resources.Designer.cs
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Resources\Queries.xml
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Resources\tessdata\eng.traineddata
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.BL.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.BL.pdb
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.DL.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.UTIL.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Tesseract.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.DL.pdb
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\STR_Localizacion.UTIL.pdb
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\x86\Debug\Tesseract.xml
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\Debug\Properties\Resources.resx
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\Debug\Properties\Resources.Designer.cs
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\Debug\Resources\Queries.xml
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\Debug\Resources\tessdata\eng.traineddata
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\Debug\STR_Localizacion.BL.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\Debug\STR_Localizacion.BL.pdb
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\Debug\STR_Localizacion.DL.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\Debug\STR_Localizacion.UTIL.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\Debug\Tesseract.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\Debug\STR_Localizacion.DL.pdb
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\Debug\STR_Localizacion.UTIL.pdb
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\bin\Debug\Tesseract.xml
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csprojAssemblyReference.cache
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\Interop.SAPbobsCOM.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\Interop.SAPbouiCOM.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.ResolveComReference.cache
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.CopyComplete
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.dll
+D:\Desarrollo\STRAT\Localizacion\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.pdb
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\bin\Debug\Properties\Resources.resx
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\bin\Debug\Properties\Resources.Designer.cs
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\bin\Debug\Resources\Queries.xml
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\bin\Debug\Resources\tessdata\eng.traineddata
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\bin\Debug\STR_Localizacion.BL.dll
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\bin\Debug\STR_Localizacion.BL.pdb
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\bin\Debug\STR_Localizacion.DL.dll
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\bin\Debug\STR_Localizacion.UTIL.dll
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\bin\Debug\Tesseract.dll
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\bin\Debug\STR_Localizacion.DL.pdb
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\bin\Debug\STR_Localizacion.UTIL.pdb
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\bin\Debug\Tesseract.xml
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.AssemblyReference.cache
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\Interop.SAPbobsCOM.dll
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\Interop.SAPbouiCOM.dll
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.ResolveComReference.cache
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.CoreCompileInputs.cache
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.CopyComplete
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.dll
+C:\Users\durbay\Downloads\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.pdb
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\Properties\Resources.resx
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\Properties\Resources.Designer.cs
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\Resources\Queries.xml
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\Resources\tessdata\eng.traineddata
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\STR_Localizacion.BL.dll
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\STR_Localizacion.BL.pdb
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\STR_Localizacion.DL.dll
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\STR_Localizacion.UTIL.dll
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\Tesseract.dll
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\STR_Localizacion.DL.pdb
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\STR_Localizacion.UTIL.pdb
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\Tesseract.xml
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.AssemblyReference.cache
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\Interop.SAPbobsCOM.dll
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\Interop.SAPbouiCOM.dll
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.ResolveComReference.cache
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.CoreCompileInputs.cache
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.CopyComplete
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.dll
+C:\Users\DRUITON\Desktop\Fuente - Lozalicion 1207\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.pdb
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\Properties\Resources.resx
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\Properties\Resources.Designer.cs
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\Resources\Queries.xml
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\Resources\tessdata\eng.traineddata
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\STR_Localizacion.BL.dll
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\STR_Localizacion.BL.pdb
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\STR_Localizacion.DL.dll
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\STR_Localizacion.UTIL.dll
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\Tesseract.dll
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\STR_Localizacion.DL.pdb
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\STR_Localizacion.UTIL.pdb
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\bin\Debug\x86\Tesseract.xml
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.AssemblyReference.cache
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\Interop.SAPbobsCOM.dll
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\Interop.SAPbouiCOM.dll
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.ResolveComReference.cache
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.CoreCompileInputs.cache
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.csproj.CopyComplete
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.dll
+D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.BL\obj\x86\Debug\STR_Localizacion.BL.pdb

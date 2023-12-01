@@ -1,0 +1,9 @@
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.pdb
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.UTIL\obj\Debug\STR_Localizacion.UTIL.csprojAssemblyReference.cache
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.UTIL\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.UTIL\obj\Debug\Interop.SAPbouiCOM.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.UTIL\obj\Debug\STR_Localizacion.UTIL.csproj.ResolveComReference.cache
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.UTIL\obj\Debug\STR_Localizacion.UTIL.csproj.CoreCompileInputs.cache
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.UTIL\obj\Debug\STR_Localizacion.UTIL.dll
+D:\Desarrollo Strat\LOCALIZACION\branches\1.008.01.00\Fuentes\STR_Addon\STR_Localizacion.UTIL\obj\Debug\STR_Localizacion.UTIL.pdb

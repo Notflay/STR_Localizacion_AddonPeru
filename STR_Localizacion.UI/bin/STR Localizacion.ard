@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AddOnRegData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SlientInstallation="No" SlientUpgrade="No" Partnernmsp="STRAT" SchemaVersion="3.0" Type="" MultipleVersion="false" OnDemand="" OnPremise="" ExtName="STR Localizacion" ExtVersion="1.008.01.08" Contdata="www.stratperu.com" Partner="STRAT CONSULTING SAC" DBType="Both" ClientType="A">
+  <Validity>
+    <SBOCompatibility>
+      <Version From="9.10.101" To="9.20" />
+    </SBOCompatibility>
+  </Validity>
+  <Configuration>
+    <Repository>
+      <Properties />
+    </Repository>
+    <Deployment>
+      <Properties />
+    </Deployment>
+    <Assignment>
+      <Properties />
+    </Assignment>
+  </Configuration>
+  <Addons>
+    <Addon Name="STR Localizacion" Group="" ForceFlag="" Visible="" AutoAssign="" SelfUpgrd="">
+      <x86 AddonExe="STR_Localizacion.exe" AddonSig="249A125512521D1CB47FA6922628BA23" ExeDir="X86Client">
+        <Installation>
+          <Files>
+            <File FileName="X86Client\STR_Localizacion.BL.dll">
+              <Actions />
+            </File>
+            <File FileName="X86Client\STR_Localizacion.DL.dll">
+              <Actions />
+            </File>
+            <File FileName="X86Client\STR_Localizacion.exe">
+              <Actions />
+            </File>
+            <File FileName="X86Client\STR_Localizacion.exe.config">
+              <Actions />
+            </File>
+            <File FileName="X86Client\STR_Localizacion.Metadata.dll">
+              <Actions />
+            </File>
+            <File FileName="X86Client\STR_Localizacion.UTIL.dll">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Tesseract.dll">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Tesseract.xml">
+              <Actions />
+            </File>
+            <File FileName="X86Client\BO\UF.vte">
+              <Actions />
+            </File>
+            <File FileName="X86Client\BO\UO.vte">
+              <Actions />
+            </File>
+            <File FileName="X86Client\BO\UT.vte">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\AdelantoCliente.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\AnularCorrelativos.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\AsientoDestino.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\CajasChicas.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\CodigoAddon.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\ConsultaSunat.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\FrmAsientosProvision.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\FrmConfiguracion.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\GenerarAsiento.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\PagarDetracciones.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\StratSettings.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Properties\Resources.Designer.cs">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Properties\Resources.resx">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Resources\ConfLocalizacion.xml">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Resources\Queries.xml">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Resources\tessdata\eng.traineddata">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ActualizaPagoDetraccion.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_DetraccionesPagadas.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_DetraccionesXPagar.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_FacturasSinAsiento.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_FechaAnulacion.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_InfoAsientoDestino.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_InfoAsientoDestinoAlternativo.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtCodigoDetrac.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtCodigoFormato.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtConfigLocaliz.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtCorrSunatTxtTipSer.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtDetailData.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtFacturasPendientesAD.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtHeaderData.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtLineaId.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtMoneda.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtNombreCuenta.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtNumDias.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtNumeroDocumento.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtNumSerie.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtNumSiguiente.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtPagosEfectuados.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtRutaArchivoTxt.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtSerieSunat.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtSerieSunatAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtTipoDefXForm.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtTipoXForm.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtTipoXFormAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtTransferencias.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_RegistroPagoDetrac.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_UpdEstadoAnulado.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ValidaAnulSUNAT.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ValidarRegistroSAP.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_Valida_AppStrat.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_VerNumAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\ST_LOC_GET_PENDIENTES_ASIENTO_PROV.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ActualizaPagoDetraccion.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_BPP_LocalizacionSTRAT.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_DetraccionesPagadas.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_DetraccionesXPagar.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_FacturasSinAsiento.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_FechaAnulacion.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_InfoAsientoDestino.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_InfoAsientoDestinoAlternativo.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtCodigoDetrac.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtCodigoFormato.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtConfigLocaliz.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtCorrSunatTxtTipSer.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtFacturasPendientesAD.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtLineaId.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtMoneda.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtNombreCuenta.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtNumDias.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtNumeroDocumento.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtNumSerie.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtNumSiguiente.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtPagosEfectuados.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtSerieSunat.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtSerieSunatAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtTipoDefXForm.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtTipoXForm.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtTipoXFormAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtTransferencias.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_RegistroPagoDetrac.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_UpdEstadoAnulado.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ValidaAnulSUNAT.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ValidarRegistroSAP.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_VerNumAnul.sql">
+              <Actions />
+            </File>
+          </Files>
+        </Installation>
+        <Uninstallation>
+          <Files>
+            <File FileName="X86Client\STR_Localizacion.BL.dll">
+              <Actions />
+            </File>
+            <File FileName="X86Client\STR_Localizacion.DL.dll">
+              <Actions />
+            </File>
+            <File FileName="X86Client\STR_Localizacion.exe">
+              <Actions />
+            </File>
+            <File FileName="X86Client\STR_Localizacion.exe.config">
+              <Actions />
+            </File>
+            <File FileName="X86Client\STR_Localizacion.Metadata.dll">
+              <Actions />
+            </File>
+            <File FileName="X86Client\STR_Localizacion.UTIL.dll">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Tesseract.dll">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Tesseract.xml">
+              <Actions />
+            </File>
+            <File FileName="X86Client\BO\UF.vte">
+              <Actions />
+            </File>
+            <File FileName="X86Client\BO\UO.vte">
+              <Actions />
+            </File>
+            <File FileName="X86Client\BO\UT.vte">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\AdelantoCliente.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\AnularCorrelativos.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\AsientoDestino.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\CajasChicas.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\CodigoAddon.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\ConsultaSunat.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\FrmAsientosProvision.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\FrmConfiguracion.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\GenerarAsiento.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\PagarDetracciones.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Forms\StratSettings.srf">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Properties\Resources.Designer.cs">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Properties\Resources.resx">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Resources\ConfLocalizacion.xml">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Resources\Queries.xml">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Resources\tessdata\eng.traineddata">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ActualizaPagoDetraccion.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_DetraccionesPagadas.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_DetraccionesXPagar.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_FacturasSinAsiento.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_FechaAnulacion.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_InfoAsientoDestino.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_InfoAsientoDestinoAlternativo.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtCodigoDetrac.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtCodigoFormato.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtConfigLocaliz.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtCorrSunatTxtTipSer.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtDetailData.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtFacturasPendientesAD.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtHeaderData.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtLineaId.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtMoneda.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtNombreCuenta.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtNumDias.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtNumeroDocumento.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtNumSerie.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtNumSiguiente.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtPagosEfectuados.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtRutaArchivoTxt.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtSerieSunat.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtSerieSunatAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtTipoDefXForm.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtTipoXForm.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtTipoXFormAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ObtTransferencias.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_RegistroPagoDetrac.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_UpdEstadoAnulado.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ValidaAnulSUNAT.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_ValidarRegistroSAP.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_Valida_AppStrat.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\STR_SP_VerNumAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\HANA\ST_LOC_GET_PENDIENTES_ASIENTO_PROV.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ActualizaPagoDetraccion.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_BPP_LocalizacionSTRAT.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_DetraccionesPagadas.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_DetraccionesXPagar.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_FacturasSinAsiento.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_FechaAnulacion.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_InfoAsientoDestino.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_InfoAsientoDestinoAlternativo.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtCodigoDetrac.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtCodigoFormato.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtConfigLocaliz.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtCorrSunatTxtTipSer.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtFacturasPendientesAD.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtLineaId.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtMoneda.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtNombreCuenta.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtNumDias.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtNumeroDocumento.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtNumSerie.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtNumSiguiente.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtPagosEfectuados.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtSerieSunat.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtSerieSunatAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtTipoDefXForm.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtTipoXForm.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtTipoXFormAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ObtTransferencias.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_RegistroPagoDetrac.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_UpdEstadoAnulado.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ValidaAnulSUNAT.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_ValidarRegistroSAP.sql">
+              <Actions />
+            </File>
+            <File FileName="X86Client\Scripts\SQL\STR_SP_VerNumAnul.sql">
+              <Actions />
+            </File>
+          </Files>
+        </Uninstallation>
+      </x86>
+      <x64 AddonExe="STR_Localizacion.exe" AddonSig="9D8492F12D6777EF1CADF3727C266806" ExeDir="X64Client">
+        <Installation>
+          <Files>
+            <File FileName="X64Client\STR_Localizacion.BL.dll">
+              <Actions />
+            </File>
+            <File FileName="X64Client\STR_Localizacion.DL.dll">
+              <Actions />
+            </File>
+            <File FileName="X64Client\STR_Localizacion.exe">
+              <Actions />
+            </File>
+            <File FileName="X64Client\STR_Localizacion.exe.config">
+              <Actions />
+            </File>
+            <File FileName="X64Client\STR_Localizacion.Metadata.dll">
+              <Actions />
+            </File>
+            <File FileName="X64Client\STR_Localizacion.UTIL.dll">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Tesseract.dll">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Tesseract.xml">
+              <Actions />
+            </File>
+            <File FileName="X64Client\BO\UF.vte">
+              <Actions />
+            </File>
+            <File FileName="X64Client\BO\UO.vte">
+              <Actions />
+            </File>
+            <File FileName="X64Client\BO\UT.vte">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\AdelantoCliente.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\AnularCorrelativos.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\AsientoDestino.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\CajasChicas.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\CodigoAddon.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\ConsultaSunat.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\FrmAsientosProvision.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\FrmConfiguracion.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\GenerarAsiento.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\PagarDetracciones.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\StratSettings.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Properties\Resources.Designer.cs">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Properties\Resources.resx">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Resources\ConfLocalizacion.xml">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Resources\Queries.xml">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Resources\tessdata\eng.traineddata">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ActualizaPagoDetraccion.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_DetraccionesPagadas.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_DetraccionesXPagar.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_FacturasSinAsiento.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_FechaAnulacion.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_InfoAsientoDestino.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_InfoAsientoDestinoAlternativo.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtCodigoDetrac.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtCodigoFormato.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtConfigLocaliz.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtCorrSunatTxtTipSer.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtDetailData.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtFacturasPendientesAD.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtHeaderData.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtLineaId.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtMoneda.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtNombreCuenta.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtNumDias.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtNumeroDocumento.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtNumSerie.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtNumSiguiente.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtPagosEfectuados.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtRutaArchivoTxt.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtSerieSunat.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtSerieSunatAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtTipoDefXForm.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtTipoXForm.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtTipoXFormAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtTransferencias.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_RegistroPagoDetrac.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_UpdEstadoAnulado.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ValidaAnulSUNAT.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ValidarRegistroSAP.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_Valida_AppStrat.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_VerNumAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\ST_LOC_GET_PENDIENTES_ASIENTO_PROV.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ActualizaPagoDetraccion.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_BPP_LocalizacionSTRAT.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_DetraccionesPagadas.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_DetraccionesXPagar.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_FacturasSinAsiento.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_FechaAnulacion.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_InfoAsientoDestino.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_InfoAsientoDestinoAlternativo.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtCodigoDetrac.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtCodigoFormato.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtConfigLocaliz.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtCorrSunatTxtTipSer.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtFacturasPendientesAD.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtLineaId.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtMoneda.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtNombreCuenta.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtNumDias.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtNumeroDocumento.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtNumSerie.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtNumSiguiente.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtPagosEfectuados.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtSerieSunat.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtSerieSunatAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtTipoDefXForm.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtTipoXForm.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtTipoXFormAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtTransferencias.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_RegistroPagoDetrac.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_UpdEstadoAnulado.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ValidaAnulSUNAT.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ValidarRegistroSAP.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_VerNumAnul.sql">
+              <Actions />
+            </File>
+          </Files>
+        </Installation>
+        <Uninstallation>
+          <Files>
+            <File FileName="X64Client\STR_Localizacion.BL.dll">
+              <Actions />
+            </File>
+            <File FileName="X64Client\STR_Localizacion.DL.dll">
+              <Actions />
+            </File>
+            <File FileName="X64Client\STR_Localizacion.exe">
+              <Actions />
+            </File>
+            <File FileName="X64Client\STR_Localizacion.exe.config">
+              <Actions />
+            </File>
+            <File FileName="X64Client\STR_Localizacion.Metadata.dll">
+              <Actions />
+            </File>
+            <File FileName="X64Client\STR_Localizacion.UTIL.dll">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Tesseract.dll">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Tesseract.xml">
+              <Actions />
+            </File>
+            <File FileName="X64Client\BO\UF.vte">
+              <Actions />
+            </File>
+            <File FileName="X64Client\BO\UO.vte">
+              <Actions />
+            </File>
+            <File FileName="X64Client\BO\UT.vte">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\AdelantoCliente.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\AnularCorrelativos.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\AsientoDestino.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\CajasChicas.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\CodigoAddon.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\ConsultaSunat.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\FrmAsientosProvision.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\FrmConfiguracion.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\GenerarAsiento.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\PagarDetracciones.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Forms\StratSettings.srf">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Properties\Resources.Designer.cs">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Properties\Resources.resx">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Resources\ConfLocalizacion.xml">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Resources\Queries.xml">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Resources\tessdata\eng.traineddata">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ActualizaPagoDetraccion.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_DetraccionesPagadas.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_DetraccionesXPagar.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_FacturasSinAsiento.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_FechaAnulacion.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_InfoAsientoDestino.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_InfoAsientoDestinoAlternativo.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtCodigoDetrac.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtCodigoFormato.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtConfigLocaliz.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtCorrSunatTxtTipSer.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtDetailData.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtFacturasPendientesAD.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtHeaderData.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtLineaId.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtMoneda.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtNombreCuenta.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtNumDias.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtNumeroDocumento.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtNumSerie.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtNumSiguiente.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtPagosEfectuados.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtRutaArchivoTxt.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtSerieSunat.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtSerieSunatAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtTipoDefXForm.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtTipoXForm.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtTipoXFormAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ObtTransferencias.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_RegistroPagoDetrac.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_UpdEstadoAnulado.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ValidaAnulSUNAT.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_ValidarRegistroSAP.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_Valida_AppStrat.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\STR_SP_VerNumAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\HANA\ST_LOC_GET_PENDIENTES_ASIENTO_PROV.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ActualizaPagoDetraccion.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_BPP_LocalizacionSTRAT.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_DetraccionesPagadas.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_DetraccionesXPagar.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_FacturasSinAsiento.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_FechaAnulacion.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_InfoAsientoDestino.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_InfoAsientoDestinoAlternativo.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtCodigoDetrac.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtCodigoFormato.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtConfigLocaliz.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtCorrSunatTxtTipSer.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtFacturasPendientesAD.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtLineaId.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtMoneda.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtNombreCuenta.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtNumDias.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtNumeroDocumento.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtNumSerie.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtNumSiguiente.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtPagosEfectuados.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtSerieSunat.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtSerieSunatAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtTipoDefXForm.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtTipoXForm.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtTipoXFormAnul.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ObtTransferencias.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_RegistroPagoDetrac.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_UpdEstadoAnulado.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ValidaAnulSUNAT.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_ValidarRegistroSAP.sql">
+              <Actions />
+            </File>
+            <File FileName="X64Client\Scripts\SQL\STR_SP_VerNumAnul.sql">
+              <Actions />
+            </File>
+          </Files>
+        </Uninstallation>
+      </x64>
+    </Addon>
+  </Addons>
+  <XApps>
+    <XApp Name="" Path="" FileName="" />
+  </XApps>
+  <UDQs>
+    <UDQ udqname="">
+      <Hana FileName="" />
+    </UDQ>
+  </UDQs>
+</AddOnRegData>
