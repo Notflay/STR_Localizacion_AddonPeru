@@ -30,7 +30,6 @@ namespace STR_Localizacion.UI
         private Cls_SeleccionSeriesArticulo lo_SeleccionSeriesArticulo;
         private Cls_COM_DescargaInventario lo_DescargaInventario;
         private Cls_ReprocesarAsientoProvision lo_GenerarAsientoProvision;
-        private Cls_PagosMasivosProveedoresUI lo_PagosMasivosProveedoresUI;
 
         private Cls_ListaMateriales lo_ListaMateriales;
         // Generar TXT de Orden de Venta

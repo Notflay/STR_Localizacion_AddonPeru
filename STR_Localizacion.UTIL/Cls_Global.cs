@@ -93,10 +93,6 @@ namespace STR_Localizacion.UTIL
         public static string ImpuestoRetencionDeGarantia = string.Empty;
         public static string ReconciliacionActivo = string.Empty;
         public static string ReconciliacionCuenta = string.Empty;
-        public static string cuentaPuente = string.Empty;
-        public static string numeroLote = string.Empty;
-        public static string rutaDetraciones = string.Empty;
-        public static string rutaPagos = string.Empty;
 
         #region "Metodos Comunes"
 
