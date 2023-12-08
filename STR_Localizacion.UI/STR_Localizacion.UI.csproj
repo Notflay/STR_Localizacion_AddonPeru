@@ -131,6 +131,7 @@
     <Compile Include="Cls_PagoMasivoDetraccionProperties.cs">
       <DependentUpon>Cls_PagoMasivoDetraccion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cls_PagosMasivosProveedoresUI.cs" />
     <Compile Include="Cls_Provisiones.cs" />
     <Compile Include="Cls_ProvisionesNoDomiciliado.cs" />
     <Compile Include="Cls_ReclasificacionWIP.cs" />

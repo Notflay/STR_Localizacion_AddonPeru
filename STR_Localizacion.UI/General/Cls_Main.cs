@@ -5,6 +5,7 @@ using System.Xml;
 using THR = System.Threading;
 using STR_Localizacion.DL;
 using System.Runtime.CompilerServices;
+using SAPbobsCOM;
 
 namespace STR_Localizacion.UI
 {
@@ -80,6 +81,16 @@ namespace STR_Localizacion.UI
                 Cls_Global.ImpuestoRetencionDeGarantia = Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, "U_STR_IMPRG");
                 Cls_Global.ReconciliacionActivo = Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, "U_STR_RECO_ACT");
                 Cls_Global.ReconciliacionCuenta = Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, "U_STR_RECO_CTA");
+
+                Recordset oRecordSet = (Recordset)go_SBOCompany.GetBusinessObject(BoObjectTypes.BoRecordset);
+                string query = string.Format("SELECT TOP 1 * FROM \"@BPP_PARAMS\" ");
+                oRecordSet.DoQuery(query);
+
+                Cls_Global.cuentaPuente = oRecordSet.Fields.Item("U_BPP_CNTPUENTE").Value.ToString();
+                Cls_Global.numeroLote = oRecordSet.Fields.Item("U_BPP_NROLOTE").Value.ToString();
+                Cls_Global.rutaDetraciones = oRecordSet.Fields.Item("U_BPP_DETRUTA").Value.ToString();
+                Cls_Global.rutaPagos = oRecordSet.Fields.Item("U_BPP_PGMRUTA").Value.ToString();
+
             }
             catch (Exception)
             {
