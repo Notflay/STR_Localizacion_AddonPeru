@@ -4,7 +4,6 @@ using System.Linq;
 using STR_Localizacion.UI;
 using STR_Localizacion.UTIL;
 using System;
-using STR_Localizacion.BL;
 
 namespace STR_Localizacion.UI
 {
@@ -167,37 +166,26 @@ namespace STR_Localizacion.UI
                     switch (pe_MenuEvent.MenuUID)
                     {
                         case "ST_LOC_GenAsProv":
-                            if (Validacion.fn_getComparacion(1) == true)
-                                lo_GenerarAsientoProvision.sb_FormLoad();
-                            else return;
+                            lo_GenerarAsientoProvision.sb_FormLoad();
+
                             break;
                         case "STR_LOC_AnulCorrelativo":
-                            if (Validacion.fn_getComparacion(1) == true)
-                                lo_AnulCorrelativo.sb_FormLoad();
-                            else return;
+                            lo_AnulCorrelativo.sb_FormLoad();
                             break;
                         case "STR_LOC_PagoMasivoDtr":
-                            if (Validacion.fn_getComparacion(1) == true)
-                                lo_PagaDetracciones.sb_FormLoad();
-                            else return;
+                            lo_PagaDetracciones.sb_FormLoad();
                             break;
                         case "STR_LOC_GeneradorAsiento":
-                            if (Validacion.fn_getComparacion(1) == true)
-                                lo_GenerarAsiento.sb_FormLoad();
-                            else return;
+                            lo_GenerarAsiento.sb_FormLoad();
                             break;
                         case "STR_LOC_AsientoDestino":
-                            if (Validacion.fn_getComparacion(1) == true)
-                            {
-                                lo_AsientoCtaDestino.FormLoad();
-                                lo_AsientoCtaDestino.sb_PrepareDataSource(go_SBOApplication.Forms.ActiveForm);
-                            }
-                            else return;
+
+                            lo_AsientoCtaDestino.FormLoad();
+                            lo_AsientoCtaDestino.sb_PrepareDataSource(go_SBOApplication.Forms.ActiveForm);
+
                             break;
                         case "MNU_AdlntClnt":
-                            if (Validacion.fn_getComparacion(1) == true)
-                                lo_AdelantoCliente.sb_FormLoad();
-                            else return;
+                            lo_AdelantoCliente.sb_FormLoad();
                             break;
                         case Cls_AdelantoCliente.gs_MnuBorrarFila:
                             if (pe_MenuEvent.BeforeAction)
@@ -221,9 +209,7 @@ namespace STR_Localizacion.UI
                         //    snSolidario.formLoad();
                         //    break;
                         case "STR_mnu_Settings":
-                            if (Validacion.fn_getComparacion(1) == true)
-                                lo_MenuConfiguracion.Sb_FormLoad();
-                            else return;
+                            lo_MenuConfiguracion.Sb_FormLoad();
                             break;
                         case "1284":
                             if (pe_MenuEvent.BeforeAction)
@@ -250,9 +236,7 @@ namespace STR_Localizacion.UI
                             {
                                 if (pe_MenuEvent.MenuUID.Equals("1282"))
                                 {
-                                    if (Validacion.fn_getComparacion(1) == true)
-                                        lo_GenerarAsiento.sb_DataFormLoad();
-                                    else return;
+                                    lo_GenerarAsiento.sb_DataFormLoad();
                                 }
                             }
                             else if (go_SBOFormActive.TypeEx.Contains(lo_AdelantoCliente.gs_FormName))

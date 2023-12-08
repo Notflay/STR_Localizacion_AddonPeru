@@ -24,9 +24,6 @@ namespace STR_Localizacion.UTIL
         //Declaración del recordSet Global
         public static SAPbobsCOM.Recordset go_RecordSet;
 
-        //Cadena para el codigo del add-on
-        public static string gs_cadena = string.Empty;
-
         //Verificador para la inicialización del add-on
         public static bool gb_Ver = true;
 
