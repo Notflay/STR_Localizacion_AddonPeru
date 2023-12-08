@@ -95,6 +95,10 @@ namespace STR_Localizacion.UI
                 else if (pe_itemEvent.FormTypeEx == lo_AsientoCtaDestino.gs_FormName)
                     pb_BubbleEvent = lo_AsientoCtaDestino.itemevent.Perform(pe_itemEvent);
 
+                //    /// Asiento Cuenta Destino
+                else if (pe_itemEvent.FormTypeEx == lo_PagosMasivosProveedoresUI.gs_FormName)
+                    pb_BubbleEvent = lo_PagosMasivosProveedoresUI.itemevent.Perform(pe_itemEvent);
+
                 else if (pe_itemEvent.FormTypeEx == "196" || pe_itemEvent.FormTypeEx == "146" || pe_itemEvent.FormTypeEx == "170")
                     pb_BubbleEvent = lo_MedioPago.itemevent.Perform(pe_itemEvent);
 
@@ -221,7 +225,9 @@ namespace STR_Localizacion.UI
                                     pb_BubbleEvent = lo_AdelantoCliente.cancelarDocumento();
                             }
                             break;
-
+                        case "mnuPagos":
+                            lo_PagosMasivosProveedoresUI.Sb_FormLoad();
+                            break;
                     }
                 }
                 else
