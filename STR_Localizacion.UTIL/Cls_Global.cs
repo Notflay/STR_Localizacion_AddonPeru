@@ -15,9 +15,6 @@ namespace STR_Localizacion.UTIL
         public static SAPbobsCOM.BoDataServerTypes go_ServerType;
         public static SAPbobsCOM.SBObob go_SBObob = null;
         public static SAPbouiCOM.SboGuiApi go_SBOGUIAPI = null;
-
-        public static string gs_hardwarek = "";
-
         //Objeto para CopnayService
         public static SAPbobsCOM.CompanyService go_SBOCompanyService;
 

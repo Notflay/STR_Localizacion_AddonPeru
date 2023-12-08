@@ -51,10 +51,6 @@ namespace STR_Localizacion.UI
         }
 
 
-        public static void sb_CargarHardwareKey(string hardware)
-        {
-            Cls_Global.gs_hardwarek = hardware;
-        }
         private void sb_CargarDatosDeConfiguracion()
         {
             try
@@ -273,7 +269,7 @@ namespace STR_Localizacion.UI
         private void sb_AddMenu()
         {
             XmlDocument oMnuXML = new XmlDocument();
-            go_SBOApplication.StatusBar.SetText("Localización: Cargando opciones de menu...", SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Success);
+            go_SBOApplication.StatusBar.SetText("Addon Perú: Cargando funcionalidades de Localización...", SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Success);
             go_SBOApplication.Forms.GetFormByTypeAndCount(169, 1).Freeze(true);
             try
             {
