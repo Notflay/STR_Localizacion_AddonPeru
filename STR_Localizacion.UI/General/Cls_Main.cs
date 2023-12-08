@@ -202,7 +202,7 @@ namespace STR_Localizacion.UI
 
                 //Cls_Global.go_SBOCompany.Server
 
-                go_SBOApplication.StatusBar.SetText("Iniciando el Addon de Localizacion", SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Success);
+                go_SBOApplication.StatusBar.SetText("Addon Perú: Iniciando la Localizacion", SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Success);
                 if (Cls_Global.go_SBOCompany != null)
                 {
                     //Clase Global
@@ -286,7 +286,7 @@ namespace STR_Localizacion.UI
             {
                 oMnuXML.LoadXml(Properties.Resources.Menu);
                 go_SBOApplication.LoadBatchActions(oMnuXML.InnerXml);
-                go_SBOApplication.StatusBar.SetText("El menu del Addon Localización fue cargado correctamente. ", SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Success);
+                go_SBOApplication.StatusBar.SetText("Addon Perú: Localización fue cargado correctamente. ", SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Success);
             }
             catch (System.IO.FileNotFoundException)
             {
