@@ -20,7 +20,6 @@ namespace STR_Localizacion.UI
             ExceptionPrepared = new internalexception(lc_NameClass, lc_NameLayout);
 
             sb_SetApplication();
-            //sb_setApplicationMenu()
             if (go_SBOApplication != null && go_SBOCompany != null)
             {
                 go_SBOApplication.MenuEvent += new SAPbouiCOM._IApplicationEvents_MenuEventEventHandler(lo_SBOApplication_MenuEvent);
@@ -82,14 +81,6 @@ namespace STR_Localizacion.UI
                 Cls_Global.ReconciliacionActivo = Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, "U_STR_RECO_ACT");
                 Cls_Global.ReconciliacionCuenta = Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, "U_STR_RECO_CTA");
 
-                Recordset oRecordSet = (Recordset)go_SBOCompany.GetBusinessObject(BoObjectTypes.BoRecordset);
-                string query = string.Format("SELECT TOP 1 * FROM \"@BPP_PARAMS\" ");
-                oRecordSet.DoQuery(query);
-
-                Cls_Global.cuentaPuente = oRecordSet.Fields.Item("U_BPP_CNTPUENTE").Value.ToString();
-                Cls_Global.numeroLote = oRecordSet.Fields.Item("U_BPP_NROLOTE").Value.ToString();
-                Cls_Global.rutaDetraciones = oRecordSet.Fields.Item("U_BPP_DETRUTA").Value.ToString();
-                Cls_Global.rutaPagos = oRecordSet.Fields.Item("U_BPP_PGMRUTA").Value.ToString();
 
             }
             catch (Exception)
@@ -162,9 +153,7 @@ namespace STR_Localizacion.UI
         {
             try
             {
-                string ls_ConnectionString =
-                    Environment.GetCommandLineArgs().
-                    GetValue(Environment.GetCommandLineArgs().Length > 1 ? 1 : 0).ToString();
+                string ls_ConnectionString = "0030002C0030002C00530041005000420044005F00440061007400650076002C0050004C006F006D0056004900490056";
 
                 Cls_Global.go_SBOGUIAPI = new SAPbouiCOM.SboGuiApi();
                 Cls_Global.go_SBOGUIAPI.Connect(ls_ConnectionString);
