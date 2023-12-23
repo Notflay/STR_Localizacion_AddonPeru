@@ -399,7 +399,7 @@ namespace STR_Localizacion.UI
             {
                 // Se cambio a que se actulize el asiento OJDT - y se agrego campo U_STR_ADP
                 //Documents oFactura = go_SBOCompany.GetBusinessObject(BoObjectTypes.oPurchaseInvoices);
-                Documents oAsiento = go_SBOCompany.GetBusinessObject(BoObjectTypes.oJournalEntries);
+                dynamic oAsiento = go_SBOCompany.GetBusinessObject(BoObjectTypes.oJournalEntries);
 
                 go_RecordSet = Cls_QueryManager.Retorna(Cls_Query.get_FacturasPendientesAsientoDestino, null, fDesde, fFin, Cls_Global.metAsientoDestino);
 
