@@ -223,34 +223,34 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Forms\AdelantoCliente.srf">
+    <Content Include="Resources\Localizacion\AdelantoCliente.srf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Forms\AnularCorrelativos.srf">
+    <Content Include="Resources\Localizacion\AnularCorrelativos.srf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Forms\AsientoDestino.srf">
+    <Content Include="Resources\Localizacion\AsientoDestino.srf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Forms\CajasChicas.srf">
+    <Content Include="Resources\Localizacion\CajasChicas.srf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Forms\ConsultaSunat.srf">
+    <Content Include="Resources\Localizacion\ConsultaSunat.srf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Forms\FrmAsientosProvision.srf">
+    <Content Include="Resources\Localizacion\FrmAsientosProvision.srf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Forms\FrmConfiguracion.srf">
+    <Content Include="Resources\Localizacion\FrmConfiguracion.srf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Forms\GenerarAsiento.srf">
+    <Content Include="Resources\Localizacion\GenerarAsiento.srf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Forms\PagarDetracciones.srf">
+    <Content Include="Resources\Localizacion\PagarDetracciones.srf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Forms\StratSettings.srf">
+    <Content Include="Resources\Localizacion\StratSettings.srf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Resources\ConfLocalizacion.xml">
@@ -299,7 +299,9 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Forms\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
