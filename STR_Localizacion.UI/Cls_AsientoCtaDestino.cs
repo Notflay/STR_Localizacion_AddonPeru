@@ -342,7 +342,7 @@ namespace STR_Localizacion.UI
                 DateTime fechaConta = DateTime.ParseExact(fechaContabilizacion, "dd/MM/yyyy", null);
                 DateTime fechaHasta = DateTime.ParseExact(fechaLimite, "dd/MM/yyyy", null);
 
-                mensaje = fechaConta < fechaHasta ? "La fecha de contabilización no puede ser superior a la de fecha final" : string.Empty;
+                mensaje = fechaConta < fechaHasta ? "La fecha de contabilización no puede ser mayor a la de fecha final" : string.Empty;
 
             }
             return mensaje == string.Empty;
