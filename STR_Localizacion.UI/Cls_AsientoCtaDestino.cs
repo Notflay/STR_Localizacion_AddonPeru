@@ -336,7 +336,15 @@ namespace STR_Localizacion.UI
             fechaContabilizacion = go_SBOForm.GetItem("txFchConta").Specific.Value;
 
             mensaje = fechaContabilizacion.Equals(string.Empty) ? "Ingrese la fecha de contabilización" : string.Empty;
+            if (mensaje == string.Empty)
+            {
+                string fechaLimite = go_SBOForm.GetItem("txHasta").Specific.Value;
+                DateTime fechaConta = DateTime.ParseExact(fechaContabilizacion, "dd/MM/yyyy", null);
+                DateTime fechaHasta = DateTime.ParseExact(fechaLimite, "dd/MM/yyyy", null);
 
+                mensaje = fechaConta < fechaHasta ? "La fecha de contabilización no puede ser superior a la de fecha final" : string.Empty;
+
+            }
             return mensaje == string.Empty;
         }
 
@@ -389,16 +397,20 @@ namespace STR_Localizacion.UI
         {
             try
             {
-                Documents oFactura = go_SBOCompany.GetBusinessObject(BoObjectTypes.oPurchaseInvoices);
+                // Se cambio a que se actulize el asiento OJDT - y se agrego campo U_STR_ADP
+                //Documents oFactura = go_SBOCompany.GetBusinessObject(BoObjectTypes.oPurchaseInvoices);
+                Documents oAsiento = go_SBOCompany.GetBusinessObject(BoObjectTypes.oJournalEntries);
 
                 go_RecordSet = Cls_QueryManager.Retorna(Cls_Query.get_FacturasPendientesAsientoDestino, null, fDesde, fFin, Cls_Global.metAsientoDestino);
 
                 while (!go_RecordSet.EoF)
                 {
-                    int docEntry = go_RecordSet.Fields.Item("CreatedBy").Value;
-                    oFactura.GetByKey(docEntry);
-                    oFactura.UserFields.Fields.Item("U_STR_ADP").Value = "Y";
-                    oFactura.Update();
+                    //int docEntry = go_RecordSet.Fields.Item("CreatedBy").Value;
+                    int transId = go_RecordSet.Fields.Item("TransId").Value;
+
+                    oAsiento.GetByKey(transId);
+                    oAsiento.UserFields.Fields.Item("U_STR_ADP").Value = "Y";
+                    oAsiento.Update();
                     go_RecordSet.MoveNext();
                 }
             }
