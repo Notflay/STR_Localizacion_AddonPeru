@@ -339,8 +339,8 @@ namespace STR_Localizacion.UI
             if (mensaje == string.Empty)
             {
                 string fechaLimite = go_SBOForm.GetItem("txHasta").Specific.Value;
-                DateTime fechaConta = DateTime.ParseExact(fechaContabilizacion, "dd/MM/yyyy", null);
-                DateTime fechaHasta = DateTime.ParseExact(fechaLimite, "dd/MM/yyyy", null);
+                DateTime fechaConta = DateTime.ParseExact(fechaContabilizacion, "yyyyMMdd", null);
+                DateTime fechaHasta = DateTime.ParseExact(fechaLimite, "yyyyMMdd", null);
 
                 mensaje = fechaConta < fechaHasta ? "La fecha de contabilización no puede ser mayor a la de fecha final" : string.Empty;
 
