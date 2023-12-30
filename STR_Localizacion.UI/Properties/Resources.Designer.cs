@@ -65,11 +65,13 @@ namespace STR_Localizacion.UI.Properties {
         ///&lt;Application&gt;
         ///  &lt;Menus&gt;
         ///    &lt;action type=&quot;add&quot;&gt;
-        ///
-        ///
-        ///      &lt;Menu Checked=&quot;0&quot; Enabled=&quot;1&quot; FatherUID=&quot;8704&quot; Position=&quot;7&quot; String=&quot;Generador de asientos&quot; Type=&quot;1&quot; UniqueID=&quot;STR_LOC_GeneradorAsiento&quot; /&gt;
-        ///      &lt;Menu Checked=&quot;0&quot; Enabled=&quot;1&quot; FatherUID=&quot;1536&quot; Position=&quot;11&quot; String=&quot;Asiento de la cuenta destino&quot; Type=&quot;1&quot; UniqueID=&quot;STR_LOC_AsientoDestino&quot; /&gt;
-        ///      &lt;Menu Checked=&quot;0&quot; Enabled=&quot;1&quot; FatherUID=&quot;2048&quot; Position=&quot;21&quot; String=&quot;Anulación Correlativos SUNAT&quot; Type=&quot;1&quot; Uniq [resto de la cadena truncado]&quot;;.
+        ///		&lt;Menu Checked=&quot;0&quot; Enabled=&quot;1&quot; FatherUID=&quot;MNU01&quot; Position=&quot;2&quot; String=&quot;Localización&quot; Type=&quot;2&quot; UniqueID=&quot;MNULOCALI&quot;&gt;
+        ///			&lt;Menus&gt;
+        ///				&lt;action type=&quot;add&quot;&gt;
+        ///					&lt;Menu Checked=&quot;0&quot; Enabled=&quot;1&quot; FatherUID=&quot;MNULOCALI&quot; Position=&quot;1&quot; String=&quot;Configuración Localización&quot; Type=&quot;1&quot; UniqueID=&quot;STR_mnu_Settings&quot; /&gt;
+        ///				&lt;/action&gt;
+        ///				&lt;action type=&quot;add&quot;&gt;
+        ///					&lt;Menu Checked=&quot;0&quot; Enabled=&quot;1&quot; FatherUID=&quot;MNULOCALI&quot; Position=&quot;2&quot; String=&quot;G [resto de la cadena truncado]&quot;;.
         /// </summary>
         public static string Menu {
             get {

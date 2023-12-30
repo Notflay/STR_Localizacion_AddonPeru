@@ -74,10 +74,7 @@ namespace STR_Localizacion.DL.Properties {
         ///    &lt;sql&gt;STR_SP_CREARTABLALOG&lt;/sql&gt;
         ///  &lt;/query&gt;
         ///  &lt;query nameid=&quot;ObtDetraccionesPagadas&quot; definition=&quot;P&quot;&gt;
-        ///    &lt;sql&gt;
-        ///    
-        /// 
-        /// &lt;/sql&gt;
+        ///    &lt;sql&gt;STR_SP_DetraccionesPagadas&lt;/sql&gt;
         ///    &lt;params&gt;&apos;{0}&apos;&lt;/par [resto de la cadena truncado]&quot;;.
         /// </summary>
         public static string Queries {
