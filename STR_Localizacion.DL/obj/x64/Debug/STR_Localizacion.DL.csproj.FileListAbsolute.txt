@@ -466,6 +466,10 @@ D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.DL\obj\x64\Debu
 D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.DL\obj\x64\Debug\STR_Localizacion.DL.csproj.CopyComplete
 D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.DL\obj\x64\Debug\STR_Localizacion.DL.dll
 D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.DL\obj\x64\Debug\STR_Localizacion.DL.pdb
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.DL\bin\Debug\x64\liblept172.dll
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.DL\bin\Debug\x64\libtesseract304.dll
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.DL\bin\Debug\x86\liblept172.dll
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.DL\bin\Debug\x86\libtesseract304.dll
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.DL\bin\Debug\Properties\Resources.resx
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.DL\bin\Debug\Properties\Resources.Designer.cs
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.DL\bin\Debug\Resources\Queries.xml

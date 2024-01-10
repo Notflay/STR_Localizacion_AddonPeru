@@ -78,15 +78,6 @@ D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UTIL\obj\x86\De
 D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.csproj.CoreCompileInputs.cache
 D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.dll
 D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.pdb
-C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.dll
-C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.pdb
-C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.csproj.AssemblyReference.cache
-C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\Interop.SAPbobsCOM.dll
-C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\Interop.SAPbouiCOM.dll
-C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.csproj.ResolveComReference.cache
-C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.csproj.CoreCompileInputs.cache
-C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.dll
-C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.pdb
 C:\Users\DURBAY\Source\Repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.dll
 C:\Users\DURBAY\Source\Repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.pdb
 C:\Users\DURBAY\Source\Repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.csproj.AssemblyReference.cache
@@ -96,3 +87,12 @@ C:\Users\DURBAY\Source\Repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\ob
 C:\Users\DURBAY\Source\Repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.csproj.CoreCompileInputs.cache
 C:\Users\DURBAY\Source\Repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.dll
 C:\Users\DURBAY\Source\Repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.pdb
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.dll
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.pdb
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.csproj.AssemblyReference.cache
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\Interop.SAPbobsCOM.dll
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\Interop.SAPbouiCOM.dll
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.csproj.ResolveComReference.cache
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.dll
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.pdb

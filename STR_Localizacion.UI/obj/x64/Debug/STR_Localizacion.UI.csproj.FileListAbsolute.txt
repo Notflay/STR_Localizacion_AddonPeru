@@ -557,6 +557,10 @@ D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UI\bin\x64\STR_
 D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UI\bin\x64\STR_Localizacionx64.pdb
 D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UI\obj\x64\Debug\STR_Localizacionx64.dll
 D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.UI\obj\x64\Debug\STR_Localizacionx64.pdb
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\x64\liblept172.dll
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\x64\libtesseract304.dll
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\x86\liblept172.dll
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\x86\libtesseract304.dll
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\Properties\Resources.resx
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\Properties\Resources.Designer.cs
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\Resources\Queries.xml
@@ -578,12 +582,10 @@ C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\b
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\STR_Localizacionx64.dll.config
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\STR_Localizacionx64.dll
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\STR_Localizacionx64.pdb
-C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\STR_Localizacion.BL.dll
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\STR_Localizacion.DL.dll
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\STR_Localizacion.Metadata.dll
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\STR_Localizacion.UTIL.dll
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\Tesseract.dll
-C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\STR_Localizacion.BL.pdb
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\STR_Localizacion.DL.pdb
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\STR_Localizacion.Metadata.pdb
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\STR_Localizacion.UTIL.pdb

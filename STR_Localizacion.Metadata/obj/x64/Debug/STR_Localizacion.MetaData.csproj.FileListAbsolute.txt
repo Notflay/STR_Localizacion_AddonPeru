@@ -468,6 +468,10 @@ D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.Metadata\obj\x6
 D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.Metadata\obj\x64\Debug\STR_Localizacion.MetaData.csproj.CopyComplete
 D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.Metadata\obj\x64\Debug\STR_Localizacion.Metadata.dll
 D:\Sebastian Poma\Localizacion\Fuente\STR_Addon\STR_Localizacion.Metadata\obj\x64\Debug\STR_Localizacion.Metadata.pdb
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Debug\x64\liblept172.dll
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Debug\x64\libtesseract304.dll
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Debug\x86\liblept172.dll
+C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Debug\x86\libtesseract304.dll
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Debug\Properties\Resources.resx
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Debug\Properties\Resources.Designer.cs
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Debug\Resources\Queries.xml

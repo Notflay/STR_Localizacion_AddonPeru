@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>STR_Localizacion.UI</RootNamespace>
-    <AssemblyName>STR_Localizacion</AssemblyName>
+    <AssemblyName>STR_Localizacionx64</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -183,10 +183,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\STR_Localizacion.BL\STR_Localizacion.BL.csproj">
-      <Project>{cc5c58e4-f8b0-4b8c-8226-043e1c61b9e4}</Project>
-      <Name>STR_Localizacion.BL</Name>
-    </ProjectReference>
     <ProjectReference Include="..\STR_Localizacion.DL\STR_Localizacion.DL.csproj">
       <Project>{1a8f752c-ba84-42e6-b10e-4a88731aea93}</Project>
       <Name>STR_Localizacion.DL</Name>
