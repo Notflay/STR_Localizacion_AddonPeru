@@ -864,10 +864,18 @@ namespace STR_Localizacion.UI
 
                     if (li_CRS < go_RecordSet.RecordCount)
                     {
-                        go_RecordSet.MoveNext(); //Busca en el siguiente registro del recordSet
-                        ls_SigCardCode = go_RecordSet.Fields.Item(this.lrs_UflCodPrv).Value;
-                        string ls_SigSerie = go_RecordSet.Fields.Item("Serie").Value;
-                        go_RecordSet.MovePrevious(); //Busca en el anterior requisito del recordSet
+                        try
+                        {
+                            go_RecordSet.MoveNext(); //Busca en el siguiente registro del recordSet
+                          /*  ls_SigCardCode = go_RecordSet.Fields.Item(this.lrs_UflCodPrv).Value;
+                            string ls_SigSerie = go_RecordSet.Fields.Item("Serie").Value;*/
+                            go_RecordSet.MovePrevious(); //Busca en el anterior requisito del recordSet
+                        }
+                        catch (Exception)
+                        {
+
+                            throw;
+                        }
                     }
                     else
                     {

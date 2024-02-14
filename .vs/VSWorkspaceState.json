@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\STR_Localizacion.DL",
+    "\\STR_Localizacion.UI",
+    "\\STR_Localizacion.UI\\General"
   ],
-  "SelectedNode": "\\STR_Localizacion.sln",
+  "SelectedNode": "\\STR_Localizacion.UI\\General\\Cls_MainEvents.cs",
   "PreviewInSolutionExplorer": false
 }

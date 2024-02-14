@@ -81,7 +81,7 @@ namespace STR_Localizacion.UI
                 {
                     pb_BubbleEvent = lo_Detraccion.itemevent.Perform(pe_itemEvent);
                     pb_BubbleEvent = lo_RucSunat.itemevent.Perform(pe_itemEvent);
-                    pb_BubbleEvent = lo_FondoDeGarantia.itemevent.Perform(pe_itemEvent);
+                    pb_BubbleEvent = lo_FondoDeGarantia.itemevent.Perform(pe_itemEvent); // Demora 3 seg* 
                 }
 
                 /// Anulacion

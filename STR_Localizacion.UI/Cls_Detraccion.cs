@@ -122,7 +122,7 @@ namespace STR_Localizacion.UI
                                 go_SBOForm.GetItem("259").Top + (go_SBOForm.GetItem("259").Height * 3) + 1,
                                 go_SBOForm.GetItem("259").Left);
 
-                            if (!go_SBOForm.ItemExists("stAsDtr2")) return;
+                            //if (!go_SBOForm.ItemExists("stAsDtr2")) return;
 
                             go_SBOForm.GetItem("stAsDtr2").SetPosition(
                                 go_SBOForm.GetItem("294").Top + go_SBOForm.GetItem("294").Height + 50,
@@ -319,8 +319,15 @@ namespace STR_Localizacion.UI
                         break;
 
                     case "134": //De lo contrario se genera en el formulario 134
-                        if (go_SBOForm.ItemExists("stAsDtr2")) return;
-                        go_Item = go_SBOForm.Items.Add("stAsDtr2", BoFormItemTypes.it_STATIC);
+                                //if (go_SBOForm.ItemExists("stAsDtr2")) return;      // Demora 2 SEG - obs*
+                        try
+                        {
+                            go_Item = go_SBOForm.Items.Add("stAsDtr2", BoFormItemTypes.it_STATIC);
+                        }
+                        catch (Exception)
+                        {
+                            return;
+                        }
                         go_Item.FromPane = 10;
                         go_Item.ToPane = 10;
                         go_Item.Width = go_SBOForm.GetItem("294").Width;

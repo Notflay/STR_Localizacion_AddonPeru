@@ -71,11 +71,19 @@ namespace STR_Localizacion.UI
                 {
                     go_SBOForm = go_SBOFormEvent;
                     go_SBOForm.Freeze(true);
-                    if (go_SBOForm.ItemExists("lblCtaFG")) return;
+                    //if (go_SBOForm.ItemExists("lblCtaFG")) return;
 
-                    go_Item = go_SBOForm.Items.Add("lblCtaFG", BoFormItemTypes.it_STATIC);
+                    try
+                    {
+                        go_Item = go_SBOForm.Items.Add("lblCtaFG", BoFormItemTypes.it_STATIC);
 
-                    if (!go_SBOForm.ItemExists("stAsDtr2")) return; // Agregado 25012022
+                    }
+                    catch (Exception)
+                    {
+                        return;                       
+                    }
+
+                    //if(!go_SBOForm.ItemExists("stAsDtr2")) return; // Agregado 25012022
                     go_Item.Left = go_SBOForm.Items.Item("stAsDtr2").Left;
                     go_Item.Top = go_SBOForm.Items.Item("stAsDtr2").Top + 15;
                     go_Item.Width = go_SBOForm.Items.Item("stAsDtr2").Width - 10;

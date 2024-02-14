@@ -96,3 +96,12 @@ C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.csproj.CoreCompileInputs.cache
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.dll
 C:\Users\Sebastian\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.pdb
+C:\Users\LENOVO\source\repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.dll
+C:\Users\LENOVO\source\repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.pdb
+C:\Users\LENOVO\source\repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\Interop.SAPbobsCOM.dll
+C:\Users\LENOVO\source\repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\Interop.SAPbouiCOM.dll
+C:\Users\LENOVO\source\repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.csproj.ResolveComReference.cache
+C:\Users\LENOVO\source\repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.dll
+C:\Users\LENOVO\source\repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Debug\STR_Localizacion.UTIL.pdb
