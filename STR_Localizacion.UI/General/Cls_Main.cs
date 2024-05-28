@@ -33,7 +33,7 @@ namespace STR_Localizacion.UI
                 sb_SetFilters();
                 if (true)
                 {
-                    //   go_Localizacion_Init.sb_VerificarInstalacion();
+                    // go_Localizacion_Init.sb_VerificarInstalacion();
 
                     try
                     {

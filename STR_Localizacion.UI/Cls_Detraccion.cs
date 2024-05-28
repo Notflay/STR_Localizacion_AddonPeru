@@ -628,6 +628,7 @@ namespace STR_Localizacion.UI
             // ------ Validar SI Sociedad tiene configuracion de Sucursales
             recordset = go_SBOCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset);
             string query = $"SELECT \"MltpBrnchs\" FROM OADM";
+            Cls_Global.WriteToFile(query);
             recordset.DoQuery(query);
             Sucursal = recordset.Fields.Item(0).Value;
             //-------------------------------------------------------

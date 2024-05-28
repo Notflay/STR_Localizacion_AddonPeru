@@ -1,5 +1,4 @@
-﻿using Microsoft.Office.Core;
-using SAPbouiCOM;
+﻿using SAPbouiCOM;
 using STR_Localizacion.UTIL;
 using System;
 using System.Collections.Generic;

@@ -26,11 +26,12 @@ namespace STR_Localizacion.DL
             try
             {
                 go_RecSet = Cls_Global.go_SBOCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset);
+                Cls_Global.WriteToFile(string.Format(Generar(query_resource), prms));
                 go_RecSet.DoQuery(string.Format(Generar(query_resource), prms));
                 return true;
             }
             catch (Exception ex)
-            {
+            {Cls_Global.WriteToFile(ex.Message);
                 Cls_Global.go_SBOApplication.StatusBar.SetText(ex.Message, SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Error);
                 return false;
             }
@@ -56,6 +57,7 @@ namespace STR_Localizacion.DL
                     throw new ArgumentException("El tipo de dato, del parámetro 'field' es invalido");*/
 
                 go_RecSet = Cls_Global.go_SBOCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset);
+                Cls_Global.WriteToFile(string.Format(Generar(query_resource), prms));
                 go_RecSet.DoQuery(string.Format(Generar(query_resource), prms));
 
                 if (field == null)
@@ -65,6 +67,7 @@ namespace STR_Localizacion.DL
             }
             catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 Cls_Global.go_SBOApplication.StatusBar.SetText(ex.Message, SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Error);
                 return null;
             }
@@ -76,10 +79,11 @@ namespace STR_Localizacion.DL
             try
             {
                 var consul = string.Format(Generar(query_resource), prms);
+                Cls_Global.WriteToFile(consul);
                 dt.ExecuteQuery(consul);
             }
             catch (Exception ex)
-            {
+            {Cls_Global.WriteToFile(ex.Message);
                 Cls_Global.go_SBOApplication.StatusBar.SetText(ex.Message, SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Error);
             }
         }

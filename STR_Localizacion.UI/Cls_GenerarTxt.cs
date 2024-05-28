@@ -159,7 +159,7 @@ namespace STR_Localizacion.UI
                 //}
                 //}
             }
-            catch (Exception ex) { go_SBOApplication.MessageBox(ex.Message); } //Muestra una ventana con el mensaje de Excepción
+            catch (Exception ex) { Cls_Global.WriteToFile(ex.Message); go_SBOApplication.MessageBox(ex.Message); } //Muestra una ventana con el mensaje de Excepción
         }
 
         //private static void sb_validarExiste(string ls_path1)

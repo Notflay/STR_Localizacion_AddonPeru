@@ -352,7 +352,9 @@ namespace STR_Localizacion.UI
                 go_Grid.DataTable.Clear();
                 //Recupera los registros de las detracciones por pagar, según los filtros ingresados
 
+               // Cls_Global.WriteToFile(Cls_Query.get_DetraccionesPorPagar, ls_PvDd, ls_PvHt, ls_FcDd, ls_FcHt, ls_FvDd, ls_FvHt, Cls_Global.metCalculoTC, ls_CdSu);
                 go_Grid.DataTable.Consulta(Cls_Query.get_DetraccionesPorPagar, ls_PvDd, ls_PvHt, ls_FcDd, ls_FcHt, ls_FvDd, ls_FvHt, Cls_Global.metCalculoTC, ls_CdSu);
+               
 
                 //Oculta las columnas que no son necesarias, sino hasta generar el pago masivo
                 go_Grid.Columns.Item(this.lrs_CabDttCodObj).Visible = false;
@@ -740,6 +742,7 @@ namespace STR_Localizacion.UI
                 // ------ Validar SI Sociedad tiene configuracion de Sucursales
                 recordset = go_SBOCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset);
                 string query = $"SELECT \"MltpBrnchs\" FROM OADM";
+                Cls_Global.WriteToFile(query);
                 recordset.DoQuery(query);
                 Sucursal = recordset.Fields.Item(0).Value;
                 //-------------------------------------------------------

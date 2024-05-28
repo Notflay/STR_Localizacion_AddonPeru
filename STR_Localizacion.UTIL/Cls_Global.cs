@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Resources;
 using System.Windows.Forms;
 
@@ -100,6 +101,32 @@ namespace STR_Localizacion.UTIL
         /// </>
         /// <param name="pby_n"></param>
         /// <returns></returns>
+        /// 
+
+        public static void WriteToFile(string Message)
+        {
+            string path = AppDomain.CurrentDomain.BaseDirectory + "\\Logs";
+            if (!Directory.Exists(path))
+            {
+                Directory.CreateDirectory(path);
+            }
+            string filepath = $"{AppDomain.CurrentDomain.BaseDirectory}\\Logs\\Service_Creation_Log_{DateTime.Now.Date.ToShortDateString().Replace('/', '_')}.txt";
+            if (!File.Exists(filepath))
+            {
+                using (StreamWriter sw = File.CreateText(filepath))
+                {
+                    sw.WriteLine(DateTime.Now.ToString() + " - " + Message);
+                }
+            }
+            else
+            {
+                using (StreamWriter sw = File.AppendText(filepath))
+                {
+                    sw.WriteLine(DateTime.Now.ToString() + " - " + Message);
+                }
+            }
+        }
+
         public static string fnSpace(byte pby_n = 1)
         {
             return new string(' ', pby_n);
@@ -164,6 +191,7 @@ namespace STR_Localizacion.UTIL
             }
             catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 ms_nomMet += ex.Message;
                 sb_msjStatusBarSAP(ms_nomMet + " - " + ex.Message, SAPbouiCOM.BoStatusBarMessageType.smt_Error, go_AuxSBOApplication);
                 return null;
@@ -181,6 +209,7 @@ namespace STR_Localizacion.UTIL
             }
             catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 string ls_msgExc = "Excepción: " + ex.Message + " - Módulo: " + c_nomMod + " - Capa: " + c_nomCap + " - Método: " + ls_nomMet;
             }
         }
@@ -200,6 +229,7 @@ namespace STR_Localizacion.UTIL
             }
             catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 string ls_msgExc = "Excepcíon: " + ex.Message + " - Modulo: " + c_nomMod + " - Capa: " + c_nomCap + " - Metodo: " + ls_nomMet;
                 return -1;
             }
@@ -256,6 +286,7 @@ namespace STR_Localizacion.UTIL
             }
             catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 string ls_msgExc = "Excepcíon: " + ex.Message + " - Modulo: " + c_nomMod + " - Capa: " + c_nomCap + " - Metodo: " + ls_nomMet;
             }
         }
@@ -337,6 +368,7 @@ namespace STR_Localizacion.UTIL
             }
             catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 //Se registrará la excepción en la tabla de log
                 string ls_msgExc = "Excepción: " + ex.Message + " - Módulo: Cls_Global - Capa: STR_Addon.UTIL - Método: fn_handlesqltransaction";
                 return ls_msgExc;
@@ -359,7 +391,7 @@ namespace STR_Localizacion.UTIL
                     po_RecordSet.MoveNext();
                 }
             }
-            catch (Exception MsjExc) { go_SBOApplication.SetStatusBarMessage(MsjExc.Message, SAPbouiCOM.BoMessageTime.bmt_Short); }
+            catch (Exception MsjExc) { Cls_Global.WriteToFile(MsjExc.Message);  go_SBOApplication.SetStatusBarMessage(MsjExc.Message, SAPbouiCOM.BoMessageTime.bmt_Short); }
             finally { po_RecordSet = null; po_ComboBox = null; }
         }
 
@@ -392,7 +424,7 @@ namespace STR_Localizacion.UTIL
 
                 lo_SBObob = null;
             }
-            catch (Exception ex) { go_SBOApplication.SetStatusBarMessage(ex.Message, SAPbouiCOM.BoMessageTime.bmt_Short); }
+            catch (Exception ex) { Cls_Global.WriteToFile(ex.Message);  go_SBOApplication.SetStatusBarMessage(ex.Message, SAPbouiCOM.BoMessageTime.bmt_Short); }
 
             return ld_TpoCmb;
         }
@@ -415,6 +447,7 @@ namespace STR_Localizacion.UTIL
             }
             catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 go_SBOApplication.StatusBar.SetText(ex.Message, SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Error);
                 throw;
             }
@@ -463,6 +496,7 @@ namespace STR_Localizacion.UTIL
             }
             catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 sb_msgStatusBarSAP(ex.Message);
                 return string.Empty;
             }
@@ -535,7 +569,7 @@ namespace STR_Localizacion.UTIL
                 if (OpenFileDialog.ShowDialog(MyWindow) == DialogResult.OK)
                     gs_Path = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(OpenFileDialog.FileName), OpenFileDialog.FileName);
             }
-            catch (Exception ex) { go_SBOApplication.SetStatusBarMessage(ex.Message, SAPbouiCOM.BoMessageTime.bmt_Short); }
+            catch (Exception ex) { Cls_Global.WriteToFile(ex.Message); go_SBOApplication.SetStatusBarMessage(ex.Message, SAPbouiCOM.BoMessageTime.bmt_Short); }
             finally
             {
                 OpenFileDialog.Dispose(); MyWindow = null; MyProcess = null;
@@ -558,7 +592,8 @@ namespace STR_Localizacion.UTIL
                 MyWindow = new WindowWrapper(MyProcess.MainWindowHandle);
                 if (FolderBrowser.ShowDialog(MyWindow) == DialogResult.OK) gs_Path = FolderBrowser.SelectedPath + @"\";
             }
-            catch (Exception ex) { go_SBOApplication.SetStatusBarMessage(ex.Message, SAPbouiCOM.BoMessageTime.bmt_Short); }
+            catch (Exception ex) { Cls_Global.WriteToFile(ex.Message); 
+                go_SBOApplication.SetStatusBarMessage(ex.Message, SAPbouiCOM.BoMessageTime.bmt_Short); }
             finally
             {
                 FolderBrowser.Dispose(); MyWindow = null;

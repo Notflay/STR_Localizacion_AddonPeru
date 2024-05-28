@@ -57,6 +57,7 @@ namespace STR_Localizacion.UI
             }
             catch (Exception exc)
             {
+                Cls_Global.WriteToFile(exc.Message);
                 go_SBOApplication.SetStatusBarMessage(exc.Message, BoMessageTime.bmt_Short, true);
             }
             finally { go_SBOForm.Visible = true; }
@@ -100,7 +101,7 @@ namespace STR_Localizacion.UI
                 go_SBOForm.Items.Item("txtTotG").Enabled = false;
             }
             catch (Exception ex)
-            {
+            {Cls_Global.WriteToFile(ex.Message);
                 go_SBOApplication.StatusBar.SetText(ex.Message, BoMessageTime.bmt_Short, BoStatusBarMessageType.smt_Error);
             }
             finally
@@ -124,16 +125,19 @@ namespace STR_Localizacion.UI
             //go_SBOForm.DataSources.DBDataSources.Item("@STR_ADLPRY").SetValue(gs_UflChqFchVnc, 0, DateTime.Now.ToString("yyyyMMdd"));
             //((SAPbouiCOM.Folder)go_SBOForm.Items.Item("fldCheque").Specific).Select();
             qry = "select \"CurrCode\",\"CurrCode\" from OCRN";
+            WriteToFile(qry);
             recordSet.DoQuery(qry);
             go_Combo = go_SBOForm.GetComboBox("cmbMnda");
             sb_comboLlenar(go_Combo, recordSet);
 
             qry = "SELECT \"CFWId\",\"CFWName\" FROM OCFW";
+            WriteToFile(qry);
             recordSet.DoQuery(qry);
             sb_comboLlenar(go_SBOForm.GetComboBox("cmbCshFlw"), recordSet);
 
             go_Matrix = go_SBOForm.GetMatrix("mtxADPY");
             qry = "select \"Code\",\"Name\" from \"@STR_ADLPRYCNF\"";
+            WriteToFile(qry);
             recordSet.DoQuery(qry);
             go_Matrix.AddRow();
             go_Matrix.FlushToDataSource();
@@ -277,8 +281,9 @@ namespace STR_Localizacion.UI
                     if (!string.IsNullOrEmpty(codMnda))
                         go_SBOForm.GetEditText("edtTpoCmb").Value = go_SBObob.GetCurrencyRate(codMnda, dtFecha).Fields.Item(0).Value.ToString();
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
+                    Cls_Global.WriteToFile(ex.Message);
                     throw;
                 }
                 finally
@@ -301,6 +306,7 @@ namespace STR_Localizacion.UI
                         recordSet = go_SBOCompany.GetBusinessObject(BoObjectTypes.BoRecordset);
                         go_Combo = go_Matrix.Columns.Item(1).Cells.Item(e.Row).Specific;
                         qry = $"select * from \"@STR_ADLPRYCNF\" where \"Code\" = '{go_Combo.Value}'";
+                        WriteToFile(qry);
                         recordSet.DoQuery(qry);
                         if (go_SBOForm.GetHeaderDBValue(gs_DtcADLPRY, "U_AP_MNDA").Equals("USD"))
                         {
@@ -380,6 +386,7 @@ namespace STR_Localizacion.UI
             }
             catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 go_SBOApplication.SetStatusBarMessage(ex.Message, BoMessageTime.bmt_Short, true);
             }
             return lb_Result;

@@ -34,6 +34,7 @@ namespace STR_Localizacion.UI
             }
             catch (Exception exc)
             {
+                Cls_Global.WriteToFile(exc.Message);
                 go_SBOApplication.SetStatusBarMessage(exc.Message, BoMessageTime.bmt_Short, true);
             }
         }
@@ -94,8 +95,9 @@ namespace STR_Localizacion.UI
                 go_SBOForm.GetButton("btGenerar").Item.Enabled = false;
                 CambiarEstadoCamposDeAsiento(false);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 throw;
             }
         }
@@ -139,6 +141,7 @@ namespace STR_Localizacion.UI
             }
             catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 ExceptionPrepared.inner(ex.Message, lc_NameMethod);
                 ExceptionPrepared.SaveInLog();
             }
@@ -166,8 +169,9 @@ namespace STR_Localizacion.UI
 
                 SetearTotales();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 throw;
             }
         }
@@ -188,8 +192,9 @@ namespace STR_Localizacion.UI
                 go_SBOForm.Items.Item("txDebT").Specific.Value = ldb_TotalesD.ToString();
                 go_SBOForm.Items.Item("txCredT").Specific.Value = ldb_TotalesH.ToString();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 throw;
             }
         }
@@ -211,8 +216,9 @@ namespace STR_Localizacion.UI
                 if (go_RecordSet.RecordCount == limit)
                     return false;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 throw;
             }
 
@@ -241,8 +247,9 @@ namespace STR_Localizacion.UI
 
                 go_SBOForm.Items.Item("gdAsiento").Enabled = false;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 throw;
             }
         }
@@ -305,6 +312,7 @@ namespace STR_Localizacion.UI
             }
             catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 ExceptionPrepared.inner(ex.Message, lc_NameMethod);
                 ExceptionPrepared.SaveInLog();
                 return ex.Message;
@@ -385,8 +393,9 @@ namespace STR_Localizacion.UI
                     return false;
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 throw;
             }
 
@@ -416,6 +425,7 @@ namespace STR_Localizacion.UI
             }
             catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 go_SBOApplication.StatusBar.SetText("Error al actualizar Factura base. Mensaje: " + ex.Message, BoMessageTime.bmt_Medium, BoStatusBarMessageType.smt_Error);
             }
         }
@@ -458,6 +468,7 @@ namespace STR_Localizacion.UI
             }
             catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 ExceptionPrepared.inner(ex.Message, lc_NameMethod);
                 ExceptionPrepared.SaveInLog();
             }

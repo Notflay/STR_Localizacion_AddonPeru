@@ -37,6 +37,7 @@ namespace STR_Localizacion.UI
             }
             catch (Exception exc)
             {
+                Cls_Global.WriteToFile(exc.Message);
                 go_SBOApplication.SetStatusBarMessage(exc.Message, BoMessageTime.bmt_Short, true);
             }
         }
@@ -64,8 +65,9 @@ namespace STR_Localizacion.UI
                     else
                         serie = go_Combo.Selected.Value; //Recupara el número de serie del go_Combo
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
+                    Cls_Global.WriteToFile(ex.Message);
                     go_SBOApplication.MessageBox("Debe definir la serie para el periodo actual"); //Muestra ventana con mensaje de excepción
                     go_SBOForm.Close(); //Cierra el formulario
                     Dispose();
@@ -109,7 +111,7 @@ namespace STR_Localizacion.UI
                     go_Item = go_SBOForm.Items.Item("edtDocNum");
                     go_Item.SetAutoManagedAttribute(BoAutoManagedAttr.ama_Editable, 4, BoModeVisualBehavior.mvb_True);
                 }
-                catch (Exception ex) { go_SBOApplication.MessageBox(ex.Message); } //Muestra una ventana con el mensaje de Excepción
+                catch (Exception ex) { Cls_Global.WriteToFile(ex.Message);  go_SBOApplication.MessageBox(ex.Message); } //Muestra una ventana con el mensaje de Excepción
                 finally { go_SBOForm.Freeze(false); } //Descongela el formulario
             }
             catch (Exception ex) { ExceptionPrepared.inner(ex.Message, lc_NameMethod); ExceptionPrepared.SaveInLog(false); } //Método para el manejo de las operaciones de Log
@@ -133,7 +135,7 @@ namespace STR_Localizacion.UI
                 go_Combo = go_SBOForm.Items.Item("cbTpSUNAT").Specific;
                 Cls_Global.sb_comboLlenar(go_Combo, Cls_QueryManager.Retorna(Cls_Query.get_TipoXFormularioAnulado));
             }
-            catch (Exception ex) { ExceptionPrepared.inner(ex.Message, lc_NameMethod); ExceptionPrepared.SaveInLog(false); }
+            catch (Exception ex) { Cls_Global.WriteToFile(ex.Message); ExceptionPrepared.inner(ex.Message, lc_NameMethod); ExceptionPrepared.SaveInLog(false); }
         }
 
         /// <Carga la Series Sunat según el tipo de comprobante>
@@ -161,7 +163,7 @@ namespace STR_Localizacion.UI
                     go_Combo.Select(0, BoSearchKey.psk_Index);
                 return true;
             }
-            catch (Exception ex) { ExceptionPrepared.inner(ex.Message, lc_NameMethod); ExceptionPrepared.SaveInLog(false); return false; } //Método para el manejo de las operaciones de Log
+            catch (Exception ex) { Cls_Global.WriteToFile(ex.Message); ExceptionPrepared.inner(ex.Message, lc_NameMethod); ExceptionPrepared.SaveInLog(false); return false; } //Método para el manejo de las operaciones de Log
         }
 
         /// <Muestra los datos en el detalle>
@@ -181,8 +183,9 @@ namespace STR_Localizacion.UI
             {
                 sb_ValidarAnulacion();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Cls_Global.WriteToFile(ex.Message);
                 go_Matrix.Clear();
                 throw;
             }

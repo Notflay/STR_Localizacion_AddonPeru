@@ -84,7 +84,7 @@ namespace STR_Localizacion.UI
                 lo_ComboTipo.DataBind.SetBound(true, ls_tablename, "U_BPP_MDTD");
             }
             catch (Exception ex)
-            {
+            {Cls_Global.WriteToFile(ex.Message);
                 ExceptionPrepared.inner(ex.Message, lc_NameMethod);
                 ExceptionPrepared.SaveInLog(false);
             } //Método para el manejo de las operaciones de Log
@@ -214,7 +214,7 @@ namespace STR_Localizacion.UI
                 go_RecordSet = Cls_QueryManager.Retorna(Cls_Query.get_TipoXFormulario, null, go_SBOForm.TypeEx);
                 Cls_Global.sb_comboLlenar(go_SBOForm.GetComboBox("cbTipo"), go_RecordSet);
             }
-            catch (Exception ex) { ExceptionPrepared.inner(ex.Message, lc_NameMethod); ExceptionPrepared.SaveInLog(false); } //Método para el manejo de las operaciones de Log
+            catch (Exception ex) { Cls_Global.WriteToFile(ex.Message); ExceptionPrepared.inner(ex.Message, lc_NameMethod); ExceptionPrepared.SaveInLog(false); } //Método para el manejo de las operaciones de Log
         }
 
         /// <Asigna el tipo por Defecto>
@@ -232,7 +232,7 @@ namespace STR_Localizacion.UI
                 if (!string.IsNullOrEmpty(ls_ByValue))
                     go_SBOForm.GetComboBox("cbTipo").Select(ls_ByValue, BoSearchKey.psk_ByValue);
             }
-            catch (Exception ex) { ExceptionPrepared.inner(ex.Message, lc_NameMethod); ExceptionPrepared.SaveInLog(false); } //Método para el manejo de las operaciones de Log
+            catch (Exception ex) { Cls_Global.WriteToFile(ex.Message);  ExceptionPrepared.inner(ex.Message, lc_NameMethod); ExceptionPrepared.SaveInLog(false); } //Método para el manejo de las operaciones de Log
         }
     }
 }

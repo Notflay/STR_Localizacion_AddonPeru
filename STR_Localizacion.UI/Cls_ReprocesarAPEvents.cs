@@ -159,6 +159,7 @@ namespace STR_Localizacion.UI
 
                     DataTable dt = go_SBOForm.DataSources.DataTables.Item("DT_DOCS");
                     DBDataSource ds = go_SBOForm.DataSources.DBDataSources.Item("@ST_LC_ASPR1");
+                    Cls_Global.WriteToFile(query);
                     dt.ExecuteQuery(query);
 
                     if (!dt.IsEmpty)

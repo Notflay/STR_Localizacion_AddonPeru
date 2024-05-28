@@ -95,6 +95,7 @@ namespace STR_Localizacion.UI
                     // ------ Validar SI Sociedad tiene configuracion de Sucursales
                     recordset = go_SBOCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset);
                     string query = $"SELECT \"MltpBrnchs\" FROM OADM";
+                    Cls_Global.WriteToFile(query);
                     recordset.DoQuery(query);
                     Sucursal = recordset.Fields.Item(0).Value;
 
@@ -106,6 +107,7 @@ namespace STR_Localizacion.UI
                         //oPagoRecibido.SaveToFile(@"C:\AFile\XML\pago.xml");
 
                         string queryPagoCuenta = $"SELECT \"PayNoDoc\",CASE WHEN \"DocCurr\" ='{oPagoRecibido.DocCurrency}' THEN \"NoDocSum\" ELSE \"NoDocSumFC\" END, \"TransId\" FROM ORCT WHERE  \"DocEntry\" = '{docEntry}'";
+                        Cls_Global.WriteToFile(queryPagoCuenta);
                         recordset.DoQuery(queryPagoCuenta);
                         string PagoCuenta = recordset.Fields.Item(0).Value;
                         double PagoCuentaImporte = Convert.ToDouble(recordset.Fields.Item(1).Value);

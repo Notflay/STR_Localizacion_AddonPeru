@@ -164,6 +164,7 @@ namespace STR_Localizacion.UI
         {
             Recordset recordset = go_SBOCompany.GetBusinessObject(BoObjectTypes.BoRecordset);
             string query = $"UPDATE OPDN SET \"{campo}\" = {transId} WHERE \"DocEntry\" = {docEntry}";
+            Cls_Global.WriteToFile(query);
             recordset.DoQuery(query);
         }
 
