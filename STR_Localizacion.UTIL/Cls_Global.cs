@@ -105,6 +105,8 @@ namespace STR_Localizacion.UTIL
 
         public static void WriteToFile(string Message)
         {
+            try
+            {
             string path = AppDomain.CurrentDomain.BaseDirectory + "\\Logs";
             if (!Directory.Exists(path))
             {
@@ -124,6 +126,11 @@ namespace STR_Localizacion.UTIL
                 {
                     sw.WriteLine(DateTime.Now.ToString() + " - " + Message);
                 }
+            }
+        }
+            catch (Exception)
+            {
+
             }
         }
 

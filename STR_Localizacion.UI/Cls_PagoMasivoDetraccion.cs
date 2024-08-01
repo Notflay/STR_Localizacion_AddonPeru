@@ -22,6 +22,12 @@ namespace STR_Localizacion.UI
             {
                 if (go_SBOForm == null)
                 {
+                    // Que el sistema detecté el tipo de Cambio según el formato
+                    CultureInfo culturaPersonalizada = new CultureInfo("es-PE");
+                    culturaPersonalizada.NumberFormat.NumberDecimalSeparator = ".";
+                    culturaPersonalizada.NumberFormat.NumberGroupSeparator = ",";
+                    System.Threading.Thread.CurrentThread.CurrentCulture = culturaPersonalizada;
+
                     go_SBOForm = Cls_Global.fn_CreateForm(gs_FormName, gs_FormPath);
                     ExceptionPrepared = new internalexception(lc_NameClass, lc_NameLayout);
                     sb_DataFormLoad();
@@ -130,6 +136,7 @@ namespace STR_Localizacion.UI
                 go_SBOForm.Items.Item(this.lrs_BtnBuscar).Enabled = false; //Deshabilita el Control de búsqueda
 
                 //Recupera valores del go_Grid
+                Cls_Global.WriteToFile("sb_prepararControlesEstadoAbierto 145");
                 go_Grid = go_SBOForm.Items.Item(this.lrs_GrdPayDTRDET).Specific;
                 //Ejecuto el Procedimiento en el go_Grid
                 go_Grid.DataTable.Consulta(Cls_Query.get_DetraccionesPagadas, go_Edit.Value);

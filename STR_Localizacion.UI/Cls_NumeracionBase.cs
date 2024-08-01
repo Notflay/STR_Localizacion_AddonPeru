@@ -97,6 +97,24 @@ namespace STR_Localizacion.UI
         protected void fn_actualizarSerieSUNAT()
         {
             GC.Collect(); //Libera la memoria
+            string formCancelacion = string.Empty;
+            bool esCancelado = false;
+            string estado = "1";
+
+            // Validar si el formulario es uno de cancelación
+            formCancelacion = go_SBOForm.DataSources.DBDataSources.Item(0).GetValue("CANCELED",0);
+            
+            try
+            {
+                estado = go_SBOForm.GetComboBox("81").Value;
+            }
+            catch (Exception)
+            {
+
+            }
+
+            if (!string.IsNullOrEmpty(formCancelacion))
+                esCancelado = formCancelacion == "C";
 
             string ls_ComboTipo;
             Recordset lo_recordSet;
@@ -104,6 +122,9 @@ namespace STR_Localizacion.UI
                 lo_comboTipo = go_SBOForm.GetControl("cbTipo"),
                 lo_comboSerie = go_SBOForm.GetControl("cbSerie");
 
+            if (!esCancelado && estado != "6")
+            {
+               
             go_SBOForm.GetEditText("txNumero").Value = string.Empty;
            
             ls_ComboTipo = lo_comboTipo.Value.Trim();
@@ -115,6 +136,11 @@ namespace STR_Localizacion.UI
                 lo_comboSerie.Select(0, BoSearchKey.psk_Index);
             else
                 Cls_Global.sb_msjStatusBarSAP("No se ha configurado una serie de numeración para este tipo de documento SUNAT.", BoStatusBarMessageType.smt_Warning, go_SBOApplication);
+        }
+            else {
+                go_SBOForm.GetEditText("txNumero").Value = string.Empty;
+                ls_ComboTipo = lo_comboTipo.Value.Trim();
+            }
         }
 
         /// <Obtiene correlativo de la serie>
