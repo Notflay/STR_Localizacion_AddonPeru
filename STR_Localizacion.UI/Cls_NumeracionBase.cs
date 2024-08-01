@@ -110,7 +110,7 @@ namespace STR_Localizacion.UI
             }
             catch (Exception)
             {
-
+               
             }
 
             if (!string.IsNullOrEmpty(formCancelacion))
@@ -125,18 +125,18 @@ namespace STR_Localizacion.UI
             if (!esCancelado && estado != "6")
             {
                
-            go_SBOForm.GetEditText("txNumero").Value = string.Empty;
-           
-            ls_ComboTipo = lo_comboTipo.Value.Trim();
-            string usuario = go_SBOCompany.UserName;
-            lo_recordSet = Cls_QueryManager.Retorna(Cls_Query.get_SerieXTipo, null, ls_ComboTipo, usuario);
-            Cls_Global.sb_comboLlenar(lo_comboSerie, lo_recordSet);
+                go_SBOForm.GetEditText("txNumero").Value = string.Empty;
 
-            if (lo_recordSet.RecordCount > 0)
-                lo_comboSerie.Select(0, BoSearchKey.psk_Index);
-            else
-                Cls_Global.sb_msjStatusBarSAP("No se ha configurado una serie de numeración para este tipo de documento SUNAT.", BoStatusBarMessageType.smt_Warning, go_SBOApplication);
-        }
+                ls_ComboTipo = lo_comboTipo.Value.Trim();
+                string usuario = go_SBOCompany.UserName;
+                lo_recordSet = Cls_QueryManager.Retorna(Cls_Query.get_SerieXTipo, null, ls_ComboTipo, usuario);
+                Cls_Global.sb_comboLlenar(lo_comboSerie, lo_recordSet);
+
+                if (lo_recordSet.RecordCount > 0)
+                    lo_comboSerie.Select(0, BoSearchKey.psk_Index);
+                else
+                    Cls_Global.sb_msjStatusBarSAP("No se ha configurado una serie de numeración para este tipo de documento SUNAT.", BoStatusBarMessageType.smt_Warning, go_SBOApplication);
+            }
             else {
                 go_SBOForm.GetEditText("txNumero").Value = string.Empty;
                 ls_ComboTipo = lo_comboTipo.Value.Trim();

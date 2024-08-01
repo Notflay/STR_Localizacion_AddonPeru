@@ -665,8 +665,6 @@ C:\Users\sebastian.poma\Source\Repos\Notflay\STR_Localizacion_AddonPeru\STR_Loca
 C:\Users\sebastian.poma\Source\Repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\BO\UF.vte
 C:\Users\sebastian.poma\Source\Repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\BO\UO.vte
 C:\Users\sebastian.poma\Source\Repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\BO\UT.vte
-C:\Users\sebastian.poma\Source\Repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\STR_Localizacionx64.dll.config
-C:\Users\sebastian.poma\Source\Repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\STR_Localizacionx64.dll
 C:\Users\sebastian.poma\Source\Repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\STR_Localizacionx64.pdb
 C:\Users\sebastian.poma\Source\Repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\STR_Localizacion.DL.dll
 C:\Users\sebastian.poma\Source\Repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\STR_Localizacion.Metadata.dll
@@ -684,5 +682,7 @@ C:\Users\sebastian.poma\Source\Repos\Notflay\STR_Localizacion_AddonPeru\STR_Loca
 C:\Users\sebastian.poma\Source\Repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UI\obj\x64\Debug\STR_Localizacion.UI.csproj.GenerateResource.cache
 C:\Users\sebastian.poma\Source\Repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UI\obj\x64\Debug\STR_Localizacion.UI.csproj.CoreCompileInputs.cache
 C:\Users\sebastian.poma\Source\Repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UI\obj\x64\Debug\STR_Loca.278265BB.Up2Date
-C:\Users\sebastian.poma\Source\Repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UI\obj\x64\Debug\STR_Localizacionx64.dll
 C:\Users\sebastian.poma\Source\Repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UI\obj\x64\Debug\STR_Localizacionx64.pdb
+C:\Users\sebastian.poma\Source\Repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\STR_Localizacionx64.exe.config
+C:\Users\sebastian.poma\Source\Repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\x64\STR_Localizacionx64.exe
+C:\Users\sebastian.poma\Source\Repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UI\obj\x64\Debug\STR_Localizacionx64.exe

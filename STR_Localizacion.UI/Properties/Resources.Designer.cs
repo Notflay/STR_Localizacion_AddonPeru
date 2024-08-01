@@ -65,7 +65,7 @@ namespace STR_Localizacion.UI.Properties {
         ///&lt;Application&gt;
         ///  &lt;Menus&gt;
         ///    &lt;action type=&quot;add&quot;&gt;
-        ///		&lt;Menu Checked=&quot;0&quot; Enabled=&quot;1&quot; FatherUID=&quot;MNU01&quot; Position=&quot;5&quot; String=&quot;Localización&quot; Type=&quot;2&quot; UniqueID=&quot;MNULOCALI&quot;&gt;
+        ///		&lt;Menu Checked=&quot;0&quot; Enabled=&quot;1&quot; FatherUID=&quot;MNF01&quot; Position=&quot;5&quot; String=&quot;Localización&quot; Type=&quot;2&quot; UniqueID=&quot;MNULOCALI&quot;&gt;
         ///			&lt;Menus&gt;
         ///				&lt;action type=&quot;add&quot;&gt;
         ///					&lt;Menu Checked=&quot;0&quot; Enabled=&quot;1&quot; FatherUID=&quot;MNULOCALI&quot; Position=&quot;1&quot; String=&quot;Configuración Localización&quot; Type=&quot;1&quot; UniqueID=&quot;STR_mnu_Settings&quot; /&gt;

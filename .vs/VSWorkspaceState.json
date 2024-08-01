@@ -1,10 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\STR_Localizacion.DL",
     "\\STR_Localizacion.UI",
     "\\STR_Localizacion.UI\\General",
+    "\\STR_Localizacion.UI\\Resources",
+    "\\STR_Localizacion.UI\\Resources\\Localizacion",
     "\\STR_Localizacion.UTIL"
   ],
-  "SelectedNode": "\\STR_Localizacion.UTIL\\Cls_GlobalTypes.cs",
+  "SelectedNode": "\\STR_Localizacion.UI\\Cls_PagoMasivoDetraccionEvents.cs",
   "PreviewInSolutionExplorer": false
 }

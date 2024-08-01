@@ -136,7 +136,6 @@ namespace STR_Localizacion.UI
                 go_SBOForm.Items.Item(this.lrs_BtnBuscar).Enabled = false; //Deshabilita el Control de búsqueda
 
                 //Recupera valores del go_Grid
-                Cls_Global.WriteToFile("sb_prepararControlesEstadoAbierto 145");
                 go_Grid = go_SBOForm.Items.Item(this.lrs_GrdPayDTRDET).Specific;
                 //Ejecuto el Procedimiento en el go_Grid
                 go_Grid.DataTable.Consulta(Cls_Query.get_DetraccionesPagadas, go_Edit.Value);
@@ -234,8 +233,10 @@ namespace STR_Localizacion.UI
                     //Recorre las filas del DataTable
                     for (int iDetalle = 0; iDetalle < go_Grid.DataTable.Rows.Count; iDetalle++)
                     {   //Verifica que filas han sido selecciondas para el pago
+                        Cls_Global.WriteToFile(go_Grid.DataTable.Columns.Item(lrs_CabDttSelect).Cells.Item(iDetalle).Value);
                         if (go_Grid.DataTable.Columns.Item(lrs_CabDttSelect).Cells.Item(iDetalle).Value != this.lrs_ValAnulado)
                         {   //Sino han sido seleccionadas serán removidas del DataTable
+                            Cls_Global.WriteToFile(iDetalle.ToString());
                             go_Grid.DataTable.Rows.Remove(iDetalle);
                             lb_Flag = true;
                             break;
@@ -416,8 +417,9 @@ namespace STR_Localizacion.UI
         {
             lc_NameMethod = "fn_ingresarDetalleUDO"; //Se asigna el nombre del método para la identificación del mismo
             go_Grid = go_SBOForm.Items.Item(this.lrs_GrdPayDTRDET).Specific;
+            Cls_Global.WriteToFile("fn_ingresarDetalleUDO");
             this.sb_pruebaFilasSeleccionadas();
-
+            Cls_Global.WriteToFile("fn_ingresarDetalleUDO");
             for (int iFilasGrid = 0; iFilasGrid <= go_Grid.DataTable.Rows.Count - 1; iFilasGrid++)
             {   //Entra si el CheckBox de la fila ha sido seleccionado
                 if (go_Grid.DataTable.GetValue(lrs_CabDttSelect, iFilasGrid) == this.lrs_ValAnulado)

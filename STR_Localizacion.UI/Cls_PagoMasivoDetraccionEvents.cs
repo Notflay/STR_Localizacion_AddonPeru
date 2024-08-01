@@ -103,23 +103,20 @@ namespace STR_Localizacion.UI
                         go_SBOForm = go_SBOFormEvent;
                         if (go_SBOForm.Mode == BoFormMode.fm_ADD_MODE)
                         {
-                            try
-                            {
-                                Cls_Global.WriteToFile("lrs_BtnCrear 106");
-                            string ls_msgStatus = string.Empty;
-                            //Recupera valores de la Matrix del formulario
-                            go_Grid = go_SBOForm.Items.Item(this.lrs_GrdPayDTRDET).Specific;
-                            //Válida si el DataTable está vacío
-                            if (go_Grid.DataTable.IsEmpty)
-                                throw new InvalidOperationException("No hay detracciones a pagar.");
-                            //Válida que se haya ingresado el valor de Fecha contable
-                            if (Cls_Global.sb_FormGetValueFromDBDataSource(go_SBOForm, this.lrs_DtcPAYDTR, this.lrs_UflFchCnPg) == string.Empty)
-                                throw new InvalidOperationException("Debe ingresar Fecha Contable Pagos.");
-                            //Inicio de validación del flujo de efectivo
-                            lb_registrarCshFlw = false;
-                            SAPbobsCOM.ChartOfAccounts chrtAcct = go_SBOCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oChartOfAccounts);
-                            string cashFlowID = go_SBOForm.GetComboBox("cbCshFlw").Value;
-                            string ctaBank = ls_CtaTransferSYS;
+                              string ls_msgStatus = string.Empty;
+                                //Recupera valores de la Matrix del formulario
+                                go_Grid = go_SBOForm.Items.Item(this.lrs_GrdPayDTRDET).Specific;
+                                //Válida si el DataTable está vacío
+                                if (go_Grid.DataTable.IsEmpty)
+                                    throw new InvalidOperationException("No hay detracciones a pagar.");
+                                //Válida que se haya ingresado el valor de Fecha contable
+                                if (Cls_Global.sb_FormGetValueFromDBDataSource(go_SBOForm, this.lrs_DtcPAYDTR, this.lrs_UflFchCnPg) == string.Empty)
+                                    throw new InvalidOperationException("Debe ingresar Fecha Contable Pagos.");
+                                //Inicio de validación del flujo de efectivo
+                                lb_registrarCshFlw = false;
+                                SAPbobsCOM.ChartOfAccounts chrtAcct = go_SBOCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oChartOfAccounts);
+                                string cashFlowID = go_SBOForm.GetComboBox("cbCshFlw").Value;
+                                string ctaBank = ls_CtaTransferSYS;
                             if (chrtAcct.GetByKey(ctaBank) && chrtAcct.CashFlowRelevant == SAPbobsCOM.BoYesNoEnum.tYES)
                             {
                                 if (string.IsNullOrEmpty(cashFlowID))
@@ -251,6 +248,9 @@ namespace STR_Localizacion.UI
                         {
                             Cls_Global.WriteToFile(ex.Message);
                             throw;
+                            //if (!(ex is InvalidOperationException))//Muestra una ventana con el mensaje de Excepción
+                            //    go_SBOApplication.MessageBox(ex.Message);
+                            //throw;
                         }
                     }
                 }, "txPvDd", "txPvHt", "txCtTr"));

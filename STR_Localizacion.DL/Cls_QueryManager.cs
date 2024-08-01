@@ -59,11 +59,14 @@ namespace STR_Localizacion.DL
                 go_RecSet = Cls_Global.go_SBOCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset);
                 Cls_Global.WriteToFile(string.Format(Generar(query_resource), prms));
                 go_RecSet.DoQuery(string.Format(Generar(query_resource), prms));
-
+                //Cls_Global.WriteToFile("Retorna 62");
                 if (field == null)
                     return go_RecSet;
                 else
+                { 
+                    Cls_Global.WriteToFile(go_RecSet.Fields.Item(field).Value);
                     return go_RecSet.Fields.Item(field).Value;
+                }
             }
             catch (Exception ex)
             {
