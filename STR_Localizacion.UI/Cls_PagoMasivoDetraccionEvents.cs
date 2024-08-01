@@ -117,12 +117,13 @@ namespace STR_Localizacion.UI
                                 SAPbobsCOM.ChartOfAccounts chrtAcct = go_SBOCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oChartOfAccounts);
                                 string cashFlowID = go_SBOForm.GetComboBox("cbCshFlw").Value;
                                 string ctaBank = ls_CtaTransferSYS;
-                            if (chrtAcct.GetByKey(ctaBank) && chrtAcct.CashFlowRelevant == SAPbobsCOM.BoYesNoEnum.tYES)
-                            {
-                                if (string.IsNullOrEmpty(cashFlowID))
-                                    throw new ArgumentNullException("Art. Form. Primario", "Seleccione el flujo de caja");
-                                lb_registrarCshFlw = true;
-                            }
+                            // Para 9.2 JAMPAR no hacer está validación porque se cae 
+                            //if (chrtAcct.GetByKey(ctaBank) && chrtAcct.CashFlowRelevant == SAPbobsCOM.BoYesNoEnum.tYES)
+                            //{
+                            //    if (string.IsNullOrEmpty(cashFlowID))
+                            //        throw new ArgumentNullException("Art. Form. Primario", "Seleccione el flujo de caja");
+                            //    lb_registrarCshFlw = true;
+                            //}
 
                             this.fn_ingresarDetalleUDO();
                         }
