@@ -220,9 +220,12 @@
     <sql>STR_SP_ObtDetailData</sql>
     <params>'{0}','{1}'</params>
   </query>
-
   <query nameid="ObtConfigData" definition="P">
-    <sql>STR_SP_ObtConfigLocaliz</sql>
+	<sql>STR_SP_ObtConfigLocaliz</sql>
+  </query>
+  <query nameid="ObtConfigDataMasivo" definition="D">
+	  <sql>SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'</sql>
+	  <hana>SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'</hana>
   </query>
   <query nameid="CrtConfigData" definition="D">
      <tsql>

@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>STR_Localizacion.UI</RootNamespace>
-    <AssemblyName>STR_Localizacionx64</AssemblyName>
+    <AssemblyName>STR_Localizacionx86</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>

@@ -626,6 +626,7 @@ namespace STR_Localizacion.UI
                     oPagoEfectuado.TaxDate = DateTime.ParseExact(Cls_Global.sb_FormGetValueFromDBDataSource(go_SBOForm, this.lrs_DtcPAYDTR, this.lrs_UflFchCnPg).Trim(), this.lrs_FchFormat, DateTimeFormatInfo.InvariantInfo).Date;
                 }
 
+                oPagoEfectuado.Remarks = "";
                 oPagoEfectuado.JournalRemarks = "Pago Masivo Detrac. - " + oPagoEfectuado.CardCode;
                 oPagoEfectuado.DocCurrency = (ls_TpMoneda == "USD" ? Cls_Global.fdi_ObtenerMonedaSistema() : Cls_Global.fdi_ObtenerMonedaLocal());
                 oPagoEfectuado.UserFields.Fields.Item("U_BPP_MPPG").Value = "003";
@@ -703,6 +704,7 @@ namespace STR_Localizacion.UI
         {
             lc_NameMethod = "fn_generarPagos"; //Se asigna el nombre del método para la identificación del mismo
             GC.Collect(); //Libera la memoria
+            string numDesposito = "";
             try
             {
                 //Recupera valores del comboBox del formulario
@@ -712,6 +714,7 @@ namespace STR_Localizacion.UI
                 //Recupera los valores del Número de depósito del Formulario
                 go_Edit = go_SBOForm.Items.Item(this.lrs_EdtNumDp).Specific;
                 go_Edit.Active = true;
+                numDesposito = go_Edit.Value;
                 go_ProgressBar = null;
 
                 try
@@ -791,7 +794,15 @@ namespace STR_Localizacion.UI
 
                         lo_PagoEfectuado.TaxDate = DateTime.ParseExact(Cls_Global.sb_FormGetValueFromDBDataSource(go_SBOForm, this.lrs_DtcPAYDTR, this.lrs_UflFchCnPg).Trim(), this.lrs_FchFormat, DateTimeFormatInfo.InvariantInfo).Date;
 
-                        lo_PagoEfectuado.JournalRemarks = "Pago Masivo Detrac. - " + lo_PagoEfectuado.CardCode;
+                        if (Cls_Global.ConfiguracionMasiva == "2")
+                        {
+                            lo_PagoEfectuado.Remarks = $"{numDesposito} - {numDesposito}";
+                            lo_PagoEfectuado.JournalRemarks = $"{numDesposito} - {numDesposito}";
+                        }
+                        else
+                        {
+                            lo_PagoEfectuado.JournalRemarks = "Pago Masivo Detrac. - " + lo_PagoEfectuado.CardCode;
+                        }
                         lo_PagoEfectuado.DocCurrency = (ls_TpMoneda == "USD" ? Cls_Global.fdi_ObtenerMonedaSistema() : Cls_Global.fdi_ObtenerMonedaLocal());
                         lo_PagoEfectuado.UserFields.Fields.Item("U_BPP_MPPG").Value = "003";
                     }
@@ -853,6 +864,24 @@ namespace STR_Localizacion.UI
                     }
                     else
                     {
+                        // 06/08/2024 - Si la moneda es diferente a SOL, El tipo de cambio lo tiene que obtener del a factura, no de la fecha actual
+                        if (!lo_PagoEfectuado.DocCurrency.Equals(Cls_Global.fdi_ObtenerMonedaLocal()))
+                        {
+                            try
+                            {
+                                int docEntryFt = int.Parse(go_RecordSet.Fields.Item("U_BPP_DEAs").Value.ToString());
+                                oFactura.GetByKey(docEntryFt);
+
+                                double tcdol = 0;
+                                tcdol = Cls_Global.sb_ObtenerTipodeCambioXDia(oFactura.DocCurrency, oFactura.DocDate);
+                                lo_PagoEfectuado.DocRate = tcdol;
+                            }
+                            catch (Exception ex)
+                            {
+                                Cls_Global.WriteToFile($"fn_generarPagos - {ex.Message}");
+                            }
+                        }
+
                         //Ejecuto el Procedimiento y lo almaceno en el go_recordSet
                         lo_RecSetAux = Cls_QueryManager.
                             Retorna(Cls_Query.get_IDLinea, null, lo_PagoEfectuado.CardCode, lo_PagoEfectuado.Invoices.DocEntry);

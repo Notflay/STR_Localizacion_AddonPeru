@@ -1,0 +1,354 @@
+19/08/2024 18:58:58 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 18:58:58 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 18:58:58 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 18:58:58 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 18:59:22 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 18:59:22 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 18:59:22 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 18:59:22 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:00:11 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:00:11 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:00:15 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:00:15 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:00:39 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:00:39 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:00:42 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:00:44 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:00:51 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:00:52 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:01:27 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:01:27 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:01:48 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:01:48 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:03:12 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:03:12 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:07:20 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:07:20 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:07:22 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:07:22 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:08:06 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:08:06 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:08:10 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:08:10 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:08:51 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:08:52 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:11:10 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:11:10 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:11:29 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:11:29 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:14:05 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:14:05 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:14:08 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:14:08 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:14:37 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:14:37 - '<' is an unexpected token. The expected token is '>'. Line 227, position 3.
+19/08/2024 19:18:02 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:18:02 - N
+19/08/2024 19:18:02 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:18:02 - 
+19/08/2024 19:18:05 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+19/08/2024 19:18:05 - 776101
+19/08/2024 19:18:05 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+19/08/2024 19:18:05 - 676101
+19/08/2024 19:18:05 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:18:05 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:18:05 - O1
+19/08/2024 19:18:05 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:18:06 - F
+19/08/2024 19:18:06 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:18:06 - E
+19/08/2024 19:18:06 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:18:06 - N
+19/08/2024 19:18:06 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:18:06 - DT10
+19/08/2024 19:18:06 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:18:06 - 102101
+19/08/2024 19:18:06 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:18:06 - 101101
+19/08/2024 19:18:06 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:18:06 - 102101
+19/08/2024 19:18:06 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:18:06 - 101101
+19/08/2024 19:18:06 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:18:06 - N
+19/08/2024 19:18:06 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:18:06 - 
+19/08/2024 19:18:06 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:18:06 - 
+19/08/2024 19:18:06 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:18:06 - 
+19/08/2024 19:18:38 - Object reference not set to an instance of an object.
+19/08/2024 19:18:39 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+19/08/2024 19:18:51 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+19/08/2024 19:18:56 - CALL STR_SP_DetraccionesXPagar ('', '', '', '', '', '','O1','')
+19/08/2024 19:19:42 - CALL STR_SP_ObtNombreCuenta ('103101')
+19/08/2024 19:19:42 - EFECTIVO EN TRÁNSITO SOLES
+19/08/2024 19:19:48 - fn_ingresarDetalleUDO
+19/08/2024 19:19:50 - Y
+19/08/2024 19:19:50 - N
+19/08/2024 19:19:50 - 1
+19/08/2024 19:19:50 - Y
+19/08/2024 19:19:50 - N
+19/08/2024 19:19:50 - 1
+19/08/2024 19:19:50 - Y
+19/08/2024 19:19:50 - N
+19/08/2024 19:19:50 - 1
+19/08/2024 19:19:50 - Y
+19/08/2024 19:19:50 - N
+19/08/2024 19:19:50 - 1
+19/08/2024 19:19:50 - Y
+19/08/2024 19:19:51 - N
+19/08/2024 19:19:51 - 1
+19/08/2024 19:19:51 - Y
+19/08/2024 19:19:53 - CALL STR_SP_RegistroPagoDetrac ('0')
+19/08/2024 19:19:53 - fn_ingresarDetalleUDO
+19/08/2024 19:19:53 - CALL STR_SP_ObtNombreCuenta ('103101')
+19/08/2024 19:19:54 - EFECTIVO EN TRÁNSITO SOLES
+19/08/2024 19:19:54 - CALL STR_SP_DetraccionesPagadas ('55')
+19/08/2024 19:20:15 - CALL STR_SP_ObtNombreCuenta ('103101')
+19/08/2024 19:20:15 - EFECTIVO EN TRÁNSITO SOLES
+19/08/2024 19:20:15 - CALL STR_SP_DetraccionesPagadas ('55')
+19/08/2024 19:20:16 - CALL STR_SP_ObtNombreCuenta ('103101')
+19/08/2024 19:20:16 - EFECTIVO EN TRÁNSITO SOLES
+19/08/2024 19:20:16 - CALL STR_SP_DetraccionesPagadas ('55')
+19/08/2024 19:20:20 - CALL STR_SP_RegistroPagoDetrac ('55')
+19/08/2024 19:20:20 - SELECT "MltpBrnchs" FROM OADM
+19/08/2024 19:20:20 - CALL STR_SP_ObtMoneda ('P20100049181')
+19/08/2024 19:20:20 - ##
+19/08/2024 19:21:25 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:25 - N
+19/08/2024 19:21:25 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:25 - 
+19/08/2024 19:21:25 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+19/08/2024 19:21:25 - 776101
+19/08/2024 19:21:25 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+19/08/2024 19:21:25 - 676101
+19/08/2024 19:21:25 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:25 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:25 - O1
+19/08/2024 19:21:25 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:25 - F
+19/08/2024 19:21:25 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:25 - E
+19/08/2024 19:21:25 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:25 - N
+19/08/2024 19:21:25 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:25 - DT10
+19/08/2024 19:21:25 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:25 - 102101
+19/08/2024 19:21:25 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:25 - 101101
+19/08/2024 19:21:25 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:26 - 102101
+19/08/2024 19:21:26 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:26 - 101101
+19/08/2024 19:21:26 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:26 - N
+19/08/2024 19:21:26 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:26 - 
+19/08/2024 19:21:26 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:26 - 
+19/08/2024 19:21:26 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:26 - 
+19/08/2024 19:21:34 - Object reference not set to an instance of an object.
+19/08/2024 19:21:44 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:44 - N
+19/08/2024 19:21:44 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:44 - 
+19/08/2024 19:21:44 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+19/08/2024 19:21:44 - 776101
+19/08/2024 19:21:44 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+19/08/2024 19:21:44 - 676101
+19/08/2024 19:21:44 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:44 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:44 - O1
+19/08/2024 19:21:44 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:44 - F
+19/08/2024 19:21:44 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:44 - E
+19/08/2024 19:21:44 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:44 - N
+19/08/2024 19:21:44 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:44 - DT10
+19/08/2024 19:21:44 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:45 - 102101
+19/08/2024 19:21:45 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:45 - 101101
+19/08/2024 19:21:45 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:45 - 102101
+19/08/2024 19:21:45 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:45 - 101101
+19/08/2024 19:21:45 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:45 - N
+19/08/2024 19:21:45 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:45 - 
+19/08/2024 19:21:45 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:45 - 
+19/08/2024 19:21:45 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:21:45 - 
+19/08/2024 19:21:53 - Object reference not set to an instance of an object.
+19/08/2024 19:22:13 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:13 - N
+19/08/2024 19:22:13 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:13 - 
+19/08/2024 19:22:14 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+19/08/2024 19:22:14 - 776101
+19/08/2024 19:22:14 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+19/08/2024 19:22:14 - 676101
+19/08/2024 19:22:14 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:14 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:14 - O1
+19/08/2024 19:22:14 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:14 - F
+19/08/2024 19:22:14 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:14 - E
+19/08/2024 19:22:14 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:14 - N
+19/08/2024 19:22:14 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:14 - DT10
+19/08/2024 19:22:14 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:14 - 102101
+19/08/2024 19:22:14 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:14 - 101101
+19/08/2024 19:22:14 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:14 - 102101
+19/08/2024 19:22:14 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:14 - 101101
+19/08/2024 19:22:14 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:14 - N
+19/08/2024 19:22:14 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:14 - 
+19/08/2024 19:22:14 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:14 - 
+19/08/2024 19:22:14 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:14 - 
+19/08/2024 19:22:20 - Object reference not set to an instance of an object.
+19/08/2024 19:22:30 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:30 - N
+19/08/2024 19:22:30 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:30 - 
+19/08/2024 19:22:30 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+19/08/2024 19:22:30 - 776101
+19/08/2024 19:22:30 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+19/08/2024 19:22:30 - 676101
+19/08/2024 19:22:30 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:30 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:30 - O1
+19/08/2024 19:22:30 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:30 - F
+19/08/2024 19:22:30 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:30 - E
+19/08/2024 19:22:30 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:30 - N
+19/08/2024 19:22:30 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:30 - DT10
+19/08/2024 19:22:30 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:30 - 102101
+19/08/2024 19:22:30 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:30 - 101101
+19/08/2024 19:22:30 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:30 - 102101
+19/08/2024 19:22:30 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:30 - 101101
+19/08/2024 19:22:31 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:31 - N
+19/08/2024 19:22:31 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:31 - 
+19/08/2024 19:22:31 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:31 - 
+19/08/2024 19:22:31 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:22:31 - 
+19/08/2024 19:23:00 - Object reference not set to an instance of an object.
+19/08/2024 19:23:38 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:23:38 - N
+19/08/2024 19:23:38 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:23:38 - 
+19/08/2024 19:23:39 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+19/08/2024 19:23:39 - 776101
+19/08/2024 19:23:39 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+19/08/2024 19:23:39 - 676101
+19/08/2024 19:23:39 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:23:39 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:23:39 - O1
+19/08/2024 19:23:39 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:23:39 - F
+19/08/2024 19:23:39 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:23:39 - E
+19/08/2024 19:23:39 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:23:39 - N
+19/08/2024 19:23:39 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:23:39 - DT10
+19/08/2024 19:23:39 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:23:39 - 102101
+19/08/2024 19:23:39 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:23:39 - 101101
+19/08/2024 19:23:39 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:23:39 - 102101
+19/08/2024 19:23:39 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:23:39 - 101101
+19/08/2024 19:23:39 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:23:39 - N
+19/08/2024 19:23:39 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:23:39 - 
+19/08/2024 19:23:39 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:23:39 - 
+19/08/2024 19:23:39 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:23:39 - 
+19/08/2024 19:24:36 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:24:36 - N
+19/08/2024 19:24:36 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:24:36 - 
+19/08/2024 19:24:36 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+19/08/2024 19:24:36 - 776101
+19/08/2024 19:24:36 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+19/08/2024 19:24:36 - 676101
+19/08/2024 19:24:36 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:24:36 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:24:36 - O1
+19/08/2024 19:24:36 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:24:36 - F
+19/08/2024 19:24:36 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:24:36 - E
+19/08/2024 19:24:36 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:24:36 - N
+19/08/2024 19:24:36 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:24:36 - DT10
+19/08/2024 19:24:36 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:24:36 - 102101
+19/08/2024 19:24:36 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:24:36 - 101101
+19/08/2024 19:24:36 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:24:36 - 102101
+19/08/2024 19:24:36 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:24:36 - 101101
+19/08/2024 19:24:36 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:24:37 - N
+19/08/2024 19:24:37 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:24:37 - 
+19/08/2024 19:24:37 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:24:37 - 
+19/08/2024 19:24:37 - CALL STR_SP_ObtConfigLocaliz ()
+19/08/2024 19:24:37 - 
+19/08/2024 19:24:38 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+19/08/2024 19:24:38 - 1
+19/08/2024 19:24:58 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+19/08/2024 19:25:04 - CALL STR_SP_DetraccionesXPagar ('', '', '', '', '', '','O1','')
+19/08/2024 19:25:06 - CALL STR_SP_ObtNombreCuenta ('103101')
+19/08/2024 19:25:06 - EFECTIVO EN TRÁNSITO SOLES
+19/08/2024 19:25:06 - CALL STR_SP_DetraccionesPagadas ('55')
+19/08/2024 19:25:08 - CALL STR_SP_RegistroPagoDetrac ('55')
+19/08/2024 19:25:08 - SELECT "MltpBrnchs" FROM OADM
+19/08/2024 19:25:08 - CALL STR_SP_ObtMoneda ('P20100049181')
+19/08/2024 19:25:08 - ##
+19/08/2024 19:25:14 - CALL STR_SP_ObtLineaId ('P20100049181','4374')
+19/08/2024 19:25:14 - CALL STR_SP_ObtCodigoDetrac ('103101')
+19/08/2024 19:25:16 - CALL STR_SP_ObtNombreCuenta ('103101')
+19/08/2024 19:25:16 - EFECTIVO EN TRÁNSITO SOLES
+19/08/2024 19:25:16 - CALL STR_SP_DetraccionesPagadas ('55')
+19/08/2024 19:25:16 - CALL STR_SP_ObtNombreCuenta ('103101')
+19/08/2024 19:25:16 - EFECTIVO EN TRÁNSITO SOLES
+19/08/2024 19:25:16 - CALL STR_SP_DetraccionesPagadas ('55')
+19/08/2024 19:25:17 - CALL STR_SP_ActualizaPagoDetraccion ('55')
+19/08/2024 19:25:23 - CALL STR_SP_ObtNombreCuenta ('103101')
+19/08/2024 19:25:23 - EFECTIVO EN TRÁNSITO SOLES
+19/08/2024 19:25:23 - CALL STR_SP_DetraccionesPagadas ('55')
