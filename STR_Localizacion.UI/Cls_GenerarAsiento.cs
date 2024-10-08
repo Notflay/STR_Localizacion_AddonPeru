@@ -644,7 +644,7 @@ namespace STR_Localizacion.UI
 
                         SAPbobsCOM.BoObjectTypes le_ObjType =
                             ls_TipoDoc.Equals("Factura de Proveedores") ? SAPbobsCOM.BoObjectTypes.oPurchaseInvoices :
-                            (ls_TipoDoc.Equals("Nota de Credito Proveedores") ? SAPbobsCOM.BoObjectTypes.oPurchaseInvoices : SAPbobsCOM.BoObjectTypes.oInvoices);
+                            ((ls_TipoDoc.Equals("Nota de Credito Proveedores") || ls_TipoDoc.Equals("Nota de Credito Prov")) ? SAPbobsCOM.BoObjectTypes.oPurchaseCreditNotes : SAPbobsCOM.BoObjectTypes.oPurchaseDownPayments);
 
                         if (ls_TipoDoc.Equals("Factura de Clientes"))
                         {
@@ -758,7 +758,7 @@ namespace STR_Localizacion.UI
                     lo_Journal.TransactionCode = "DTR";
                     lo_Journal.UserFields.Fields.Item("U_BPP_DocKeyDest").Value = lo_Documents.DocEntry.ToString();
                     lo_Journal.UserFields.Fields.Item("U_BPP_CtaTdoc").Value = lo_Documents.DocObjectCodeEx.ToString();
-                    lo_Journal.UserFields.Fields.Item("U_BPP_SubTDoc").Value = lo_Documents.DocumentSubType.ToString();
+                    lo_Journal.UserFields.Fields.Item("U_BPP_SubTDoc").Value = ((int)lo_Documents.DocumentSubType).ToString();
                     while (li_NumLine < lo_JournalDoc.Lines.Count)
                     {
                         lo_JournalDoc.Lines.SetCurrentLine(li_NumLine);
@@ -766,11 +766,13 @@ namespace STR_Localizacion.UI
                         {
                             ldb_SumDetrD += lo_JournalDoc.Lines.Debit;
                             ldb_SumDetrH += lo_JournalDoc.Lines.Credit;
-
-                            if ((lo_JournalDoc.Lines.FCDebit + lo_JournalDoc.Lines.FCCredit) > 0)
+                            if (Cls_Global.metCalculoTC == "E") // Opcion Standar
                             {
-                                ldb_SumDetrDME += lo_JournalDoc.Lines.FCDebit;
-                                ldb_SumDetrCME += lo_JournalDoc.Lines.FCCredit;
+                                if ((lo_JournalDoc.Lines.FCDebit + lo_JournalDoc.Lines.FCCredit) > 0)
+                                {
+                                    ldb_SumDetrDME += lo_JournalDoc.Lines.FCDebit;
+                                    ldb_SumDetrCME += lo_JournalDoc.Lines.FCCredit;
+                                }
                             }
                         }
                         li_NumLine++;
@@ -787,9 +789,12 @@ namespace STR_Localizacion.UI
                     lo_Journal.Lines.Credit = ldb_SumDetrD;
                     if ((ldb_SumDetrDME + ldb_SumDetrCME) > 0)
                     {
-                        lo_Journal.Lines.FCDebit = ldb_SumDetrCME;
-                        lo_Journal.Lines.FCCredit = ldb_SumDetrDME;
-                        lo_Journal.Lines.FCCurrency = lo_Documents.DocCurrency;
+                        if (Cls_Global.metCalculoTC == "E") // Opcion Standar
+                        {
+                            lo_Journal.Lines.FCDebit = ldb_SumDetrCME;
+                            lo_Journal.Lines.FCCredit = ldb_SumDetrDME;
+                            lo_Journal.Lines.FCCurrency = lo_Documents.DocCurrency;
+                        }
                     }
                     lo_Journal.Lines.Add(); //Linea 1
                     if (lo_BusinessPartners.UserFields.Fields.Item("U_BPP_CtaDetrac").Value.ToString() == string.Empty)
@@ -802,9 +807,12 @@ namespace STR_Localizacion.UI
                     lo_Journal.Lines.Credit = ldb_SumDetrH;
                     if ((ldb_SumDetrDME + ldb_SumDetrCME) > 0)
                     {
-                        lo_Journal.Lines.FCDebit = ldb_SumDetrDME;
-                        lo_Journal.Lines.FCCredit = ldb_SumDetrCME;
-                        lo_Journal.Lines.FCCurrency = lo_Documents.DocCurrency;
+                        if (Cls_Global.metCalculoTC == "E") // Opcion Standar
+                        {
+                            lo_Journal.Lines.FCDebit = ldb_SumDetrDME;
+                            lo_Journal.Lines.FCCredit = ldb_SumDetrCME;
+                            lo_Journal.Lines.FCCurrency = lo_Documents.DocCurrency;
+                        }
                     }
 
                     if (Sucursal.Equals("Y")) // Agregado 21/01/2022

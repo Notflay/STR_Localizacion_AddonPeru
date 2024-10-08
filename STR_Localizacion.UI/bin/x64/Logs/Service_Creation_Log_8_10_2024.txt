@@ -1,0 +1,39 @@
+8/10/2024 00:34:36 - CALL STR_SP_ObtConfigLocaliz ()
+8/10/2024 00:34:36 - CALL STR_SP_ObtConfigLocaliz ()
+8/10/2024 00:34:36 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+8/10/2024 00:34:36 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+8/10/2024 00:34:36 - CALL STR_SP_ObtConfigLocaliz ()
+8/10/2024 00:34:36 - CALL STR_SP_ObtConfigLocaliz ()
+8/10/2024 00:34:36 - CALL STR_SP_ObtConfigLocaliz ()
+8/10/2024 00:34:36 - CALL STR_SP_ObtConfigLocaliz ()
+8/10/2024 00:34:36 - CALL STR_SP_ObtConfigLocaliz ()
+8/10/2024 00:34:36 - CALL STR_SP_ObtConfigLocaliz ()
+8/10/2024 00:34:36 - CALL STR_SP_ObtConfigLocaliz ()
+8/10/2024 00:34:36 - CALL STR_SP_ObtConfigLocaliz ()
+8/10/2024 00:34:36 - CALL STR_SP_ObtConfigLocaliz ()
+8/10/2024 00:34:36 - CALL STR_SP_ObtConfigLocaliz ()
+8/10/2024 00:34:36 - CALL STR_SP_ObtConfigLocaliz ()
+8/10/2024 00:34:36 - CALL STR_SP_ObtConfigLocaliz ()
+8/10/2024 00:34:36 - CALL STR_SP_ObtConfigLocaliz ()
+8/10/2024 00:34:36 - CALL STR_SP_ObtConfigLocaliz ()
+8/10/2024 00:34:37 - CALL STR_SP_ObtConfigLocaliz ()
+8/10/2024 00:34:37 - CALL STR_SP_ObtConfigLocaliz ()
+8/10/2024 00:34:48 - CALL STR_SP_ObtNumeroDocumento ('BPP_BATDTR')
+8/10/2024 00:34:48 - SELECT DISTINCT T1."Code",T1."Name" FROM ODSC T0 INNER JOIN OCRY T1 ON T0."CountryCod" = T1."Code"
+8/10/2024 00:35:06 - CALL STR_SP_ObtTipoXForm ('65301')
+8/10/2024 00:35:39 - CALL STR_SP_ObtNumeroDocumento ('BPP_BATDTR')
+8/10/2024 00:35:39 - CALL  STR_SP_ObtNumSiguiente ('BPP_BATDTR','473')
+8/10/2024 00:35:39 - SELECT DISTINCT T1."Code",T1."Name" FROM ODSC T0 INNER JOIN OCRY T1 ON T0."CountryCod" = T1."Code"
+8/10/2024 00:35:41 - CALL STR_SP_FacturasSinAsiento ('','','','','','','','D')
+8/10/2024 00:36:10 - SELECT "MltpBrnchs" FROM OADM
+8/10/2024 00:36:27 - SELECT TOP 1 "U_BPP_CdgCuenta", "U_BPP_NmbCuenta", "U_BPP_FmtCuenta", "U_BPP_NDiasDtrac", "U_BPP_CdgAddon" FROM "@BPP_CONFIG"
+8/10/2024 00:36:28 - SELECT TOP 1 "AcctCode" FROM OACT WHERE "FormatCode" = '421209'
+8/10/2024 00:36:30 - CALL STR_SP_ObtNumeroDocumento ('BPP_BATDTR')
+8/10/2024 00:36:30 - CALL  STR_SP_ObtNumSiguiente ('BPP_BATDTR','473')
+8/10/2024 00:36:30 - SELECT DISTINCT T1."Code",T1."Name" FROM ODSC T0 INNER JOIN OCRY T1 ON T0."CountryCod" = T1."Code"
+8/10/2024 00:36:49 - CALL STR_SP_ObtTipoXForm ('65301')
+8/10/2024 00:38:40 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+8/10/2024 00:38:41 - CALL STR_SP_DetraccionesXPagar ('', '', '', '', '', '','O1','')
+8/10/2024 00:39:48 - CALL STR_SP_ObtNombreCuenta ('101101')
+8/10/2024 00:39:48 - CALL STR_SP_DetraccionesPagadas ('71')
+8/10/2024 00:46:35 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'

@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\STR_Localizacion.UI",
-    "\\STR_Localizacion.UI\\General",
-    "\\STR_Localizacion.UTIL"
+    ""
   ],
-  "SelectedNode": "\\STR_Localizacion.UTIL\\Cls_GlobalTypes.cs",
+  "SelectedNode": "\\STR_Localizacion.sln",
   "PreviewInSolutionExplorer": false
 }

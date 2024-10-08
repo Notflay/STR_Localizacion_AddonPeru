@@ -96,20 +96,23 @@ namespace STR_Localizacion.UI
         {
             try
             {
-                Form form = go_SBOApplication.Forms.Item(formUID);
-                Documents slcComp = null;
-                int.TryParse(form.DataSources.DBDataSources.Item("OWTQ")
-                    .GetValue("U_STR_DESlcCmp", 0).Trim(), out var key);
-                slcComp = go_SBOCompany.GetBusinessObject(BoObjectTypes.oPurchaseRequest);
-                var comboBox = form.GetComboBox("cmbSlcCmp");
-                if (slcComp.GetByKey(key))
-                {
-                    while (comboBox.ValidValues.Count > 0)
-                        comboBox.ValidValues.Remove(0, BoSearchKey.psk_Index);
-                    comboBox.ValidValues.Add(slcComp.DocEntry.ToString(), slcComp.DocNum.ToString());
+                if (Cls_MenuConfiguracion.DscInvActivo) {
+                    Form form = go_SBOApplication.Forms.Item(formUID);
+                    Documents slcComp = null;
+                    int.TryParse(form.DataSources.DBDataSources.Item("OWTQ")
+                        .GetValue("U_STR_DESlcCmp", 0).Trim(), out var key);
+                    slcComp = go_SBOCompany.GetBusinessObject(BoObjectTypes.oPurchaseRequest);
+                    var comboBox = form.GetComboBox("cmbSlcCmp");
+                    if (slcComp.GetByKey(key))
+                    {
+                        while (comboBox.ValidValues.Count > 0)
+                            comboBox.ValidValues.Remove(0, BoSearchKey.psk_Index);
+                        comboBox.ValidValues.Add(slcComp.DocEntry.ToString(), slcComp.DocNum.ToString());
+                    }
                 }
             }
-            catch { throw; }
+            catch { 
+            }
         }
     }
 }

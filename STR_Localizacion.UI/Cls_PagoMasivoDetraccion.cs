@@ -4,6 +4,7 @@ using STR_Localizacion.DL;
 using STR_Localizacion.UTIL;
 using System;
 using System.Globalization;
+using System.Windows.Forms;
 
 namespace STR_Localizacion.UI
 {
@@ -31,6 +32,7 @@ namespace STR_Localizacion.UI
                     go_SBOForm = Cls_Global.fn_CreateForm(gs_FormName, gs_FormPath);
                     ExceptionPrepared = new internalexception(lc_NameClass, lc_NameLayout);
                     sb_DataFormLoad();
+                    Sb_LoadLogo();
                     InitializeEvents();
                 }
             }
@@ -71,6 +73,7 @@ namespace STR_Localizacion.UI
                     //Añade datatable cuando se carga el formulario
                     go_SBOForm.DataSources.DataTables.Add(this.lrs_DttAux);
                     go_SBOForm.Items.Item(this.lrs_BtnCrear).Enabled = false;
+                    go_SBOForm.Items.Item(this.lrs_BtnTXT).Enabled = false;
                 }
                 catch (Exception)
                 {
@@ -98,8 +101,9 @@ namespace STR_Localizacion.UI
                 //Ejecuta la consulta en el go_recordSet
                 go_RecordSet = Cls_QueryManager.Retorna(Cls_Query.get_NombreDocumentoFlujoCaja);
                 //Carga los datos del recordSet en el ComboBox
+                
                 Cls_Global.sb_comboLlenar(go_Combo, go_RecordSet);
-
+                go_Combo.ValidValues.Add("---", "---");
                 //Asigna la posición de los controles
                 go_SBOForm.Items.Item(this.lrs_EdtFchDp).Left = go_SBOForm.Items.Item(this.lrs_EdtCtaTrs).Left;
                 go_SBOForm.Items.Item(this.lrs_EdtNumDp).Left = go_SBOForm.Items.Item(this.lrs_EdtCtaTrs).Left;
@@ -136,7 +140,6 @@ namespace STR_Localizacion.UI
                 go_SBOForm.Items.Item(this.lrs_BtnBuscar).Enabled = false; //Deshabilita el Control de búsqueda
 
                 //Recupera valores del go_Grid
-                Cls_Global.WriteToFile("sb_prepararControlesEstadoAbierto 145");
                 go_Grid = go_SBOForm.Items.Item(this.lrs_GrdPayDTRDET).Specific;
                 //Ejecuto el Procedimiento en el go_Grid
                 go_Grid.DataTable.Consulta(Cls_Query.get_DetraccionesPagadas, go_Edit.Value);
@@ -166,13 +169,21 @@ namespace STR_Localizacion.UI
                 go_SBOForm.Items.Item(this.lrs_EdtFchCn).Enabled = lb_Enable;
                 go_SBOForm.Items.Item(this.lrs_CmbArticulo).Enabled = lb_Enable;
                 go_SBOForm.Items.Item(this.lrs_EdtCtaTrs).Enabled = lb_Enable;
-
+                
                 if (go_SBOForm.Mode == BoFormMode.fm_OK_MODE)
                 {
                     go_SBOForm.Items.Item(this.lrs_BtnCrear).Enabled = true;
+                    go_SBOForm.Items.Item(this.lrs_BtnTXT).Enabled = true;
                 }
             }
             catch (Exception ex) { go_SBOApplication.MessageBox(ex.Message); } //Muestra una ventana con el mensaje de Excepción
+        }
+        private void Sb_LoadLogo()
+        {
+            string text = System.Windows.Forms.Application.StartupPath.ToString();
+            SAPbouiCOM.Button button = (SAPbouiCOM.Button)(dynamic)go_SBOForm.Items.Item("btnTxt").Specific;
+            button.Type = BoButtonTypes.bt_Image;
+            button.Image = text + "\\Resources\\Imgs\\boton_archivo_1.png";
         }
 
         /// <Usa la propiedad Editable y Visible del las columnas>
@@ -345,7 +356,7 @@ namespace STR_Localizacion.UI
                 try
                 {
                     go_Combo = go_SBOForm.Items.Item(this.lrs_CmbSuc).Specific;
-                    ls_CdSu = go_Combo.Selected.Value;
+                    ls_CdSu = go_Combo.Selected?.Value;
                 }
                 catch {
                     ls_CdSu = null;
@@ -624,6 +635,7 @@ namespace STR_Localizacion.UI
                     oPagoEfectuado.TaxDate = DateTime.ParseExact(Cls_Global.sb_FormGetValueFromDBDataSource(go_SBOForm, this.lrs_DtcPAYDTR, this.lrs_UflFchCnPg).Trim(), this.lrs_FchFormat, DateTimeFormatInfo.InvariantInfo).Date;
                 }
 
+                oPagoEfectuado.Remarks = "";
                 oPagoEfectuado.JournalRemarks = "Pago Masivo Detrac. - " + oPagoEfectuado.CardCode;
                 oPagoEfectuado.DocCurrency = (ls_TpMoneda == "USD" ? Cls_Global.fdi_ObtenerMonedaSistema() : Cls_Global.fdi_ObtenerMonedaLocal());
                 oPagoEfectuado.UserFields.Fields.Item("U_BPP_MPPG").Value = "003";
@@ -701,6 +713,7 @@ namespace STR_Localizacion.UI
         {
             lc_NameMethod = "fn_generarPagos"; //Se asigna el nombre del método para la identificación del mismo
             GC.Collect(); //Libera la memoria
+            string numDesposito = "";
             try
             {
                 //Recupera valores del comboBox del formulario
@@ -710,6 +723,7 @@ namespace STR_Localizacion.UI
                 //Recupera los valores del Número de depósito del Formulario
                 go_Edit = go_SBOForm.Items.Item(this.lrs_EdtNumDp).Specific;
                 go_Edit.Active = true;
+                numDesposito = go_Edit.Value;
                 go_ProgressBar = null;
 
                 try
@@ -789,7 +803,15 @@ namespace STR_Localizacion.UI
 
                         lo_PagoEfectuado.TaxDate = DateTime.ParseExact(Cls_Global.sb_FormGetValueFromDBDataSource(go_SBOForm, this.lrs_DtcPAYDTR, this.lrs_UflFchCnPg).Trim(), this.lrs_FchFormat, DateTimeFormatInfo.InvariantInfo).Date;
 
-                        lo_PagoEfectuado.JournalRemarks = "Pago Masivo Detrac. - " + lo_PagoEfectuado.CardCode;
+                        if (Cls_Global.ConfiguracionMasiva == "2")
+                        {
+                            lo_PagoEfectuado.Remarks = $"{numDesposito} - {numDesposito}";
+                            lo_PagoEfectuado.JournalRemarks = $"{numDesposito} - {numDesposito}";
+                        }
+                        else
+                        {
+                            lo_PagoEfectuado.JournalRemarks = "Pago Masivo Detrac. - " + lo_PagoEfectuado.CardCode;
+                        }
                         lo_PagoEfectuado.DocCurrency = (ls_TpMoneda == "USD" ? Cls_Global.fdi_ObtenerMonedaSistema() : Cls_Global.fdi_ObtenerMonedaLocal());
                         lo_PagoEfectuado.UserFields.Fields.Item("U_BPP_MPPG").Value = "003";
                     }
@@ -1011,6 +1033,127 @@ namespace STR_Localizacion.UI
                 if (go_ProgressBar != null) { go_ProgressBar.Stop(); go_ProgressBar = null; }
 
                 throw;
+            }
+        }
+
+        private string Fn_GenerarTxt()
+        {
+            string ls_createDate = null;
+            string ls_docNum = null;
+            string ls_dataTxt = null;
+            string ls_separador = null;
+            try
+            {
+               
+                go_SBOForm.Freeze(true);
+
+                ls_separador = Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, "U_BPP_SEPRDR") ;
+                ls_createDate = Cls_Global.sb_FormGetValueFromDBDataSource(go_SBOForm, this.lrs_DtcPAYDTR, this.lrs_UflCrtDate).ToString();
+                ls_docNum = Cls_Global.sb_FormGetValueFromDBDataSource(go_SBOForm, this.lrs_DtcPAYDTR, this.lrs_UflDocNum).ToString();
+
+                go_RecordSet = Cls_QueryManager.Retorna(Cls_Query.get_DtrccnsCabTXT,null, ls_docNum, ls_createDate);
+                int i = 0;
+                while (!go_RecordSet.EoF)
+                {
+                    // Recorre todas las columnas de la fila actual
+                    for (int c = 0; c < go_RecordSet.Fields.Count; c++)
+                    {
+                        string _empty = go_RecordSet.Fields.Item(c).Value.ToString();
+                        ls_dataTxt += _empty.Replace(ls_separador,string.Empty); // Concatenar el valor de la columna con un separador
+                    }
+                    go_RecordSet.MoveNext();
+                }
+                ls_dataTxt += "\n";
+
+                i = 0;
+                go_RecordSet = Cls_QueryManager.Retorna(Cls_Query.get_DtrccnsDetTXT, null, ls_docNum, ls_createDate);
+                while (!go_RecordSet.EoF)
+                {
+                    // Recorre todas las columnas de la fila actual
+                    for (int c = 0; c < go_RecordSet.Fields.Count; c++)
+                    {
+                        string _empty = go_RecordSet.Fields.Item(c).Value; 
+                        ls_dataTxt += _empty.Replace(ls_separador, string.Empty); // Concatenar el valor de la columna con un separador
+                    }
+
+                    ls_dataTxt += "\n"; // Añadir un salto de línea después de procesar la fila
+                    go_RecordSet.MoveNext();
+                } 
+
+                return ls_dataTxt;
+            }
+            catch (Exception ex) { go_SBOApplication.SetStatusBarMessage(ex.Message, BoMessageTime.bmt_Short); throw; }
+            finally { go_SBOForm.Freeze(false); }
+        }
+        private string Fn_NombreArchivo()
+        {
+            try
+            {
+                go_SBOForm.Freeze(true);
+                string ls_numDocEntry = Cls_Global.sb_FormGetValueFromDBDataSource(go_SBOForm, this.lrs_DtcPAYDTR, this.lrs_UflDocEntry).ToString();
+
+                string ls_nombreArchivo = Cls_QueryManager.Retorna(Cls_Query.get_NombreArchivoTXT, "Data", ls_numDocEntry);
+                return ls_nombreArchivo;
+            }
+            catch (Exception ex) { go_SBOApplication.SetStatusBarMessage(ex.Message, BoMessageTime.bmt_Short); throw; }
+            finally { go_SBOForm.Freeze(false); }
+        }
+        private void Sb_DescargarArchivo(string ps_DataTXT, string ps_NombreArchivo)
+        {
+            try
+            {
+                go_SBOForm.Freeze(true);
+
+                // Ruta donde se guardará el archivo
+                string ls_numDocEntry = Cls_Global.sb_FormGetValueFromDBDataSource(go_SBOForm, this.lrs_DtcPAYDTR, this.lrs_UflDocEntry).ToString();
+                if (string.IsNullOrWhiteSpace(Cls_Global.RutaArchivoTXTDTR)) 
+                { 
+                    throw new Exception("No se seleccionó una ruta de guardado.");
+                }
+
+                // Comprobar si se tiene acceso de escritura en la ruta seleccionada
+                if (!TienePermisoEscritura(Cls_Global.RutaArchivoTXTDTR))
+                {
+                    throw new Exception($"No tiene permisos de escritura en la ruta {Cls_Global.RutaArchivoTXTDTR}.");
+                }
+
+                // Ruta completa del archivo
+                string ls_rutaCompleta = System.IO.Path.Combine(Cls_Global.RutaArchivoTXTDTR, ps_NombreArchivo + ".txt");
+                // Escribir el archivo
+                System.IO.File.WriteAllText(ls_rutaCompleta, ps_DataTXT);
+
+                Cls_QueryManager.Procesa(Cls_Query.update_ArchivoTXT, ls_rutaCompleta, ls_numDocEntry);
+                go_SBOForm.Mode = BoFormMode.fm_ADD_MODE;
+                // Mostrar mensaje de éxito
+                go_SBOApplication.SetStatusBarMessage("Archivo generado y guardado correctamente en: " + ls_rutaCompleta, BoMessageTime.bmt_Short, false);
+            }
+            catch (Exception ex)
+            {
+                // Mostrar el error en la barra de estado de SAP
+                go_SBOApplication.SetStatusBarMessage("Error al generar el archivo: " + ex.Message, BoMessageTime.bmt_Short, true);
+                throw;
+            }
+            finally
+            {
+                go_SBOForm.Freeze(false); // Descongelar el formulario en caso de éxito o error
+            }
+        }
+       private bool TienePermisoEscritura(string ruta)
+        {
+            try
+            {
+                // Comprobar si se puede crear un archivo temporal en el directorio
+                string archivoPrueba = System.IO.Path.Combine(ruta, System.IO.Path.GetRandomFileName());
+                using (System.IO.FileStream fs = System.IO.File.Create(archivoPrueba, 1, System.IO.FileOptions.DeleteOnClose))
+                {
+                    // Si llega aquí, significa que se puede escribir en la carpeta
+                    return true;
+                }
+            }
+            catch
+            {
+                // Si ocurre un error, no se tiene permiso de escritura
+                return false;
             }
         }
 

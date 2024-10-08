@@ -178,28 +178,105 @@ namespace STR_Localizacion.DL
                                                             /* Provincia = array[a - 2].Trim();
                                                              Distrito = array[a - 1].Trim();*/
 
+                                                            string ls_provincia = array[a - 2].Trim() == "PROV. CONST. DEL CALLAO" ? "CALLAO" : array[a - 2].Trim();
                                                             matrix.Columns.Item("1").Cells.Item(1).Specific.Value = "SUNAT";
                                                             matrix.Columns.Item("3").Cells.Item(1).Specific.Value = array[a - 1].Trim();//DISTRITO
-                                                            matrix.Columns.Item("4").Cells.Item(1).Specific.Value = array[a - 2].Trim(); //PROVINCIA
+                                                            matrix.Columns.Item("4").Cells.Item(1).Specific.Value = ls_provincia; //PROVINCIA
                                                             matrix.Columns.Item("2").Cells.Item(1).Specific.Value = oEnSUNAT.DomicilioFiscal.Substring(0, oEnSUNAT.DomicilioFiscal.Length > 100 ? 100 : oEnSUNAT.DomicilioFiscal.Length); //DIRECCION 
 
                                                             comboBox = matrix.GetCellSpecific("7", 1);
                                                             var depa = comboBox.ValidValues.OfType<IValidValue>().Where(item => item.Description.Contains(Departamento)).FirstOrDefault();
                                                             if (depa != null)
                                                                 comboBox.SelectExclusive(depa.Value, BoSearchKey.psk_ByValue);
+
+                                                            var ubigeo = Cls_QueryManager.Retorna(Cls_Query.get_Ubigeo, 0, depa != null ? depa.Description : Departamento , ls_provincia, array[a - 1].Trim());
+                                                            if (ubigeo == null)
+                                                                go_SBOApplication.StatusBar.SetText($"No se encontró el ubigeo en la tabla '@BPP_DISTRI' ({Departamento} - {ls_provincia} - {array[a - 1].Trim()})", BoMessageTime.bmt_Short, BoStatusBarMessageType.smt_Warning);
+
+                                                            matrix.Columns.Item("5").Cells.Item(1).Specific.Value = string.IsNullOrEmpty(ubigeo) ? null : ubigeo.ToString();
+                                                        } else
+                                                        {
+                                                            matrix.Columns.Item("1").Cells.Item(1).Specific.Value = "SUNAT";
+                                                            matrix.Columns.Item("3").Cells.Item(1).Specific.Value = null;//DISTRITO
+                                                            matrix.Columns.Item("4").Cells.Item(1).Specific.Value = null; //PROVINCIA
+                                                            matrix.Columns.Item("2").Cells.Item(1).Specific.Value = null; //DIRECCION 
+
+                                                            comboBox = matrix.GetCellSpecific("7", 1);
+                                                            comboBox.SelectExclusive("", BoSearchKey.psk_ByValue);
+                                                            matrix.Columns.Item("5").Cells.Item(1).Specific.Value = null;
+
+                                                            go_SBOApplication.StatusBar.SetText($"No se encontró información de la dirección en SUNAT con RUC {ruc}", BoMessageTime.bmt_Short, BoStatusBarMessageType.smt_Warning);
+
                                                         }
                                                     }
 
-                                                    oform = go_SBOApplication.Forms.GetForm("-134", 1);
-                                                    oform.Select();
+                                                    SAPbouiCOM.Form oform = null;
+                                                    try
+                                                    {
+                                                        oform = go_SBOApplication.Forms.GetForm("-134", 1); // Buscar el formulario de UDF
+                                                        oform.Select(); // Seleccionar el formulario si ya está abierto
+                                                    }
+                                                    catch
+                                                    {
+                                                        // Si el formulario no está abierto, abrirlo presionando el botón de UDF
+                                                        //go_SBOForm.Items.Item("63").Click(); // El botón de UDF es el item "63" en el formulario de Socios de Negocios
+                                                        SAPbouiCOM.MenuItem oMenuItem  = go_SBOApplication.Menus.Item("6913");
+                                                        oMenuItem.Activate();
+                                                        // Esperar a que el formulario de UDF se cargue
+                                                        System.Threading.Thread.Sleep(500); // Esperar 500 ms
+                                                            
+                                                        // Buscar nuevamente el formulario de UDF
+                                                        oform = go_SBOApplication.Forms.GetForm("-134", 1);
+                                                        oform.Select();
+                                                    }
+                                                    // Verificar si el formulario está en modo de edición
+                                                    if (oform.Mode == SAPbouiCOM.BoFormMode.fm_OK_MODE || oform.Mode == SAPbouiCOM.BoFormMode.fm_VIEW_MODE)
+                                                    {
+                                                        oform.Mode = SAPbouiCOM.BoFormMode.fm_EDIT_MODE; // Cambiar a modo de edición
+                                                    }
 
-                                                    oform.Items.Item("U_STR_EST_CNTR").Specific.Value = oEnSUNAT.CondicionContribuyente.Equals("ACTIVO") ? "ACTIVO" : 
-                                                        oEnSUNAT.EstadoContribuyente.Length > 30 ? oEnSUNAT.EstadoContribuyente.Substring(0, 30) : oEnSUNAT.EstadoContribuyente;
-                                                    oform.Items.Item("U_STR_FCH_TRAN").Specific.Value = System.DateTime.Today.ToString("yyyyMMdd");
+                                                    SAPbouiCOM.ComboBox oComboBox = (SAPbouiCOM.ComboBox)oform.Items.Item("9").Specific;
 
-                                                    go_SBOApplication.StatusBar.SetText(string.Format("Se realizó exitosamente la consulta del número de RUC {0}",
-                                                            ruc), BoMessageTime.bmt_Short, BoStatusBarMessageType.smt_Success);
+                                                    oComboBox.Select("-1", SAPbouiCOM.BoSearchKey.psk_ByValue);
+                                                    // Obtener el campo UDF "U_STR_EST_CNTR"
+                                                    SAPbouiCOM.Item oItem = oform.Items.Item("U_STR_EST_CNTR");
 
+                                                    if (oItem.Visible == false)
+                                                        go_SBOApplication.StatusBar.SetText($"El campo Estado Contribuyente se encuentra deshabilitado, por favor habilitar si se requiere actualizar este campo", BoMessageTime.bmt_Short, BoStatusBarMessageType.smt_Warning);
+                                                    else {
+                                                        SAPbouiCOM.EditText oEditText = (SAPbouiCOM.EditText)oItem.Specific;
+
+                                                        oEditText.Active = true;
+                                                        if (tipoPersona == "TPN")
+                                                        {
+                                                           
+                                                            int endIndex = oEnSUNAT.CondicionContribuyente.IndexOf("</br>"); // Encuentra la posición de </br>
+                                                            if (endIndex == -1)
+                                                                oEditText.Value = oEnSUNAT.CondicionContribuyente;
+                                                            else
+                                                                oEditText.Value = oEnSUNAT.CondicionContribuyente.Substring(0, endIndex).Trim();
+
+                                                        }
+                                                        else
+                                                            oEditText.Value = oEnSUNAT.CondicionContribuyente.Equals("ACTIVO") ? "ACTIVO" :
+                                                                oEnSUNAT.EstadoContribuyente.Length > 30 ? oEnSUNAT.EstadoContribuyente.Substring(0, 30) : oEnSUNAT.EstadoContribuyente;
+                                                    }
+                                                   
+                                                    // Habilitar la edición de otro campo UDF "U_STR_FCH_TRAN" y asignar el valor
+                                                    SAPbouiCOM.Item oItemFecha = oform.Items.Item("U_STR_FCH_TRAN");
+
+                                                    if (oItemFecha.Visible == false)
+                                                        go_SBOApplication.StatusBar.SetText($"El campo Fecha de Transacción se encuentra deshabilitado, por favor habilitar si se requiere actualizar este campo", BoMessageTime.bmt_Short, BoStatusBarMessageType.smt_Warning);
+                                                    else
+                                                    {   // Asignar la fecha actual al campo UDF "U_STR_FCH_TRAN"
+                                                        SAPbouiCOM.EditText oEditTextFecha = (SAPbouiCOM.EditText)oItemFecha.Specific;
+                                                        oEditTextFecha.Active = true;
+                                                        oEditTextFecha.Value = System.DateTime.Today.ToString("yyyyMMdd");
+                                                    }
+                                                    // Mostrar mensaje de éxito
+                                                    go_SBOApplication.StatusBar.SetText(string.Format("Se realizó exitosamente la consulta del número de RUC {0}", ruc), BoMessageTime.bmt_Short, BoStatusBarMessageType.smt_Success);
+
+                                                    // Liberar el formulario y recolectar la basura
                                                     System.Runtime.InteropServices.Marshal.ReleaseComObject(oform);
                                                     GC.Collect();
                                                 }

@@ -94,6 +94,9 @@ namespace STR_Localizacion.UTIL
         public static string ImpuestoRetencionDeGarantia = string.Empty;
         public static string ReconciliacionActivo = string.Empty;
         public static string ReconciliacionCuenta = string.Empty;
+        public static string ConfiguracionMasiva = string.Empty;
+        public static string RutaArchivoTXTDTR = string.Empty;
+        private static List<string> _addedValues = new List<string>();
 
         #region "Metodos Comunes"
 
@@ -107,27 +110,27 @@ namespace STR_Localizacion.UTIL
         {
             try
             {
-            string path = AppDomain.CurrentDomain.BaseDirectory + "\\Logs";
-            if (!Directory.Exists(path))
-            {
-                Directory.CreateDirectory(path);
-            }
-            string filepath = $"{AppDomain.CurrentDomain.BaseDirectory}\\Logs\\Service_Creation_Log_{DateTime.Now.Date.ToShortDateString().Replace('/', '_')}.txt";
-            if (!File.Exists(filepath))
-            {
-                using (StreamWriter sw = File.CreateText(filepath))
+                string path = AppDomain.CurrentDomain.BaseDirectory + "\\Logs";
+                if (!Directory.Exists(path))
                 {
-                    sw.WriteLine(DateTime.Now.ToString() + " - " + Message);
+                    Directory.CreateDirectory(path);
+                }
+                string filepath = $"{AppDomain.CurrentDomain.BaseDirectory}\\Logs\\Service_Creation_Log_{DateTime.Now.Date.ToShortDateString().Replace('/', '_')}.txt";
+                if (!File.Exists(filepath))
+                {
+                    using (StreamWriter sw = File.CreateText(filepath))
+                    {
+                        sw.WriteLine(DateTime.Now.ToString() + " - " + Message);
+                    }
+                }
+                else
+                {
+                    using (StreamWriter sw = File.AppendText(filepath))
+                    {
+                        sw.WriteLine(DateTime.Now.ToString() + " - " + Message);
+                    }
                 }
             }
-            else
-            {
-                using (StreamWriter sw = File.AppendText(filepath))
-                {
-                    sw.WriteLine(DateTime.Now.ToString() + " - " + Message);
-                }
-            }
-        }
             catch (Exception)
             {
 
@@ -253,6 +256,10 @@ namespace STR_Localizacion.UTIL
             sb_comboLlenar(po_Combo, lo_Recordset, false);
         }
 
+        //public static void sb_comboLlenarForm(SAPbouiCOM.ComboBox po_Combo, SAPbobsCOM.Recordset lo_Recordset)
+        //{
+        //    sb_comboLlenarForm(po_Combo, lo_Recordset, false);
+        //}
         /// <Llena ComboBox>
         /// Llena el control ComboBox preguntando antes si se agregará un espacio item vacío
         /// </>
@@ -269,13 +276,112 @@ namespace STR_Localizacion.UTIL
 
             while (!po_Recordset.EoF)
             {
-                //Agrega nuevo item
-                string caaa = po_Recordset.Fields.Item(0).Value;
-                string daaa = po_Recordset.Fields.Item(1).Value;
                 po_Combo.ValidValues.Add(po_Recordset.Fields.Item(0).Value, po_Recordset.Fields.Item(1).Value);
                 po_Recordset.MoveNext(); //Pasa a la siguiente fila del recordSet
             }
         }
+        public static void LlenarComboBox(SAPbouiCOM.ComboBox po_Combo, List<Tuple<string, string, string>> valores, bool pb_AgregarItemVacio)
+        {
+            // Limpiar solo si es necesario
+            if (po_Combo.ValidValues.Count > 0)
+            {
+                sb_comboLimpiar(po_Combo);
+            }
+
+            if (pb_AgregarItemVacio)
+            {
+                po_Combo.ValidValues.Add(string.Empty, string.Empty);
+            }
+
+            string valorASeleccionar = null;
+
+            foreach (var val in valores)
+            {
+                po_Combo.ValidValues.Add(val.Item1, val.Item2);
+                if (val.Item3 == "S")
+                {
+                    valorASeleccionar = val.Item1;  // Guarda el valor a seleccionar
+                }
+            }
+
+            if (!string.IsNullOrEmpty(valorASeleccionar))
+            {
+                po_Combo.Select(valorASeleccionar, SAPbouiCOM.BoSearchKey.psk_ByValue);
+            }
+        }
+
+        public static void LlenarComboBox(SAPbouiCOM.ComboBox po_Combo, List<Tuple<string, string>> valores, bool pb_AgregarItemVacio)
+        {
+            // Limpiar solo si es necesario
+            if (po_Combo.ValidValues.Count > 0)
+            {
+                sb_comboLimpiar(po_Combo);
+            }
+
+            if (pb_AgregarItemVacio)
+            {
+                po_Combo.ValidValues.Add(string.Empty, string.Empty);
+            }
+
+            foreach (var val in valores)
+            {
+                po_Combo.ValidValues.Add(val.Item1, val.Item2);
+            }
+
+            po_Combo.Select(0, SAPbouiCOM.BoSearchKey.psk_Index);
+        }
+        //public static void sb_comboLlenarForm(SAPbouiCOM.ComboBox po_Combo, SAPbobsCOM.Recordset po_Recordset, Boolean pb_AgregarItemVacio)
+        //{
+        //    sb_comboLimpiar(po_Combo);
+
+        //    if (pb_AgregarItemVacio)
+        //    {
+        //        po_Combo.ValidValues.Add(string.Empty, string.Empty);
+        //        _addedValues.Add(string.Empty);
+        //    }
+
+        //    while (!po_Recordset.EoF)
+        //    {
+        //        string a = po_Recordset.Fields.Item(0).Value.ToString();
+        //        string b = po_Recordset.Fields.Item(1).Value.ToString();
+        //        string c = po_Recordset.Fields.Item(2).Value.ToString();
+
+        //        po_Combo.ValidValues.Add(a, b);
+        //        _addedValues.Add(a);
+
+        //        if (c == "S")
+        //            po_Combo.Select(a, SAPbouiCOM.BoSearchKey.psk_ByValue);
+
+        //        po_Recordset.MoveNext();
+        //    }
+        //}
+
+        //public static void sb_comboLlenarForm(SAPbouiCOM.ComboBox po_Combo, SAPbobsCOM.Recordset po_Recordset, Boolean pb_AgregarItemVacio)
+        //{
+        //    sb_comboLimpiar(po_Combo);
+
+        //    if (pb_AgregarItemVacio)
+        //    {
+        //        po_Combo.ValidValues.Add(string.Empty, string.Empty);
+        //        _addedValues.Add(string.Empty);
+        //    }
+
+        //    while (!po_Recordset.EoF)
+        //    {
+        //        string a = po_Recordset.Fields.Item(0).Value.ToString();
+        //        string b = po_Recordset.Fields.Item(1).Value.ToString();
+        //        string c = po_Recordset.Fields.Item(2).Value.ToString();
+
+        //        po_Combo.ValidValues.Add(a, b);
+        //        _addedValues.Add(a);
+
+        //        if (c == "S")
+        //            po_Combo.Select(a, SAPbouiCOM.BoSearchKey.psk_ByValue);
+
+        //        po_Recordset.MoveNext();
+        //    }
+        //}
+
 
         /// <Remueve todos los items en un ComboBox>
         /// Quita todos los elementos dentro del comboBox
@@ -288,6 +394,23 @@ namespace STR_Localizacion.UTIL
             {
                 //for (int li_i = 0; li_i <= po_combo.ValidValues.Count - 1; li_i++)
                 int li_count = po_combo.ValidValues.Count;
+                for (int li_i = 0; li_i < li_count; li_i++)
+                    po_combo.ValidValues.Remove(0, SAPbouiCOM.BoSearchKey.psk_Index);//Remueve los items dentro del comboBox
+            }
+            catch (Exception ex)
+            {
+                Cls_Global.WriteToFile(ex.Message);
+                string ls_msgExc = "Excepcíon: " + ex.Message + " - Modulo: " + c_nomMod + " - Capa: " + c_nomCap + " - Metodo: " + ls_nomMet;
+            }
+        }
+        public static void sb_comboLimpiarRd(SAPbouiCOM.ComboBox po_combo)
+        {
+            string ls_nomMet = "sb_comboLimpiar";
+            try
+            {
+                //for (int li_i = 0; li_i <= po_combo.ValidValues.Count - 1; li_i++)
+                int li_count = po_combo.ValidValues.Count;
+                //po_combo.ValidValues.
                 for (int li_i = 0; li_i < li_count; li_i++)
                     po_combo.ValidValues.Remove(0, SAPbouiCOM.BoSearchKey.psk_Index);//Remueve los items dentro del comboBox
             }

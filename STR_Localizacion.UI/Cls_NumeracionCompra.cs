@@ -67,32 +67,55 @@ namespace STR_Localizacion.UI
                 bool blMostrar = true;
 
                 InitializeControl(out li_Top, out li_Left, out li_Height, out li_LeftSt);
-                /// Creación del control Serie
-                go_Item = go_SBOForm.Items.Add("txSerie", BoFormItemTypes.it_EDIT);
-                go_Item.SetDisplay(40, li_Height, li_Top, go_SBOForm.GetItem("cbTipo").Left + go_SBOForm.GetItem("cbTipo").Width + 1);
-                go_Item.SetAutoManagedAttribute(BoAutoManagedAttr.ama_Editable, 9, BoModeVisualBehavior.mvb_False);
-                go_Item.Enabled = true;
-                go_Item.Visible = blMostrar;
-                go_Edit = go_Item.Specific;
 
-                go_Edit.DataBind.SetBound(true, ls_tablename, "U_BPP_MDSD");
+                //try
+                //{
+                    // Creación del control Serie
+                    go_Item = go_SBOForm.Items.Add("txSerie", BoFormItemTypes.it_EDIT);
+                    go_Item.SetDisplay(40, li_Height, li_Top, go_SBOForm.GetItem("cbTipo").Left + go_SBOForm.GetItem("cbTipo").Width + 1);
+                    go_Item.SetAutoManagedAttribute(BoAutoManagedAttr.ama_Editable, 9, BoModeVisualBehavior.mvb_False);
+                    go_Item.Enabled = true;
+                    go_Item.Visible = blMostrar;
+                    go_Edit = go_Item.Specific;
 
-                /// Creación del control Numero
-                go_Item = go_SBOForm.Items.Add("txNumero", BoFormItemTypes.it_EDIT);
-                go_Item.SetDisplay(76, li_Height, li_Top, go_SBOForm.GetItem("txSerie").Left + go_SBOForm.GetItem("txSerie").Width + 1);
-                go_Item.SetAutoManagedAttribute(BoAutoManagedAttr.ama_Editable, 9, BoModeVisualBehavior.mvb_False);
-                go_Item.Enabled = true;
-                go_Item.Visible = blMostrar;
-                go_Edit = go_Item.Specific;
+                    go_Edit.DataBind.SetBound(true, ls_tablename, "U_BPP_MDSD");
 
-                go_Edit.DataBind.SetBound(true, ls_tablename, "U_BPP_MDCD");
+                    // Creación del control Numero
+                    go_Item = go_SBOForm.Items.Add("txNumero", BoFormItemTypes.it_EDIT);
+                    go_Item.SetDisplay(76, li_Height, li_Top, go_SBOForm.GetItem("txSerie").Left + go_SBOForm.GetItem("txSerie").Width + 1);
+                    go_Item.SetAutoManagedAttribute(BoAutoManagedAttr.ama_Editable, 9, BoModeVisualBehavior.mvb_False);
+                    go_Item.Enabled = true;
+                    go_Item.Visible = blMostrar;
+                    go_Edit = go_Item.Specific;
 
-                /// Asignar tipo de documento SUNAT por Defecto
+                    go_Edit.DataBind.SetBound(true, ls_tablename, "U_BPP_MDCD");
+                //}
+                //catch (Exception ex)
+                //{
+                //    // Captura específica para el error "AlreadyExists"
+                //    if (ex.Message.Contains("already exists"))
+                //    {
+                //        sb_asignarTipoSunat();
+                //        sb_asignarTipoXDefecto();
+                //    }
+                //    else
+                //    {
+                //        // Rethrow cualquier otra excepción no manejada
+                //        throw;
+                //    }
+                //}
+
+                // Asignar tipo de documento SUNAT por Defecto
                 sb_asignarTipoSunat();
-                sb_asignarTipoXDefecto();
+                if (po_Event.FormMode == 3)
+                    sb_asignarTipoXDefecto();
+                }
+            finally
+            {
+                go_SBOFormEvent.Freeze(false);
             }
-            finally { go_SBOFormEvent.Freeze(false); }
         }
+
 
     }
 }
