@@ -248,7 +248,7 @@ namespace STR_Localizacion.UI
             lo_EventFilter.AddEx(lo_SeleccionSeriesArticulo.gs_FormName);
 
             lo_EventFilter.AddEx("1470000200");
-            lo_EventFilter.AddEx("1250000940");
+            //lo_EventFilter.AddEx("1250000940");
 
 
             lo_EventFilter.AddEx("143");//Entrada de Mercancia(Proveedores)

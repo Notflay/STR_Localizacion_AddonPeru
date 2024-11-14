@@ -115,6 +115,7 @@ namespace STR_Localizacion.UI
                                 throw new InvalidOperationException("Debe ingresar Fecha Contable Pagos.");
                             //Inicio de validación del flujo de efectivo
                             lb_registrarCshFlw = false;
+
                             SAPbobsCOM.ChartOfAccounts chrtAcct = go_SBOCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oChartOfAccounts);
                             string cashFlowID = go_SBOForm.GetComboBox("cbCshFlw").Value;
                             string ctaBank = ls_CtaTransferSYS;
@@ -126,6 +127,7 @@ namespace STR_Localizacion.UI
                                     if (string.IsNullOrEmpty(cashFlowID))
                                         throw new ArgumentNullException("Art. Form. Primario", "Seleccione el flujo de caja");
                                     lb_registrarCshFlw = true;
+                                    //  throw new ArgumentNullException("Art. Form. Primario", "Seleccione el flujo de caja");
                                 }
                             }
 

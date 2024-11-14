@@ -1,0 +1,88 @@
+28/10/2024 12:49:14 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:14 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:14 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+28/10/2024 12:49:14 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+28/10/2024 12:49:14 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:14 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:14 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:14 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:14 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:14 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:14 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:15 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:15 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:15 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:15 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:15 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:15 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:15 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:15 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:15 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:22 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:22 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:22 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:22 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:29 - SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'
+28/10/2024 12:49:29 - 
+		UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = 'O1' , "U_STR_SRCTC" = 'F' , "U_STR_MTAD" = 'E'
+		,"U_STR_DIACT" = 'N', "U_STR_DISFJ" = '', "U_STR_PROV_IGV_ND" = '' , "U_STR_IMPRET" = ''
+		, "U_STR_IDCTA_DEB" = '',"U_STR_IDCTA_CRE" = '', "U_STR_FMCTA_DEB" = '', "U_STR_FMCTA_CRE" = ''
+		, "U_STR_RG_ACT" = '', "U_STR_IMPRG" = '', "U_STR_RECO_CTA" = '', "U_STR_RECO_ACT" = '', "U_RML_RUTADTR" = 'D:\SEBAS\PagosTXT\' WHERE "Code" = '01'
+28/10/2024 12:49:29 - SELECT COUNT(*) AS "Registros" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+28/10/2024 12:49:29 - 
+			UPDATE "@BPP_PARAMS" SET "U_BPP_PAGCNTPT" = '' ,"U_BPP_MONCNTBN" = '',"U_BPP_APROB" = '',"U_BPP_PGMRUTA" = '',"U_BPP_PAGCNTBN" = '',
+			"U_BPP_CODTRAN" = '',"U_BPP_GLOSAAST" = '',"U_BPP_CNTCONTR" = '',"U_BPP_CTANATU" = '',"U_STR_OcrCode" = '',"U_STR_NUMOPERTXT" = '',
+			"U_BPP_SEPRDR" = '*',"U_BPP_CNTDOPCN" = '' WHERE "Code" = 'BPP_CONFIG'
+		
+28/10/2024 12:49:30 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:30 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:30 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:30 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:30 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:30 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:30 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:30 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:30 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:30 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:30 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:30 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:30 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:49:30 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:50:36 - SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'
+28/10/2024 12:50:38 - 
+		UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = 'O1' , "U_STR_SRCTC" = 'F' , "U_STR_MTAD" = 'E'
+		,"U_STR_DIACT" = 'N', "U_STR_DISFJ" = '', "U_STR_PROV_IGV_ND" = '' , "U_STR_IMPRET" = ''
+		, "U_STR_IDCTA_DEB" = '',"U_STR_IDCTA_CRE" = '', "U_STR_FMCTA_DEB" = '', "U_STR_FMCTA_CRE" = ''
+		, "U_STR_RG_ACT" = '', "U_STR_IMPRG" = '', "U_STR_RECO_CTA" = '', "U_STR_RECO_ACT" = '', "U_RML_RUTADTR" = 'D:\SEBAS\PagosTXT\' WHERE "Code" = '01'
+28/10/2024 12:50:40 - SELECT COUNT(*) AS "Registros" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+28/10/2024 12:54:13 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:22 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:22 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+28/10/2024 12:54:22 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+28/10/2024 12:54:22 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:23 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:23 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:23 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:23 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:23 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:23 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:23 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:23 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:23 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:23 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:23 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:23 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:23 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:23 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:23 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:28 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:28 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:28 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:28 - CALL STR_SP_ObtConfigLocaliz ()
+28/10/2024 12:54:40 - SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'
+28/10/2024 12:54:40 - 
+		UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = 'O1' , "U_STR_SRCTC" = 'F' , "U_STR_MTAD" = 'E'
+		,"U_STR_DIACT" = 'N', "U_STR_DISFJ" = '', "U_STR_PROV_IGV_ND" = '' , "U_STR_IMPRET" = ''
+		, "U_STR_IDCTA_DEB" = '',"U_STR_IDCTA_CRE" = '', "U_STR_FMCTA_DEB" = '', "U_STR_FMCTA_CRE" = ''
+		, "U_STR_RG_ACT" = '', "U_STR_IMPRG" = '', "U_STR_RECO_CTA" = '', "U_STR_RECO_ACT" = '', "U_RML_RUTADTR" = 'D:\SEBAS\PagosTXT\' WHERE "Code" = '01'
+28/10/2024 12:54:41 - SELECT COUNT(*) AS "Registros" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
