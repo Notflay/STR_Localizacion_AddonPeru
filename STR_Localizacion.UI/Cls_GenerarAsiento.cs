@@ -643,7 +643,7 @@ namespace STR_Localizacion.UI
                         ls_NroDoc = ((EditText)go_Matrix.GetCellSpecific(lrs_ClmMtxNrDoc, i)).Value;
 
                         SAPbobsCOM.BoObjectTypes le_ObjType =
-                            ls_TipoDoc.Equals("Factura de Proveedores") ? SAPbobsCOM.BoObjectTypes.oPurchaseInvoices :
+                            (ls_TipoDoc.Equals("Factura de Proveedores") || ls_TipoDoc.Equals("Factura de Proveedor"))  ? SAPbobsCOM.BoObjectTypes.oPurchaseInvoices :
                             ((ls_TipoDoc.Equals("Nota de Credito Proveedores") || ls_TipoDoc.Equals("Nota de Credito Prov")) ? SAPbobsCOM.BoObjectTypes.oPurchaseCreditNotes : SAPbobsCOM.BoObjectTypes.oPurchaseDownPayments);
 
                         if (ls_TipoDoc.Equals("Factura de Clientes"))
