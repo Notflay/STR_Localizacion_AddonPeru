@@ -142,6 +142,7 @@ namespace STR_Localizacion.UI
                     go_SBOForm.DataSources.UserDataSources.Item("UD_NMPRTT").Value = go_RecordSet.Fields.Item("U_STR_NUMOPERTXT").Value.ToString();
                     go_SBOForm.DataSources.UserDataSources.Item("UD_SPRDR").Value = go_RecordSet.Fields.Item("U_BPP_SEPRDR").Value.ToString();
                     go_SBOForm.DataSources.UserDataSources.Item("UD_CNTDPN").Value = go_RecordSet.Fields.Item("U_BPP_CNTDOPCN").Value.ToString();
+                    go_SBOForm.DataSources.UserDataSources.Item("UD_PGMAGRP").Value = go_RecordSet.Fields.Item("U_BPP_PGMAGRP").Value.ToString();
                 }
             }
             catch (Exception)
@@ -564,7 +565,8 @@ namespace STR_Localizacion.UI
                 go_SBOForm.DataSources.UserDataSources.Item("UD_CDTRAN").Value, go_SBOForm.DataSources.UserDataSources.Item("UD_GLSST").Value,
                 go_SBOForm.DataSources.UserDataSources.Item("UD_CTCNTR").Value, go_SBOForm.DataSources.UserDataSources.Item("UD_CTNTU").Value,
                 go_SBOForm.DataSources.UserDataSources.Item("UD_OCRCD").Value, go_SBOForm.DataSources.UserDataSources.Item("UD_NMPRTT").Value,
-                go_SBOForm.DataSources.UserDataSources.Item("UD_SPRDR").Value, go_SBOForm.DataSources.UserDataSources.Item("UD_CNTDPN").Value);
+                go_SBOForm.DataSources.UserDataSources.Item("UD_SPRDR").Value, go_SBOForm.DataSources.UserDataSources.Item("UD_CNTDPN").Value,
+                go_SBOForm.DataSources.UserDataSources.Item("UD_PGMAGRP").Value);
 
         }
         private void Sb_ConfigLocalizacionPgm()

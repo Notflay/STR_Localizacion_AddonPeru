@@ -3,3 +3,10 @@ C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Loc
 C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x86\Release\Interop.SAPbouiCOM.dll
 C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x86\Release\STR_Localizacion.UTIL.csproj.ResolveComReference.cache
 C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.UTIL\obj\x86\Release\STR_Localizacion.UTIL.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\bin\Release\x86\STR_Localizacion.UTIL.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Release\STR_Localizacion.UTIL.csproj.AssemblyReference.cache
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Release\Interop.SAPbobsCOM.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Release\Interop.SAPbouiCOM.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Release\STR_Localizacion.UTIL.csproj.ResolveComReference.cache
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Release\STR_Localizacion.UTIL.csproj.CoreCompileInputs.cache
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x86\Release\STR_Localizacion.UTIL.dll

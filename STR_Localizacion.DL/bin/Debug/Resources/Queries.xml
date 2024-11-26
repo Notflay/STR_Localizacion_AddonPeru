@@ -258,12 +258,12 @@
 		<tsql>
 			UPDATE "@BPP_PARAMS" SET "U_BPP_PAGCNTPT" = '{0}' ,"U_BPP_MONCNTBN" = '{1}',"U_BPP_APROB" = '{2}',"U_BPP_PGMRUTA" = '{3}',"U_BPP_PAGCNTBN" = '{4}',
 			"U_BPP_CODTRAN" = '{5}',"U_BPP_GLOSAAST" = '{6}',"U_BPP_CNTCONTR" = '{7}',"U_BPP_CTANATU" = '{8}',"U_STR_OcrCode" = '{9}',"U_STR_NUMOPERTXT" = '{10}',
-			"U_BPP_SEPRDR" = '{11}',"U_BPP_CNTDOPCN" = '{12}' WHERE "Code" = 'BPP_CONFIG'
+			"U_BPP_SEPRDR" = '{11}',"U_BPP_CNTDOPCN" = '{12}',"U_BPP_PGMAGRP" = '{13}'  WHERE "Code" = 'BPP_CONFIG'
 		</tsql>
 		<hana>
 			UPDATE "@BPP_PARAMS" SET "U_BPP_PAGCNTPT" = '{0}' ,"U_BPP_MONCNTBN" = '{1}',"U_BPP_APROB" = '{2}',"U_BPP_PGMRUTA" = '{3}',"U_BPP_PAGCNTBN" = '{4}',
 			"U_BPP_CODTRAN" = '{5}',"U_BPP_GLOSAAST" = '{6}',"U_BPP_CNTCONTR" = '{7}',"U_BPP_CTANATU" = '{8}',"U_STR_OcrCode" = '{9}',"U_STR_NUMOPERTXT" = '{10}',
-			"U_BPP_SEPRDR" = '{11}',"U_BPP_CNTDOPCN" = '{12}' WHERE "Code" = 'BPP_CONFIG'
+			"U_BPP_SEPRDR" = '{11}',"U_BPP_CNTDOPCN" = '{12}',"U_BPP_PGMAGRP" = '{13}' WHERE "Code" = 'BPP_CONFIG'
 		</hana>
 	</query>
   <query nameid="RegConfigData" definition="D">
