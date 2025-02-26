@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Windows.Forms;
 
 namespace STR_Localizacion.UI
 {
@@ -38,6 +39,16 @@ namespace STR_Localizacion.UI
                        || go_SBOForm.Mode == BoFormMode.fm_OK_MODE || go_SBOForm.Mode == BoFormMode.fm_UPDATE_MODE)
                      {
                          go_SBOForm.Freeze(true);
+
+                         // Acceder al ComboBox del desplegable de categorías de UDF
+                         //SAPbouiCOM.ComboBox oComboBox = (SAPbouiCOM.ComboBox)go_SBOForm.Items.Item("9").Specific;
+                         //var c = go_SBOForm.Items.Item("9").Specific;
+
+                         // Verificar los valores disponibles en el desplegable
+                         //for (int i = 0; i < oComboBox.ValidValues.Count; i++)
+                         //{
+                         //    go_SBOApplication.SetStatusBarMessage("Categoría disponible: " + oComboBox.ValidValues.Item(i).Value);
+                         //}
 
                          string ruc = go_SBOForm.GetEditText("41").Value;
                          if (!Cls_Sunat.EsRucValido(ruc))
@@ -110,7 +121,7 @@ namespace STR_Localizacion.UI
                 matrix.Columns.Item("4").Cells.Item(1).Specific.Value = Cls_Sunat.Provincia;
                 matrix.Columns.Item("6").Cells.Item(1).Specific.Value = Cls_Sunat.Direccion;
 
-                ComboBox comboBox = matrix.GetCellSpecific("7", 1);
+                SAPbouiCOM.ComboBox comboBox = matrix.GetCellSpecific("7", 1);
 
                 var depa = comboBox.ValidValues.OfType<IValidValue>().Where(item => item.Description.Contains(Cls_Sunat.Departamento)).FirstOrDefault();
                 if (depa != null)

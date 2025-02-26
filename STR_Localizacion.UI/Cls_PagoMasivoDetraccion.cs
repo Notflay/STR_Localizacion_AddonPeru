@@ -4,6 +4,7 @@ using STR_Localizacion.DL;
 using STR_Localizacion.UTIL;
 using System;
 using System.Globalization;
+using System.Windows.Forms;
 
 namespace STR_Localizacion.UI
 {
@@ -31,6 +32,7 @@ namespace STR_Localizacion.UI
                     go_SBOForm = Cls_Global.fn_CreateForm(gs_FormName, gs_FormPath);
                     ExceptionPrepared = new internalexception(lc_NameClass, lc_NameLayout);
                     sb_DataFormLoad();
+                    Sb_LoadLogo();
                     InitializeEvents();
                 }
             }
@@ -71,6 +73,7 @@ namespace STR_Localizacion.UI
                     //Añade datatable cuando se carga el formulario
                     go_SBOForm.DataSources.DataTables.Add(this.lrs_DttAux);
                     go_SBOForm.Items.Item(this.lrs_BtnCrear).Enabled = false;
+                    go_SBOForm.Items.Item(this.lrs_BtnTXT).Enabled = false;
                 }
                 catch (Exception)
                 {
@@ -98,8 +101,9 @@ namespace STR_Localizacion.UI
                 //Ejecuta la consulta en el go_recordSet
                 go_RecordSet = Cls_QueryManager.Retorna(Cls_Query.get_NombreDocumentoFlujoCaja);
                 //Carga los datos del recordSet en el ComboBox
+                
                 Cls_Global.sb_comboLlenar(go_Combo, go_RecordSet);
-
+                go_Combo.ValidValues.Add("---", "---");
                 //Asigna la posición de los controles
                 go_SBOForm.Items.Item(this.lrs_EdtFchDp).Left = go_SBOForm.Items.Item(this.lrs_EdtCtaTrs).Left;
                 go_SBOForm.Items.Item(this.lrs_EdtNumDp).Left = go_SBOForm.Items.Item(this.lrs_EdtCtaTrs).Left;
@@ -136,11 +140,11 @@ namespace STR_Localizacion.UI
                 go_SBOForm.Items.Item(this.lrs_BtnBuscar).Enabled = false; //Deshabilita el Control de búsqueda
 
                 //Recupera valores del go_Grid
-                Cls_Global.WriteToFile("sb_prepararControlesEstadoAbierto 145");
                 go_Grid = go_SBOForm.Items.Item(this.lrs_GrdPayDTRDET).Specific;
                 //Ejecuto el Procedimiento en el go_Grid
                 go_Grid.DataTable.Consulta(Cls_Query.get_DetraccionesPagadas, go_Edit.Value);
 
+               
                 //Asigno valores a las propiedades del Grid global
                 go_Grid.AutoResizeColumns();
                 go_Grid.CollapseLevel = 1;
@@ -158,6 +162,10 @@ namespace STR_Localizacion.UI
                 //go_EditColumn = (SAPbouiCOM.EditTextColumn)go_Grid.Columns.Item(this.lrs_CabDttNumDoc);
                 //go_EditColumn.LinkedObjectType = "18";
 
+                go_EditColumn = (EditTextColumn)go_Grid.Columns.Item(lrs_CabDttSelect);
+                go_EditColumn.Type = BoGridColumnType.gct_CheckBox;
+                go_EditColumn.Editable = true;
+
                 //Si a las detracciones ya les generaron el pago , bloqueará los controles
 
                 bool lb_Enable = (go_Combo.Value != "C" && go_Combo.Value != "A");
@@ -166,13 +174,21 @@ namespace STR_Localizacion.UI
                 go_SBOForm.Items.Item(this.lrs_EdtFchCn).Enabled = lb_Enable;
                 go_SBOForm.Items.Item(this.lrs_CmbArticulo).Enabled = lb_Enable;
                 go_SBOForm.Items.Item(this.lrs_EdtCtaTrs).Enabled = lb_Enable;
-
+                
                 if (go_SBOForm.Mode == BoFormMode.fm_OK_MODE)
                 {
                     go_SBOForm.Items.Item(this.lrs_BtnCrear).Enabled = true;
+                    go_SBOForm.Items.Item(this.lrs_BtnTXT).Enabled = true;
                 }
             }
             catch (Exception ex) { go_SBOApplication.MessageBox(ex.Message); } //Muestra una ventana con el mensaje de Excepción
+        }
+        private void Sb_LoadLogo()
+        {
+            string text = System.Windows.Forms.Application.StartupPath.ToString();
+            SAPbouiCOM.Button button = (SAPbouiCOM.Button)(dynamic)go_SBOForm.Items.Item("btnTxt").Specific;
+            button.Type = BoButtonTypes.bt_Image;
+            button.Image = text + "\\Resources\\Imgs\\boton_archivo_1.png";
         }
 
         /// <Usa la propiedad Editable y Visible del las columnas>
@@ -190,13 +206,15 @@ namespace STR_Localizacion.UI
                 bool lb_block; //Variable para guardar el estado del documento
                 go_Grid = go_SBOForm.GetGrid(lrs_GrdPayDTRDET);
                 lb_block = !Cls_Global.sb_FormGetValueFromDBDataSource(go_SBOForm, this.lrs_DtcPAYDTR, this.lrs_UflEstado).Equals("A");
-
                 //Bloquea las columnas según un estado y el número de constancia
+                // Si en caso está Abierto debe permitir colocar check 
                 foreach (GridColumn lo_GrdClm in go_Grid.Columns)
                 {
                     if (pi_estado == 1)
                     {
-                        if (lo_GrdClm.UniqueID != lrs_CabDttNumCns) lo_GrdClm.Editable = false;
+                        if (Cls_Global.sb_FormGetValueFromDBDataSource(go_SBOForm, this.lrs_DtcPAYDTR, this.lrs_UflEstado).Equals("O") && (lo_GrdClm.UniqueID == lrs_CabDttSelect))
+                            lo_GrdClm.Editable = true;
+                        else if (lo_GrdClm.UniqueID != lrs_CabDttNumCns) lo_GrdClm.Editable = false;
                         else
                             lo_GrdClm.Editable = lb_block; //Si el documento está anulado, la celda no será editable
                     }
@@ -249,7 +267,97 @@ namespace STR_Localizacion.UI
             catch (Exception ex) { ExceptionPrepared.inner(ex.Message, lc_NameMethod); ExceptionPrepared.SaveInLog(false); } //Método para el manejo de las operaciones de Log
             finally { go_SBOForm.Freeze(false); } //Descongela el formulario
         }
+        private void sb_pruebaFilasSeleccionadasSinPago()
+        {
+            lc_NameMethod = "sb_pruebaFilasSeleccionadas"; //Se asigna el nombre del método para la identificación del mismo
+            try
+            {
+                bool lb_eliminado = false;
+                bool lb_Flag;
+                go_Grid = go_SBOForm.Items.Item(this.lrs_GrdPayDTRDET).Specific;
+                go_SBOForm.Freeze(true); //Congela el formulario para la carga de datos
+                //Recorrerá el dataTable, por Socio de Negocio
+                while (true)
+                {
+                    lb_Flag = false;
+                    //Recorre las filas del DataTable
+                    for (int iDetalle = 0; iDetalle < go_Grid.DataTable.Rows.Count; iDetalle++)
+                    {   //Verifica que filas han sido selecciondas para el pago
+                        if (go_Grid.DataTable.Columns.Item(lrs_CabDttSelect).Cells.Item(iDetalle).Value != this.lrs_ValAnulado)
+                        {
+                            Sb_EliminaLineaUDO(Convert.ToInt32(Cls_Global.sb_FormGetValueFromDBDataSource(go_SBOForm, this.lrs_DtcPAYDTR, this.lrs_UflDocEntry)), iDetalle);
+                            //Sino han sido seleccionadas serán removidas del DataTable
+                            go_Grid.DataTable.Rows.Remove(iDetalle);
+                            lb_eliminado = true;
+                            lb_Flag = true;
+                            break;
+                        }
+                    }
+                    if (!lb_Flag) break;
+                }
+                //if (lb_eliminado) return false;
+                go_SBOForm.Freeze(false); //Descongela el formulario
+            }
+            catch (Exception ex) { ExceptionPrepared.inner(ex.Message, lc_NameMethod); ExceptionPrepared.SaveInLog(false); } //Método para el manejo de las operaciones de Log
+            finally { go_SBOForm.Freeze(false); } //Descongela el formulario
+        }
+        private void Sb_EliminaLineaUDO(int pi_docEntry, int pi_fila) 
+        {
+            SAPbobsCOM.GeneralService oGeneralService = null;
+            SAPbobsCOM.GeneralData oGeneralData = null;
+            SAPbobsCOM.GeneralDataCollection oChildren = null;
+            SAPbobsCOM.GeneralDataParams oGeneralParams = null;
 
+            try
+            {
+                // Obtener el servicio del UDO
+                SAPbobsCOM.CompanyService oCompanyService = go_SBOCompany.GetCompanyService();
+                oGeneralService = (SAPbobsCOM.GeneralService)oCompanyService.GetGeneralService("BPP_PAYDTR");
+
+                // Establecer los parámetros de búsqueda (reemplaza 'DocEntry' con el valor correcto)
+                oGeneralParams = (SAPbobsCOM.GeneralDataParams)oGeneralService.GetDataInterface(SAPbobsCOM.GeneralServiceDataInterfaces.gsGeneralDataParams);
+                oGeneralParams.SetProperty("DocEntry", pi_docEntry); // Ajusta el DocEntry correspondiente
+
+                // Obtener el documento UDO
+                oGeneralData = oGeneralService.GetByParams(oGeneralParams);
+
+                // Obtener las líneas (hijos del documento)
+                oChildren = oGeneralData.Child("BPP_PAYDTRDET"); // Asegúrate de usar el nombre correcto de la tabla hija
+
+                // Verificar si la fila existeq en la colección
+                if (pi_fila >= 0 && pi_fila < oChildren.Count)
+                {
+                    oChildren.Remove(pi_fila); // Eliminar la línea indicada
+                }
+
+                // Actualizar el documento con la fila eliminada
+                oGeneralService.Update(oGeneralData);
+
+                int errorCode;
+                string errorMessage;
+
+                errorCode = go_SBOCompany.GetLastErrorCode();
+                errorMessage = go_SBOCompany.GetLastErrorDescription();
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                // Liberar objetos COM
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(oGeneralService);
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(oGeneralData);
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(oChildren);
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(oGeneralParams);
+
+                oGeneralService = null;
+                oGeneralData = null;
+                oChildren = null;
+                oGeneralParams = null;
+
+                GC.Collect();
+            }
+        }
         /// <Recupera y asigna el valor del número de serie en la tabla>
         /// </>
         /// <param name="go_SBOApplication"></param>
@@ -345,7 +453,7 @@ namespace STR_Localizacion.UI
                 try
                 {
                     go_Combo = go_SBOForm.Items.Item(this.lrs_CmbSuc).Specific;
-                    ls_CdSu = go_Combo.Selected.Value;
+                    ls_CdSu = go_Combo.Selected?.Value;
                 }
                 catch {
                     ls_CdSu = null;
@@ -624,6 +732,7 @@ namespace STR_Localizacion.UI
                     oPagoEfectuado.TaxDate = DateTime.ParseExact(Cls_Global.sb_FormGetValueFromDBDataSource(go_SBOForm, this.lrs_DtcPAYDTR, this.lrs_UflFchCnPg).Trim(), this.lrs_FchFormat, DateTimeFormatInfo.InvariantInfo).Date;
                 }
 
+                oPagoEfectuado.Remarks = "";
                 oPagoEfectuado.JournalRemarks = "Pago Masivo Detrac. - " + oPagoEfectuado.CardCode;
                 oPagoEfectuado.DocCurrency = (ls_TpMoneda == "USD" ? Cls_Global.fdi_ObtenerMonedaSistema() : Cls_Global.fdi_ObtenerMonedaLocal());
                 oPagoEfectuado.UserFields.Fields.Item("U_BPP_MPPG").Value = "003";
@@ -701,6 +810,7 @@ namespace STR_Localizacion.UI
         {
             lc_NameMethod = "fn_generarPagos"; //Se asigna el nombre del método para la identificación del mismo
             GC.Collect(); //Libera la memoria
+            string numDesposito = "";
             try
             {
                 //Recupera valores del comboBox del formulario
@@ -710,6 +820,7 @@ namespace STR_Localizacion.UI
                 //Recupera los valores del Número de depósito del Formulario
                 go_Edit = go_SBOForm.Items.Item(this.lrs_EdtNumDp).Specific;
                 go_Edit.Active = true;
+                numDesposito = go_Edit.Value;
                 go_ProgressBar = null;
 
                 try
@@ -789,7 +900,15 @@ namespace STR_Localizacion.UI
 
                         lo_PagoEfectuado.TaxDate = DateTime.ParseExact(Cls_Global.sb_FormGetValueFromDBDataSource(go_SBOForm, this.lrs_DtcPAYDTR, this.lrs_UflFchCnPg).Trim(), this.lrs_FchFormat, DateTimeFormatInfo.InvariantInfo).Date;
 
-                        lo_PagoEfectuado.JournalRemarks = "Pago Masivo Detrac. - " + lo_PagoEfectuado.CardCode;
+                        if (Cls_Global.ConfiguracionMasiva == "2")
+                        {
+                            lo_PagoEfectuado.Remarks = $"{numDesposito} - {numDesposito}";
+                            lo_PagoEfectuado.JournalRemarks = $"{numDesposito} - {numDesposito}";
+                        }
+                        else
+                        {
+                            lo_PagoEfectuado.JournalRemarks = "Pago Masivo Detrac. - " + lo_PagoEfectuado.CardCode;
+                        }
                         lo_PagoEfectuado.DocCurrency = (ls_TpMoneda == "USD" ? Cls_Global.fdi_ObtenerMonedaSistema() : Cls_Global.fdi_ObtenerMonedaLocal());
                         lo_PagoEfectuado.UserFields.Fields.Item("U_BPP_MPPG").Value = "003";
                     }
@@ -1014,6 +1133,127 @@ namespace STR_Localizacion.UI
             }
         }
 
+        private string Fn_GenerarTxt()
+        {
+            string ls_createDate = null;
+            string ls_docNum = null;
+            string ls_dataTxt = null;
+            string ls_separador = null;
+            try
+            {
+               
+                go_SBOForm.Freeze(true);
+
+                ls_separador = Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, "U_BPP_SEPRDR") ;
+                ls_createDate = Cls_Global.sb_FormGetValueFromDBDataSource(go_SBOForm, this.lrs_DtcPAYDTR, this.lrs_UflCrtDate).ToString();
+                ls_docNum = Cls_Global.sb_FormGetValueFromDBDataSource(go_SBOForm, this.lrs_DtcPAYDTR, this.lrs_UflDocNum).ToString();
+
+                go_RecordSet = Cls_QueryManager.Retorna(Cls_Query.get_DtrccnsCabTXT,null, ls_docNum, ls_createDate);
+                int i = 0;
+                while (!go_RecordSet.EoF)
+                {
+                    // Recorre todas las columnas de la fila actual
+                    for (int c = 0; c < go_RecordSet.Fields.Count; c++)
+                    {
+                        string _empty = go_RecordSet.Fields.Item(c).Value.ToString();
+                        ls_dataTxt += _empty.Replace(ls_separador,string.Empty); // Concatenar el valor de la columna con un separador
+                    }
+                    go_RecordSet.MoveNext();
+                }
+                ls_dataTxt += "\n";
+
+                i = 0;
+                go_RecordSet = Cls_QueryManager.Retorna(Cls_Query.get_DtrccnsDetTXT, null, ls_docNum, ls_createDate);
+                while (!go_RecordSet.EoF)
+                {
+                    // Recorre todas las columnas de la fila actual
+                    for (int c = 0; c < go_RecordSet.Fields.Count; c++)
+                    {
+                        string _empty = go_RecordSet.Fields.Item(c).Value; 
+                        ls_dataTxt += _empty.Replace(ls_separador, string.Empty); // Concatenar el valor de la columna con un separador
+                    }
+
+                    ls_dataTxt += "\n"; // Añadir un salto de línea después de procesar la fila
+                    go_RecordSet.MoveNext();
+                } 
+
+                return ls_dataTxt;
+            }
+            catch (Exception ex) { go_SBOApplication.SetStatusBarMessage(ex.Message, BoMessageTime.bmt_Short); throw; }
+            finally { go_SBOForm.Freeze(false); }
+        }
+        private string Fn_NombreArchivo()
+        {
+            try
+            {
+                go_SBOForm.Freeze(true);
+                string ls_numDocEntry = Cls_Global.sb_FormGetValueFromDBDataSource(go_SBOForm, this.lrs_DtcPAYDTR, this.lrs_UflDocEntry).ToString();
+
+                string ls_nombreArchivo = Cls_QueryManager.Retorna(Cls_Query.get_NombreArchivoTXT, "Data", ls_numDocEntry);
+                return ls_nombreArchivo;
+            }
+            catch (Exception ex) { go_SBOApplication.SetStatusBarMessage(ex.Message, BoMessageTime.bmt_Short); throw; }
+            finally { go_SBOForm.Freeze(false); }
+        }
+        private void Sb_DescargarArchivo(string ps_DataTXT, string ps_NombreArchivo)
+        {
+            try
+            {
+                go_SBOForm.Freeze(true);
+
+                // Ruta donde se guardará el archivo
+                string ls_numDocEntry = Cls_Global.sb_FormGetValueFromDBDataSource(go_SBOForm, this.lrs_DtcPAYDTR, this.lrs_UflDocEntry).ToString();
+                if (string.IsNullOrWhiteSpace(Cls_Global.RutaArchivoTXTDTR)) 
+                { 
+                    throw new Exception("No se seleccionó una ruta de guardado.");
+                }
+
+                // Comprobar si se tiene acceso de escritura en la ruta seleccionada
+                if (!TienePermisoEscritura(Cls_Global.RutaArchivoTXTDTR))
+                {
+                    throw new Exception($"No tiene permisos de escritura en la ruta {Cls_Global.RutaArchivoTXTDTR}.");
+                }
+
+                // Ruta completa del archivo
+                string ls_rutaCompleta = System.IO.Path.Combine(Cls_Global.RutaArchivoTXTDTR, ps_NombreArchivo + ".txt");
+                // Escribir el archivo
+                System.IO.File.WriteAllText(ls_rutaCompleta, ps_DataTXT);
+
+                Cls_QueryManager.Procesa(Cls_Query.update_ArchivoTXT, ls_rutaCompleta, ls_numDocEntry);
+                go_SBOForm.Mode = BoFormMode.fm_ADD_MODE;
+                // Mostrar mensaje de éxito
+                go_SBOApplication.SetStatusBarMessage("Archivo generado y guardado correctamente en: " + ls_rutaCompleta, BoMessageTime.bmt_Short, false);
+            }
+            catch (Exception ex)
+            {
+                // Mostrar el error en la barra de estado de SAP
+                go_SBOApplication.SetStatusBarMessage("Error al generar el archivo: " + ex.Message, BoMessageTime.bmt_Short, true);
+                throw;
+            }
+            finally
+            {
+                go_SBOForm.Freeze(false); // Descongelar el formulario en caso de éxito o error
+            }
+        }
+       private bool TienePermisoEscritura(string ruta)
+        {
+            try
+            {
+                // Comprobar si se puede crear un archivo temporal en el directorio
+                string archivoPrueba = System.IO.Path.Combine(ruta, System.IO.Path.GetRandomFileName());
+                using (System.IO.FileStream fs = System.IO.File.Create(archivoPrueba, 1, System.IO.FileOptions.DeleteOnClose))
+                {
+                    // Si llega aquí, significa que se puede escribir en la carpeta
+                    return true;
+                }
+            }
+            catch
+            {
+                // Si ocurre un error, no se tiene permiso de escritura
+                return false;
+            }
+        }
+
         /// <Selecciona todos los registros dentro de la grilla>
         /// Al dar doble clic en la cabecera de la columna "Seleccion" la función se encarga de recorrer todas la filas
         /// y asignarles el valor de True o False
@@ -1059,6 +1299,7 @@ namespace STR_Localizacion.UI
         public void fn_calcularTotalAPagar()
         {
             lc_NameMethod = "fn_calcularTotalAPagar";//Se asigna el nombre del método para la identificación del mismo
+            bool lb_isCreate = false;
             try
             {   //Declara las variables del método
                 int li_FilasGrid = 0;
@@ -1069,6 +1310,7 @@ namespace STR_Localizacion.UI
                 go_Grid = go_SBOForm.Items.Item(this.lrs_GrdPayDTRDET).Specific;
                 li_FilasGrid = go_Grid.DataTable.Rows.Count; //Obtiene el número de filas del DataTable
 
+                lb_isCreate = go_SBOForm.Mode == BoFormMode.fm_ADD_MODE; 
                 for (int i = 0; i <= li_FilasGrid - 1; i++)
                 {
                     if (go_Grid.DataTable.GetValue(lrs_CabDttSelect, i) == this.lrs_ValAnulado)
@@ -1078,7 +1320,7 @@ namespace STR_Localizacion.UI
                             li_ContadorErrorDataGrid++;
                         }
 
-                        ldb_TotalAPagar = ldb_TotalAPagar + go_Grid.DataTable.GetValue(this.lrs_CabDttImpDtr2, i);
+                        ldb_TotalAPagar = ldb_TotalAPagar + (lb_isCreate ? go_Grid.DataTable.GetValue(this.lrs_CabDttImpDtr2, i) : go_Grid.DataTable.GetValue(this.lrs_CabDttImpDtr, i));
                     }
                 }
 

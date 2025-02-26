@@ -107,3 +107,42 @@ C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Loc
 C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.UI\obj\x86\Release\STR_Localizacion.UI.Properties.Resources.resources
 C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.UI\obj\x86\Release\STR_Localizacion.UI.csproj.GenerateResource.Cache
 C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.UI\obj\x86\Release\STR_Localizacion.exe
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\x64\liblept172.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\x64\libtesseract304.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\x86\liblept172.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\x86\libtesseract304.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\Properties\Resources.resx
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\Properties\Resources.Designer.cs
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\Resources\Queries.xml
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\Resources\tessdata\eng.traineddata
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\Resources\Imgs\boton_archivo_1.png
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\Resources\Localizacion\AdelantoCliente.srf
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\Resources\Localizacion\AnularCorrelativos.srf
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\Resources\Localizacion\AsientoDestino.srf
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\Resources\Localizacion\CajasChicas.srf
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\Resources\Localizacion\ConsultaSunat.srf
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\Resources\Localizacion\FrmAsientosProvision.srf
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\Resources\Localizacion\FrmConfiguracion.srf
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\Resources\Localizacion\GenerarAsiento.srf
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\Resources\Localizacion\PagarDetracciones.srf
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\Resources\Localizacion\StratSettings.srf
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\Resources\ConfLocalizacion.xml
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\BO\UF.vte
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\BO\UO.vte
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\BO\UT.vte
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\STR_Localizacion.DL.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\STR_Localizacion.Metadata.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\STR_Localizacion.UTIL.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\Tesseract.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\Tesseract.xml
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\obj\x86\Release\STR_Localizacion.UI.csproj.AssemblyReference.cache
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\obj\x86\Release\Interop.SAPbobsCOM.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\obj\x86\Release\Interop.SAPbouiCOM.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\obj\x86\Release\STR_Localizacion.UI.csproj.ResolveComReference.cache
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\obj\x86\Release\STR_Localizacion.UI.Properties.Resources.resources
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\obj\x86\Release\STR_Localizacion.UI.csproj.GenerateResource.cache
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\obj\x86\Release\STR_Localizacion.UI.csproj.CoreCompileInputs.cache
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\obj\x86\Release\STR_Loca.278265BB.Up2Date
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\STR_Localizacionx86.dll.config
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\bin\Release\x86\STR_Localizacionx86.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UI\obj\x86\Release\STR_Localizacionx86.dll

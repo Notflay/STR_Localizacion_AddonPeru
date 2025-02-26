@@ -17,7 +17,7 @@ namespace STR_Localizacion.UI
         public Cls_NumeracionInventario()
         {
             lc_NameMethod = "Cls_NumeracionInventario";
-            go_InternalFormID = new List<string>() { "720", "940" };
+            go_InternalFormID = new List<string>() { "720", "940","1250000940" };
 
             ExceptionPrepared = new internalexception(lc_NameClass, lc_NameLayout);
             InitializeEvents();
@@ -32,6 +32,9 @@ namespace STR_Localizacion.UI
                     break;
                 case "940":
                     ls_tablename = "OWTR";
+                    break;
+                case "1250000940":
+                    ls_tablename = "OWTQ";
                     break;
             }
         }

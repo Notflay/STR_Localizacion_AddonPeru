@@ -1,0 +1,101 @@
+5/10/2024 20:31:26 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:31:26 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:31:26 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+5/10/2024 20:31:26 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+5/10/2024 20:31:26 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:31:26 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:31:26 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:31:26 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:31:26 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:31:26 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:31:26 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:31:26 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:31:26 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:31:26 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:31:27 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:31:27 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:31:27 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:31:27 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:31:27 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+5/10/2024 20:34:45 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:34:45 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:34:45 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:34:46 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:45:56 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+5/10/2024 20:46:00 - CALL STR_SP_ObtNombreCuenta ('101101')
+5/10/2024 20:46:00 - sb_prepararControlesEstadoAbierto 145
+5/10/2024 20:46:00 - CALL STR_SP_DetraccionesPagadas ('71')
+5/10/2024 20:46:11 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:46:11 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:46:11 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 20:46:12 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:29:19 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:29:19 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:29:20 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+5/10/2024 22:29:20 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+5/10/2024 22:29:20 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:29:20 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:29:20 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:29:20 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:29:20 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:29:20 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:29:20 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:29:20 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:29:20 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:29:20 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:29:20 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:29:20 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:29:20 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:29:20 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:29:20 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+5/10/2024 22:29:33 - The string value entered is too long; it should be less than 10 characters  [66000-14]
+5/10/2024 22:30:02 - The string value entered is too long; it should be less than 10 characters  [66000-14]
+5/10/2024 22:30:12 - The string value entered is too long; it should be less than 10 characters  [66000-14]
+5/10/2024 22:30:56 - The string value entered is too long; it should be less than 10 characters  [66000-14]
+5/10/2024 22:36:23 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:36:23 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:36:23 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+5/10/2024 22:36:23 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+5/10/2024 22:36:24 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:36:24 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:36:24 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:36:24 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:36:24 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:36:24 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:36:24 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:36:24 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:36:24 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:36:24 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:36:24 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:36:24 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:36:24 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:36:24 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:36:24 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+5/10/2024 22:36:35 - The string value entered is too long; it should be less than 10 characters  [66000-14]
+5/10/2024 22:40:55 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:40:55 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:40:55 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+5/10/2024 22:40:55 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+5/10/2024 22:40:55 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:40:55 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:40:55 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:40:55 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:40:55 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:40:55 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:40:55 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:40:55 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:40:55 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:40:55 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:40:55 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:40:55 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:40:55 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:40:55 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:40:55 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+5/10/2024 22:41:10 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:41:10 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:41:10 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:41:10 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:45:33 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:45:33 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:45:34 - CALL STR_SP_ObtConfigLocaliz ()
+5/10/2024 22:45:34 - CALL STR_SP_ObtConfigLocaliz ()

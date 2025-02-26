@@ -13,6 +13,7 @@ namespace STR_Localizacion.UI
 {
     public class Cls_NumeracionVenta : Cls_NumeracionBase
     {
+        
         public Cls_NumeracionVenta()
         {
             lc_NameMethod = "Cls_NumeracionVenta";
@@ -54,14 +55,22 @@ namespace STR_Localizacion.UI
         {
 
             itemevent.Add(new sapitemevent(BoEventTypes.et_FORM_LOAD, string.Empty,
-                s => sb_LoadForm(s)));
+                s => { if (!s.BeforeAction) sb_LoadForm(s); }));
 
             itemevent.Add(BoEventTypes.et_COMBO_SELECT,
                 new sapitemevent("cbTipo", s =>
                 {
-                    if (!s.BeforeAction)
+                    if (!s.BeforeAction && !isInitializingComboBox) // Ejecutar solo si la bandera no está activa
+                    {
                         fn_actualizarSerieSUNAT();
+                    }
                 })
+                //,
+                //new sapitemevent("U_BPP_MDTD", s =>
+                //{
+                //    if (!s.BeforeAction)
+                //        fn_actualizarSerieSUNATRd();
+                //})
                 /*,
                new sapitemevent("10000329", s =>
                 {
@@ -110,48 +119,116 @@ namespace STR_Localizacion.UI
 
         private void sb_LoadForm(dynamic po_Event)
         {
+            if (po_Event.BeforeAction) return; // Salir si es un evento BeforeAction
+
             try
             {
-                GC.Collect(); //Libera la memoria
-                /// Se verifica que el evento este dentro de BeforeAction False
-                if (po_Event.BeforeAction) return;
-                
-                if (go_SBOFormEvent.ItemExists("cbTipo"))
-                    return;
+                // Congelar el formulario para evitar redibujos innecesarios
+                 go_SBOFormEvent.Freeze(true);
 
-                go_SBOFormEvent.Freeze(true);
-                go_SBOForm = go_SBOFormEvent;
+                //if (po_Event.MenuUID == "2053")
+                //{
+                    go_SBOForm = go_SBOFormEvent;
 
-                int li_Top, li_Left, li_Height, li_LeftSt;
-                bool blMostrar = true;
-                ComboBox lo_ComboSerie;
+                    // Definir variables necesarias
+                    int li_Top, li_Left, li_Height, li_LeftSt;
+                    bool blMostrar = true;
+                    ComboBox lo_ComboSerie;
 
-                InitializeControl(out li_Top, out li_Left, out li_Height, out li_LeftSt);
-                /// Creación del control Serie           '
-                go_Item = go_SBOForm.Items.Add("cbSerie", BoFormItemTypes.it_COMBO_BOX);
-                go_Item.SetDisplay(40, li_Height, li_Top, go_SBOForm.GetItem("cbTipo").Left + go_SBOForm.GetItem("cbTipo").Width + 1);
-                go_Item.SetAutoManagedAttribute(BoAutoManagedAttr.ama_Editable, 9, BoModeVisualBehavior.mvb_False);
-                go_Item.Enabled = true;
-                go_Item.Visible = blMostrar;
-                lo_ComboSerie = go_Item.Specific;
+                    // Inicializar controles en una sola llamada, si es posible
+                    InitializeControl(out li_Top, out li_Left, out li_Height, out li_LeftSt);
 
-                lo_ComboSerie.DataBind.SetBound(true, ls_tablename, "U_BPP_MDSD");
+                    // Creación y configuración del ComboBox "cbSerie"
+                    CrearYConfigurarComboBox("cbSerie", li_Top, li_Height, li_LeftSt, blMostrar);
 
-                /// Creación del control Numero
-                go_Item = go_SBOForm.Items.Add("txNumero", BoFormItemTypes.it_EDIT);
-                go_Item.SetDisplay(76, li_Height, li_Top, go_SBOForm.GetItem("cbSerie").Left + go_SBOForm.GetItem("cbSerie").Width + 1);
-                go_Item.SetAutoManagedAttribute(BoAutoManagedAttr.ama_Editable, 9, BoModeVisualBehavior.mvb_False);
-                go_Item.SetAutoManagedAttribute(BoAutoManagedAttr.ama_Editable, (int)BoAutoFormMode.afm_Add, BoModeVisualBehavior.mvb_False);
-                go_Item.Visible = blMostrar;
-                go_Edit = go_Item.Specific;
+                    // Creación y configuración del EditText "txNumero"
+                    CrearYConfigurarEditText("txNumero", li_Top, li_Height, blMostrar);
 
-                go_Edit.DataBind.SetBound(true, ls_tablename, "U_BPP_MDCD");
-
-                /// Asignar tipo de documento SUNAT por Defecto
-                sb_asignarTipoSunat();
-                sb_asignarTipoXDefecto();
+                    // Asignar tipo SUNAT solo después de que los controles estén creados
+                    sb_asignarTipoSunat();
+                    sb_asignarTipoXDefecto();
+                //}
             }
-            finally { go_SBOFormEvent.Freeze(false); }
+            catch (Exception ex)
+            {
+                // Manejo de errores si es necesario
+                //Cls_Global.WriteToFile(ex.Message);
+            }
+            finally
+            {
+                // Descongelar el formulario
+                go_SBOFormEvent.Freeze(false);
+            }
+            //try
+            //{
+            //    GC.Collect(); //Libera la memoria
+            //    /// Se verifica que el evento este dentro de BeforeAction False
+            //    if (po_Event.BeforeAction) return;
+
+            //    try
+            //    {
+            //        //if (po_Event.MenuUID == "2053")
+            //        //{
+
+            //            go_SBOFormEvent.Freeze(true);
+            //            go_SBOForm = go_SBOFormEvent;
+
+            //            int li_Top, li_Left, li_Height, li_LeftSt;
+            //            bool blMostrar = true;
+            //            ComboBox lo_ComboSerie;
+
+            //            InitializeControl(out li_Top, out li_Left, out li_Height, out li_LeftSt);
+            //            /// Creación del control Serie           '
+            //            go_Item = go_SBOForm.Items.Add("cbSerie", BoFormItemTypes.it_COMBO_BOX);
+            //            go_Item.SetDisplay(40, li_Height, li_Top, go_SBOForm.GetItem("cbTipo").Left + go_SBOForm.GetItem("cbTipo").Width + 1);
+            //            go_Item.SetAutoManagedAttribute(BoAutoManagedAttr.ama_Editable, 9, BoModeVisualBehavior.mvb_False);
+            //            go_Item.Enabled = true;
+            //            go_Item.Visible = blMostrar;
+            //            lo_ComboSerie = go_Item.Specific;
+
+            //            lo_ComboSerie.DataBind.SetBound(true, ls_tablename, "U_BPP_MDSD");
+
+            //            /// Creación del control Numero
+            //            go_Item = go_SBOForm.Items.Add("txNumero", BoFormItemTypes.it_EDIT);
+            //            go_Item.SetDisplay(76, li_Height, li_Top, go_SBOForm.GetItem("cbSerie").Left + go_SBOForm.GetItem("cbSerie").Width + 1);
+            //            go_Item.SetAutoManagedAttribute(BoAutoManagedAttr.ama_Editable, 9, BoModeVisualBehavior.mvb_False);
+            //            go_Item.SetAutoManagedAttribute(BoAutoManagedAttr.ama_Editable, (int)BoAutoFormMode.afm_Add, BoModeVisualBehavior.mvb_False);
+            //            go_Item.Visible = blMostrar;
+            //            go_Edit = go_Item.Specific;
+
+            //            go_Edit.DataBind.SetBound(true, ls_tablename, "U_BPP_MDCD");
+
+            //            sb_asignarTipoSunat();
+            //        //}
+            //    }
+            //    catch (Exception)
+            //    {
+
+            //    }
+            //}
+            //finally { go_SBOFormEvent.Freeze(false); }
+        }
+
+        private void CrearYConfigurarComboBox(string itemId, int li_Top, int li_Height, int li_LeftSt, bool blMostrar)
+        {
+            go_Item = go_SBOForm.Items.Add(itemId, BoFormItemTypes.it_COMBO_BOX);
+            go_Item.SetDisplay(40, li_Height, li_Top, go_SBOForm.GetItem("cbTipo").Left + go_SBOForm.GetItem("cbTipo").Width + 1);
+            go_Item.SetAutoManagedAttribute(BoAutoManagedAttr.ama_Editable, 9, BoModeVisualBehavior.mvb_False);
+            go_Item.Enabled = true;
+            go_Item.Visible = blMostrar;
+            ComboBox lo_ComboSerie = go_Item.Specific;
+            lo_ComboSerie.DataBind.SetBound(true, ls_tablename, "U_BPP_MDSD");
+        }
+
+        private void CrearYConfigurarEditText(string itemId, int li_Top, int li_Height, bool blMostrar)
+        {
+            go_Item = go_SBOForm.Items.Add(itemId, BoFormItemTypes.it_EDIT);
+            go_Item.SetDisplay(76, li_Height, li_Top, go_SBOForm.GetItem("cbSerie").Left + go_SBOForm.GetItem("cbSerie").Width + 1);
+            go_Item.SetAutoManagedAttribute(BoAutoManagedAttr.ama_Editable, 9, BoModeVisualBehavior.mvb_False);
+            go_Item.SetAutoManagedAttribute(BoAutoManagedAttr.ama_Editable, (int)BoAutoFormMode.afm_Add, BoModeVisualBehavior.mvb_False);
+            go_Item.Visible = blMostrar;
+            EditText go_Edit = go_Item.Specific;
+            go_Edit.DataBind.SetBound(true, ls_tablename, "U_BPP_MDCD");
         }
     }
 }

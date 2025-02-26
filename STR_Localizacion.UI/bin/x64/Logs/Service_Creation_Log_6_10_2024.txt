@@ -1,0 +1,1552 @@
+6/10/2024 00:57:12 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:57:12 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:57:12 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 00:57:12 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 00:57:12 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:57:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:57:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:57:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:57:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:57:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:57:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:57:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:57:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:57:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:57:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:57:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:57:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:57:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:57:13 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 00:57:22 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:57:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:57:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:57:26 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:50 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 00:58:50 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 00:58:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:51 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 00:58:55 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:55 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:55 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 00:58:55 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:44 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 01:06:44 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 01:06:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:44 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 01:06:54 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:54 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:54 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:06:55 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:15:59 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:15:59 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:00 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 01:16:00 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 01:16:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:00 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 01:16:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:10 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:10 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:22 - SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'
+6/10/2024 01:16:23 - 
+      UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = 'O1' , "U_STR_SRCTC" = 'F' , "U_STR_MTAD" = 'E'
+      ,"U_STR_DIACT" = 'N', "U_STR_DISFJ" = '', "U_STR_PROV_IGV_ND" = 'N' , "U_STR_IMPRET" = 'DT10'
+      , "U_STR_IDCTA_DEB" = '102101',"U_STR_IDCTA_CRE" = '101101', "U_STR_FMCTA_DEB" = '102101', "U_STR_FMCTA_CRE" = '101101'
+      , "U_STR_RG_ACT" = 'N', "U_STR_IMPRG" = '', "U_STR_RECO_CTA" = '', "U_STR_RECO_ACT" = ''  WHERE "Code" = '01'
+6/10/2024 01:16:24 - SELECT COUNT(*) AS "Registros" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 01:16:27 - 
+			UPDATE "@BPP_PARAMS" SET "U_BPP_PAGCNTPT" = 'Y' ,"U_BPP_MONCNTBN" = 'Y',"U_BPP_APROB" = 'Y',"U_BPP_PGMRUTA" = 'D:\SEBAS\PagoMasivos\',"U_BPP_PAGCNTBN" = 'Y',
+			"U_BPP_CODTRAN" = 'DES',"U_BPP_GLOSAAST" = 'ASIENTO DESTINO',"U_BPP_CNTCONTR" = '791101',"U_BPP_CTANATU" = '9',"U_STR_OcrCode" = '3',"U_STR_NUMOPERTXT" = '1',
+			"U_BPP_SEPRDR" = '@',"U_BPP_CNTDOPCN" = '1' WHERE "Code" = 'BPP_CONFIG'
+		
+6/10/2024 01:16:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:16:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:17:10 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:17:10 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:17:10 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:17:11 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:18 - SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'
+6/10/2024 01:18:18 - 
+      UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = 'O1' , "U_STR_SRCTC" = 'F' , "U_STR_MTAD" = 'E'
+      ,"U_STR_DIACT" = 'N', "U_STR_DISFJ" = '', "U_STR_PROV_IGV_ND" = 'N' , "U_STR_IMPRET" = 'DT10'
+      , "U_STR_IDCTA_DEB" = '102101',"U_STR_IDCTA_CRE" = '101101', "U_STR_FMCTA_DEB" = '102101', "U_STR_FMCTA_CRE" = '101101'
+      , "U_STR_RG_ACT" = 'N', "U_STR_IMPRG" = '', "U_STR_RECO_CTA" = '', "U_STR_RECO_ACT" = ''  WHERE "Code" = '01'
+6/10/2024 01:18:18 - SELECT COUNT(*) AS "Registros" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 01:18:18 - 
+			UPDATE "@BPP_PARAMS" SET "U_BPP_PAGCNTPT" = 'Y' ,"U_BPP_MONCNTBN" = 'Y',"U_BPP_APROB" = 'N',"U_BPP_PGMRUTA" = 'D:\SEBAS\PagosTXT\',"U_BPP_PAGCNTBN" = 'Y',
+			"U_BPP_CODTRAN" = 'DES',"U_BPP_GLOSAAST" = 'ASIENTO DESTINO',"U_BPP_CNTCONTR" = '791101',"U_BPP_CTANATU" = '9',"U_STR_OcrCode" = '3',"U_STR_NUMOPERTXT" = '1',
+			"U_BPP_SEPRDR" = '*',"U_BPP_CNTDOPCN" = '1' WHERE "Code" = 'BPP_CONFIG'
+		
+6/10/2024 01:18:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:22 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:22 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:22 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:22 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:30 - SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'
+6/10/2024 01:18:30 - 
+      UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = 'O1' , "U_STR_SRCTC" = 'F' , "U_STR_MTAD" = 'E'
+      ,"U_STR_DIACT" = 'N', "U_STR_DISFJ" = '', "U_STR_PROV_IGV_ND" = 'N' , "U_STR_IMPRET" = 'DT10'
+      , "U_STR_IDCTA_DEB" = '102101',"U_STR_IDCTA_CRE" = '101101', "U_STR_FMCTA_DEB" = '102101', "U_STR_FMCTA_CRE" = '101101'
+      , "U_STR_RG_ACT" = 'N', "U_STR_IMPRG" = '', "U_STR_RECO_CTA" = '', "U_STR_RECO_ACT" = ''  WHERE "Code" = '01'
+6/10/2024 01:18:30 - SELECT COUNT(*) AS "Registros" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 01:18:30 - 
+			UPDATE "@BPP_PARAMS" SET "U_BPP_PAGCNTPT" = 'Y' ,"U_BPP_MONCNTBN" = 'Y',"U_BPP_APROB" = 'N',"U_BPP_PGMRUTA" = 'D:\SEBAS\PagosTXT\',"U_BPP_PAGCNTBN" = 'Y',
+			"U_BPP_CODTRAN" = 'DES',"U_BPP_GLOSAAST" = 'ASIENTO DESTINO',"U_BPP_CNTCONTR" = '791101',"U_BPP_CTANATU" = '9',"U_STR_OcrCode" = '3',"U_STR_NUMOPERTXT" = '1',
+			"U_BPP_SEPRDR" = '@',"U_BPP_CNTDOPCN" = '1' WHERE "Code" = 'BPP_CONFIG'
+		
+6/10/2024 01:18:30 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:30 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:30 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:30 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:30 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:30 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:30 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:30 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:30 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:30 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:30 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:31 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:18:31 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:16 - SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'
+6/10/2024 01:22:16 - 
+      UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = 'O1' , "U_STR_SRCTC" = 'F' , "U_STR_MTAD" = 'E'
+      ,"U_STR_DIACT" = 'N', "U_STR_DISFJ" = '', "U_STR_PROV_IGV_ND" = 'N' , "U_STR_IMPRET" = 'DT10'
+      , "U_STR_IDCTA_DEB" = '102101',"U_STR_IDCTA_CRE" = '101101', "U_STR_FMCTA_DEB" = '102101', "U_STR_FMCTA_CRE" = '101101'
+      , "U_STR_RG_ACT" = 'N', "U_STR_IMPRG" = '', "U_STR_RECO_CTA" = '', "U_STR_RECO_ACT" = ''  WHERE "Code" = '01'
+6/10/2024 01:22:16 - SELECT COUNT(*) AS "Registros" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 01:22:16 - 
+			UPDATE "@BPP_PARAMS" SET "U_BPP_PAGCNTPT" = 'Y' ,"U_BPP_MONCNTBN" = 'Y',"U_BPP_APROB" = 'N',"U_BPP_PGMRUTA" = 'D:\SEBAS\PagosTXT\',"U_BPP_PAGCNTBN" = 'Y',
+			"U_BPP_CODTRAN" = 'DES',"U_BPP_GLOSAAST" = 'ASIENTO DESTINO',"U_BPP_CNTCONTR" = '791101',"U_BPP_CTANATU" = '9',"U_STR_OcrCode" = '3',"U_STR_NUMOPERTXT" = '2',
+			"U_BPP_SEPRDR" = '@',"U_BPP_CNTDOPCN" = '1' WHERE "Code" = 'BPP_CONFIG'
+		
+6/10/2024 01:22:16 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:16 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:16 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:16 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:16 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:16 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:16 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:16 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:16 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:16 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:16 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:16 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:16 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:19 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:37 - SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'
+6/10/2024 01:22:37 - 
+      UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = 'O1' , "U_STR_SRCTC" = 'F' , "U_STR_MTAD" = 'E'
+      ,"U_STR_DIACT" = 'N', "U_STR_DISFJ" = '', "U_STR_PROV_IGV_ND" = 'N' , "U_STR_IMPRET" = 'DT10'
+      , "U_STR_IDCTA_DEB" = '102101',"U_STR_IDCTA_CRE" = '101101', "U_STR_FMCTA_DEB" = '102101', "U_STR_FMCTA_CRE" = '101101'
+      , "U_STR_RG_ACT" = 'N', "U_STR_IMPRG" = '', "U_STR_RECO_CTA" = '', "U_STR_RECO_ACT" = ''  WHERE "Code" = '01'
+6/10/2024 01:22:37 - SELECT COUNT(*) AS "Registros" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 01:22:38 - 
+			UPDATE "@BPP_PARAMS" SET "U_BPP_PAGCNTPT" = 'Y' ,"U_BPP_MONCNTBN" = 'Y',"U_BPP_APROB" = 'N',"U_BPP_PGMRUTA" = 'D:\SEBAS\PagosTXT\',"U_BPP_PAGCNTBN" = 'Y',
+			"U_BPP_CODTRAN" = 'DES',"U_BPP_GLOSAAST" = 'ASIENTO DESTINO',"U_BPP_CNTCONTR" = '791101',"U_BPP_CTANATU" = '9',"U_STR_OcrCode" = '3',"U_STR_NUMOPERTXT" = '1',
+			"U_BPP_SEPRDR" = '@',"U_BPP_CNTDOPCN" = '1' WHERE "Code" = 'BPP_CONFIG'
+		
+6/10/2024 01:22:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:22:59 - SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'
+6/10/2024 01:22:59 - 
+      UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = 'O1' , "U_STR_SRCTC" = 'F' , "U_STR_MTAD" = 'E'
+      ,"U_STR_DIACT" = 'N', "U_STR_DISFJ" = '', "U_STR_PROV_IGV_ND" = 'N' , "U_STR_IMPRET" = 'DT10'
+      , "U_STR_IDCTA_DEB" = '102101',"U_STR_IDCTA_CRE" = '101101', "U_STR_FMCTA_DEB" = '102101', "U_STR_FMCTA_CRE" = '101101'
+      , "U_STR_RG_ACT" = 'N', "U_STR_IMPRG" = '', "U_STR_RECO_CTA" = '', "U_STR_RECO_ACT" = ''  WHERE "Code" = '01'
+6/10/2024 01:22:59 - SELECT COUNT(*) AS "Registros" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 01:23:00 - 
+			UPDATE "@BPP_PARAMS" SET "U_BPP_PAGCNTPT" = 'Y' ,"U_BPP_MONCNTBN" = 'Y',"U_BPP_APROB" = 'N',"U_BPP_PGMRUTA" = 'D:\SEBAS\PagosTXT\',"U_BPP_PAGCNTBN" = 'Y',
+			"U_BPP_CODTRAN" = 'DES',"U_BPP_GLOSAAST" = 'ASIENTO DESTINO',"U_BPP_CNTCONTR" = '791101',"U_BPP_CTANATU" = '6',"U_STR_OcrCode" = '3',"U_STR_NUMOPERTXT" = '1',
+			"U_BPP_SEPRDR" = '@',"U_BPP_CNTDOPCN" = '3' WHERE "Code" = 'BPP_CONFIG'
+		
+6/10/2024 01:23:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:03 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:03 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:03 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:03 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:21 - SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'
+6/10/2024 01:23:21 - 
+      UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = 'O1' , "U_STR_SRCTC" = 'F' , "U_STR_MTAD" = 'E'
+      ,"U_STR_DIACT" = 'N', "U_STR_DISFJ" = '', "U_STR_PROV_IGV_ND" = 'N' , "U_STR_IMPRET" = 'DT10'
+      , "U_STR_IDCTA_DEB" = '102101',"U_STR_IDCTA_CRE" = '101101', "U_STR_FMCTA_DEB" = '102101', "U_STR_FMCTA_CRE" = '101101'
+      , "U_STR_RG_ACT" = 'N', "U_STR_IMPRG" = '', "U_STR_RECO_CTA" = '', "U_STR_RECO_ACT" = ''  WHERE "Code" = '01'
+6/10/2024 01:23:21 - SELECT COUNT(*) AS "Registros" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 01:23:21 - 
+			UPDATE "@BPP_PARAMS" SET "U_BPP_PAGCNTPT" = 'Y' ,"U_BPP_MONCNTBN" = 'Y',"U_BPP_APROB" = 'N',"U_BPP_PGMRUTA" = 'D:\SEBAS\PagosTXT\',"U_BPP_PAGCNTBN" = 'Y',
+			"U_BPP_CODTRAN" = 'DES',"U_BPP_GLOSAAST" = 'ASIENTO DESTINO',"U_BPP_CNTCONTR" = '791101',"U_BPP_CTANATU" = '9',"U_STR_OcrCode" = '3',"U_STR_NUMOPERTXT" = '1',
+			"U_BPP_SEPRDR" = '@',"U_BPP_CNTDOPCN" = '1' WHERE "Code" = 'BPP_CONFIG'
+		
+6/10/2024 01:23:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:23:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:24:11 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:24:11 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:24:11 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:24:11 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:25:37 - SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'
+6/10/2024 01:25:37 - 
+      UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = 'E' , "U_STR_SRCTC" = 'F' , "U_STR_MTAD" = 'E'
+      ,"U_STR_DIACT" = 'N', "U_STR_DISFJ" = '', "U_STR_PROV_IGV_ND" = 'N' , "U_STR_IMPRET" = 'DT10'
+      , "U_STR_IDCTA_DEB" = '102101',"U_STR_IDCTA_CRE" = '101101', "U_STR_FMCTA_DEB" = '102101', "U_STR_FMCTA_CRE" = '101101'
+      , "U_STR_RG_ACT" = 'N', "U_STR_IMPRG" = '', "U_STR_RECO_CTA" = '', "U_STR_RECO_ACT" = ''  WHERE "Code" = '01'
+6/10/2024 01:25:37 - SELECT COUNT(*) AS "Registros" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 01:25:37 - 
+			UPDATE "@BPP_PARAMS" SET "U_BPP_PAGCNTPT" = 'Y' ,"U_BPP_MONCNTBN" = 'Y',"U_BPP_APROB" = 'N',"U_BPP_PGMRUTA" = 'D:\SEBAS\PagosTXT\',"U_BPP_PAGCNTBN" = 'Y',
+			"U_BPP_CODTRAN" = 'DES',"U_BPP_GLOSAAST" = 'ASIENTO DESTINO',"U_BPP_CNTCONTR" = '791101',"U_BPP_CTANATU" = '9',"U_STR_OcrCode" = '3',"U_STR_NUMOPERTXT" = '1',
+			"U_BPP_SEPRDR" = '@',"U_BPP_CNTDOPCN" = '1' WHERE "Code" = 'BPP_CONFIG'
+		
+6/10/2024 01:25:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:25:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:25:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:25:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:25:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:25:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:25:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:25:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:25:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:25:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:25:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:25:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:25:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:25:40 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:25:40 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:25:41 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:25:41 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:38 - SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'
+6/10/2024 01:27:38 - 
+      UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = 'O1' , "U_STR_SRCTC" = 'F' , "U_STR_MTAD" = 'E'
+      ,"U_STR_DIACT" = 'N', "U_STR_DISFJ" = '', "U_STR_PROV_IGV_ND" = 'N' , "U_STR_IMPRET" = 'DT10'
+      , "U_STR_IDCTA_DEB" = '102101',"U_STR_IDCTA_CRE" = '101101', "U_STR_FMCTA_DEB" = '102101', "U_STR_FMCTA_CRE" = '101101'
+      , "U_STR_RG_ACT" = 'N', "U_STR_IMPRG" = '', "U_STR_RECO_CTA" = '', "U_STR_RECO_ACT" = ''  WHERE "Code" = '01'
+6/10/2024 01:27:38 - SELECT COUNT(*) AS "Registros" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 01:27:38 - 
+			UPDATE "@BPP_PARAMS" SET "U_BPP_PAGCNTPT" = 'Y' ,"U_BPP_MONCNTBN" = 'Y',"U_BPP_APROB" = 'N',"U_BPP_PGMRUTA" = 'D:\SEBAS\PagosTXT\',"U_BPP_PAGCNTBN" = 'Y',
+			"U_BPP_CODTRAN" = 'DES',"U_BPP_GLOSAAST" = 'ASIENTO DESTINO',"U_BPP_CNTCONTR" = '792101',"U_BPP_CTANATU" = '9',"U_STR_OcrCode" = '3',"U_STR_NUMOPERTXT" = '1',
+			"U_BPP_SEPRDR" = '@',"U_BPP_CNTDOPCN" = '1' WHERE "Code" = 'BPP_CONFIG'
+		
+6/10/2024 01:27:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:39 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:39 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:39 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:39 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:42 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:42 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:42 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:58 - SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'
+6/10/2024 01:27:58 - 
+      UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = 'O1' , "U_STR_SRCTC" = 'F' , "U_STR_MTAD" = 'E'
+      ,"U_STR_DIACT" = 'N', "U_STR_DISFJ" = '', "U_STR_PROV_IGV_ND" = 'N' , "U_STR_IMPRET" = 'DT10'
+      , "U_STR_IDCTA_DEB" = '102101',"U_STR_IDCTA_CRE" = '101101', "U_STR_FMCTA_DEB" = '102101', "U_STR_FMCTA_CRE" = '101101'
+      , "U_STR_RG_ACT" = 'N', "U_STR_IMPRG" = '', "U_STR_RECO_CTA" = '', "U_STR_RECO_ACT" = ''  WHERE "Code" = '01'
+6/10/2024 01:27:58 - SELECT COUNT(*) AS "Registros" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 01:27:58 - 
+			UPDATE "@BPP_PARAMS" SET "U_BPP_PAGCNTPT" = 'Y' ,"U_BPP_MONCNTBN" = 'Y',"U_BPP_APROB" = 'N',"U_BPP_PGMRUTA" = 'D:\SEBAS\PagosTXT\',"U_BPP_PAGCNTBN" = 'Y',
+			"U_BPP_CODTRAN" = 'DES',"U_BPP_GLOSAAST" = 'ASIENTO DESTINO',"U_BPP_CNTCONTR" = '791101',"U_BPP_CTANATU" = '9',"U_STR_OcrCode" = '3',"U_STR_NUMOPERTXT" = '1',
+			"U_BPP_SEPRDR" = '@',"U_BPP_CNTDOPCN" = '1' WHERE "Code" = 'BPP_CONFIG'
+		
+6/10/2024 01:27:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 01:27:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:19 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:19 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:19 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:06:19 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:06:19 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:19 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:19 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:19 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:19 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:19 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:19 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:19 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:20 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 02:06:41 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:41 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:41 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:06:41 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:28 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:07:28 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:07:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:29 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 02:07:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:07:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:08:54 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:08:54 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:08:54 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:08:54 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:08:54 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:08:54 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:08:54 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:08:54 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:08:54 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:08:54 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:08:54 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:08:54 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:08:55 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:08:55 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:08:55 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:08:55 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:08:55 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:08:55 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:08:55 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:08:55 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 02:09:05 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:09:06 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:09:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:09:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:25 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:11:25 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:11:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:26 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:26 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:26 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:26 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:26 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 02:11:39 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:41 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:11:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:24 - SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'
+6/10/2024 02:12:24 - 
+		UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = 'O1' , "U_STR_SRCTC" = 'F' , "U_STR_MTAD" = 'E'
+		,"U_STR_DIACT" = 'N', "U_STR_DISFJ" = '', "U_STR_PROV_IGV_ND" = 'N' , "U_STR_IMPRET" = 'DT10'
+		, "U_STR_IDCTA_DEB" = '102101',"U_STR_IDCTA_CRE" = '101101', "U_STR_FMCTA_DEB" = '102101', "U_STR_FMCTA_CRE" = '101101'
+		, "U_STR_RG_ACT" = 'N', "U_STR_IMPRG" = '', "U_STR_RECO_CTA" = '', "U_STR_RECO_ACT" = '', "U_RML_RUTADTR" = 'D:\SEBAS\DetraccionesTXT' WHERE "Code" = '01'
+6/10/2024 02:12:24 - SELECT COUNT(*) AS "Registros" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 02:12:25 - 
+			UPDATE "@BPP_PARAMS" SET "U_BPP_PAGCNTPT" = 'Y' ,"U_BPP_MONCNTBN" = 'Y',"U_BPP_APROB" = 'N',"U_BPP_PGMRUTA" = 'D:\SEBAS\PagosTXT\',"U_BPP_PAGCNTBN" = 'Y',
+			"U_BPP_CODTRAN" = 'DES',"U_BPP_GLOSAAST" = 'ASIENTO DESTINO',"U_BPP_CNTCONTR" = '791101',"U_BPP_CTANATU" = '9',"U_STR_OcrCode" = '3',"U_STR_NUMOPERTXT" = '1',
+			"U_BPP_SEPRDR" = '@',"U_BPP_CNTDOPCN" = '1' WHERE "Code" = 'BPP_CONFIG'
+		
+6/10/2024 02:12:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:25 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:30 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:30 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:12:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:13:23 - SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'
+6/10/2024 02:13:23 - 
+		UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = 'O1' , "U_STR_SRCTC" = 'F' , "U_STR_MTAD" = 'E'
+		,"U_STR_DIACT" = 'N', "U_STR_DISFJ" = '', "U_STR_PROV_IGV_ND" = 'N' , "U_STR_IMPRET" = 'DT10'
+		, "U_STR_IDCTA_DEB" = '102101',"U_STR_IDCTA_CRE" = '101101', "U_STR_FMCTA_DEB" = '102101', "U_STR_FMCTA_CRE" = '101101'
+		, "U_STR_RG_ACT" = 'N', "U_STR_IMPRG" = '', "U_STR_RECO_CTA" = '', "U_STR_RECO_ACT" = '', "U_RML_RUTADTR" = 'D:\SEBAS\DetraccionesTXT\' WHERE "Code" = '01'
+6/10/2024 02:13:23 - SELECT COUNT(*) AS "Registros" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 02:13:24 - 
+			UPDATE "@BPP_PARAMS" SET "U_BPP_PAGCNTPT" = 'Y' ,"U_BPP_MONCNTBN" = 'Y',"U_BPP_APROB" = 'N',"U_BPP_PGMRUTA" = 'D:\SEBAS\PagosTXT\',"U_BPP_PAGCNTBN" = 'Y',
+			"U_BPP_CODTRAN" = 'DES',"U_BPP_GLOSAAST" = 'ASIENTO DESTINO',"U_BPP_CNTCONTR" = '791101',"U_BPP_CTANATU" = '9',"U_STR_OcrCode" = '3',"U_STR_NUMOPERTXT" = '1',
+			"U_BPP_SEPRDR" = '@',"U_BPP_CNTDOPCN" = '1' WHERE "Code" = 'BPP_CONFIG'
+		
+6/10/2024 02:13:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:13:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:13:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:13:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:13:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:13:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:13:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:13:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:13:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:13:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:13:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:13:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:13:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:13:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:13:37 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 02:13:39 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 02:13:39 - sb_prepararControlesEstadoAbierto 145
+6/10/2024 02:13:39 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 02:18:30 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:18:30 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:18:30 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:18:30 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:18:30 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:18:30 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:18:30 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:18:30 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:18:31 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:18:31 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:18:31 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:18:31 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:18:31 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:18:31 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:18:31 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:18:31 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:18:31 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:18:31 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:18:31 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:18:31 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 02:18:39 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 02:22:00 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 02:28:09 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 02:45:05 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 02:46:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:46:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:46:34 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:46:34 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:46:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:46:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:46:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:46:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:46:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:46:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:46:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:46:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:46:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:46:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:46:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:46:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:46:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:46:35 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:46:35 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:46:35 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 02:46:44 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 02:48:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:48:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:48:44 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:48:44 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:48:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:48:44 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:48:45 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:48:45 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:48:45 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:48:45 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:48:45 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:48:45 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:48:45 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:48:45 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:48:45 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:48:45 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:48:45 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:48:45 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:48:45 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:48:45 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 02:48:57 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 02:53:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:53:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:53:00 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:53:00 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:53:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:53:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:53:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:53:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:53:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:53:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:53:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:53:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:53:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:53:01 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:53:01 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:53:01 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:53:01 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:53:01 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:53:01 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:53:01 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 02:53:09 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 02:53:42 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 02:53:56 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 02:54:03 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 02:54:09 - CALL STR_SP_ObtNumeroDocumento ('BPP_BATDTR')
+6/10/2024 02:54:09 - SELECT DISTINCT T1."Code",T1."Name" FROM ODSC T0 INNER JOIN OCRY T1 ON T0."CountryCod" = T1."Code"
+6/10/2024 02:54:15 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 02:54:28 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 02:56:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:09 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:56:09 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:56:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:09 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 02:56:19 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 02:56:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:49 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:56:49 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:56:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:56:50 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 02:56:57 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 02:57:48 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:57:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:57:49 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:57:49 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:57:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:57:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:57:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:57:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:57:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:57:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:57:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:57:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:57:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:57:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:57:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:57:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:57:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:57:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:57:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:57:49 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 02:57:58 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 02:58:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:58:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:58:34 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:58:34 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:58:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:58:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:58:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:58:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:58:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:58:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:58:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:58:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:58:35 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:58:35 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:58:35 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:58:35 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:58:35 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:58:35 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:58:35 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:58:35 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 02:58:44 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 02:58:58 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 02:59:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:59:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:59:23 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:59:23 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 02:59:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:59:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:59:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:59:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:59:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:59:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:59:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:59:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:59:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:59:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:59:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:59:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:59:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:59:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:59:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 02:59:24 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 02:59:31 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 17:54:04 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:54:04 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:54:05 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 17:54:05 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 17:54:05 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:54:05 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:54:05 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:54:05 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:54:05 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:54:05 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:54:05 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:54:05 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:54:05 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:54:05 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:54:05 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:54:05 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:54:05 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:54:05 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:54:05 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:54:05 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 17:54:14 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 17:55:17 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:55:17 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:55:17 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 17:55:18 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 17:55:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:55:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:55:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:55:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:55:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:55:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:55:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:55:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:55:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:55:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:55:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:55:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:55:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:55:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:55:18 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:55:18 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 17:55:32 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 17:56:48 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:56:48 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:56:48 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 17:56:48 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 17:56:48 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:56:48 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:56:48 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:56:48 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:56:48 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:56:48 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:56:48 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:56:48 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:56:48 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:56:48 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:56:48 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:56:48 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:56:48 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:56:48 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:56:48 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:56:49 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 17:56:55 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 17:57:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:57:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:57:28 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 17:57:28 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 17:57:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:57:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:57:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:57:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:57:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:57:28 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:57:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:57:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:57:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:57:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:57:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:57:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:57:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:57:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:57:29 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:57:29 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 17:57:38 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 17:59:42 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:59:42 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:59:42 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 17:59:42 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 17:59:42 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:59:42 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:59:42 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:59:42 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:59:42 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:59:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:59:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:59:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:59:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:59:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:59:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:59:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:59:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:59:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:59:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 17:59:43 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 17:59:56 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 18:00:14 - CALL STR_SP_DetraccionesXPagar ('', '', '', '', '', '','O1','')
+6/10/2024 18:00:24 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 18:00:26 - CALL STR_SP_DetraccionesXPagar ('', '', '', '', '', '','O1','')
+6/10/2024 19:02:57 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 19:02:57 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 19:02:57 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 19:02:57 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 19:02:57 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 19:02:57 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 19:02:57 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 19:02:57 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 19:02:57 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 19:02:57 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 19:02:57 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 19:02:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 19:02:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 19:02:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 19:02:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 19:02:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 19:02:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 19:02:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 19:02:58 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 19:02:58 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 19:03:00 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 19:03:04 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 19:03:04 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 19:03:20 - CALL STR_SP_DetraccionesXPagar ('', '', '', '', '', '','O1','')
+6/10/2024 19:03:52 - CALL STR_SP_ObtTipoXForm ('65301')
+6/10/2024 19:03:52 - CALL STR_SP_ObtTipoDefXForm ('65301')
+6/10/2024 19:09:38 - CALL STR_SP_ObtTipoXForm ('181')
+6/10/2024 19:09:38 - CALL STR_SP_ObtTipoDefXForm ('181')
+6/10/2024 19:09:49 - CALL STR_SP_ObtTipoXForm ('65306')
+6/10/2024 19:09:49 - CALL STR_SP_ObtTipoDefXForm ('65306')
+6/10/2024 20:33:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:33:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:33:37 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:33:38 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:33:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:33:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:33:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:33:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:33:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:33:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:33:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:33:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:33:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:33:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:33:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:33:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:33:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:33:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:33:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:33:38 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 20:33:46 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 20:33:53 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 20:33:54 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 20:34:07 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 20:34:15 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 20:34:18 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 20:34:18 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 20:34:20 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 20:34:20 - CALL STR_SP_DetraccionesPagadas ('70')
+6/10/2024 20:34:38 - CALL STR_SP_ObtNombreCuenta ('103101')
+6/10/2024 20:34:38 - CALL STR_SP_DetraccionesPagadas ('64')
+6/10/2024 20:34:40 - CALL STR_SP_ObtNombreCuenta ('103101')
+6/10/2024 20:34:40 - CALL STR_SP_DetraccionesPagadas ('63')
+6/10/2024 20:34:47 - CALL STR_SP_ObtNombreCuenta ('103101')
+6/10/2024 20:34:47 - CALL STR_SP_DetraccionesPagadas ('64')
+6/10/2024 20:36:25 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 20:36:29 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 20:37:59 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:37:59 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:37:59 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:37:59 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:37:59 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:37:59 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:37:59 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:37:59 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:37:59 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:37:59 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:37:59 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:37:59 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:37:59 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:38:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:38:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:38:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:38:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:38:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:38:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:38:00 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 20:38:07 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 20:38:20 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 20:38:21 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 20:39:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:39:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:39:21 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:39:21 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:39:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:39:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:39:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:39:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:39:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:39:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:39:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:39:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:39:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:39:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:39:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:39:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:39:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:39:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:39:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:39:21 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 20:39:29 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 20:39:34 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 20:39:34 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 20:43:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:43:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:43:09 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:43:09 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:43:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:43:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:43:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:43:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:43:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:43:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:43:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:43:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:43:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:43:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:43:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:43:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:43:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:43:09 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:43:10 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:43:10 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 20:43:12 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 20:43:16 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 20:43:17 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 20:45:40 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:45:40 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:45:40 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:45:40 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:45:40 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:45:40 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:45:40 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:45:40 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:45:41 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:45:41 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:45:41 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:45:41 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:45:41 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:45:41 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:45:41 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:45:41 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:45:41 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:45:41 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:45:41 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:45:41 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 20:45:51 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 20:45:58 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 20:45:58 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 20:46:36 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:46:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:46:37 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:46:37 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:46:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:46:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:46:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:46:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:46:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:46:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:46:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:46:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:46:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:46:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:46:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:46:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:46:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:46:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:46:37 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:46:37 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 20:46:48 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 20:47:07 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 20:47:07 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 20:48:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:00 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:48:00 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:48:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:01 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:01 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:01 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:01 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:01 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:01 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:01 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:01 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:01 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 20:48:02 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 20:48:05 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 20:48:05 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 20:48:42 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:42 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:42 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:48:43 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:48:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:43 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:48:43 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 20:48:52 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 20:48:53 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 20:48:53 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 20:49:01 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('240015','20240930')
+6/10/2024 20:49:40 - CALL  STR_SP_PAGOMASIVODETRACCIONESDETALLE ('240015','20240930')
+6/10/2024 20:50:25 - Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+6/10/2024 20:50:48 - Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+6/10/2024 20:51:41 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('240015','20240930')
+6/10/2024 20:51:41 - CALL  STR_SP_PAGOMASIVODETRACCIONESDETALLE ('240015','20240930')
+6/10/2024 20:52:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:52:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:52:23 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:52:23 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:52:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:52:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:52:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:52:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:52:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:52:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:52:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:52:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:52:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:52:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:52:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:52:23 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:52:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:52:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:52:24 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:52:24 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 20:52:36 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 20:52:37 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 20:52:37 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 20:52:40 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('240015','20240930')
+6/10/2024 20:52:40 - CALL  STR_SP_PAGOMASIVODETRACCIONESDETALLE ('240015','20240930')
+6/10/2024 20:52:51 - CALL  RML_SP_NOMBREARCHIVO ('71')
+6/10/2024 20:53:55 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:53:56 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:53:56 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:53:56 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:53:56 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:53:56 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:53:56 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:53:56 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:53:56 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:53:56 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:53:56 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:53:56 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:53:56 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:53:56 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:53:56 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:53:56 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:53:56 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:53:56 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:53:56 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:53:56 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 20:53:58 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 20:53:59 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 20:53:59 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 20:54:04 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('240015','20240930')
+6/10/2024 20:54:04 - CALL  STR_SP_PAGOMASIVODETRACCIONESDETALLE ('240015','20240930')
+6/10/2024 20:54:05 - CALL  RML_SP_NOMBREARCHIVO ('71')
+6/10/2024 20:54:53 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:54:53 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:54:53 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:54:53 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:54:53 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:54:53 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:54:53 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:54:53 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:54:53 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:54:53 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:54:53 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:54:53 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:54:53 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:54:53 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:54:53 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:54:54 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:54:54 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:54:54 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:54:54 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:54:54 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 20:55:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:55:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:55:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:55:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:55:21 - SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'
+6/10/2024 20:55:21 - 
+		UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = 'O1' , "U_STR_SRCTC" = 'F' , "U_STR_MTAD" = 'E'
+		,"U_STR_DIACT" = 'N', "U_STR_DISFJ" = '', "U_STR_PROV_IGV_ND" = 'N' , "U_STR_IMPRET" = 'DT10'
+		, "U_STR_IDCTA_DEB" = '102101',"U_STR_IDCTA_CRE" = '101101', "U_STR_FMCTA_DEB" = '102101', "U_STR_FMCTA_CRE" = '101101'
+		, "U_STR_RG_ACT" = 'N', "U_STR_IMPRG" = '', "U_STR_RECO_CTA" = '', "U_STR_RECO_ACT" = '', "U_RML_RUTADTR" = 'D:\SEBAS\PagosTXT\' WHERE "Code" = '01'
+6/10/2024 20:55:21 - SELECT COUNT(*) AS "Registros" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 20:55:21 - 
+			UPDATE "@BPP_PARAMS" SET "U_BPP_PAGCNTPT" = 'Y' ,"U_BPP_MONCNTBN" = 'Y',"U_BPP_APROB" = 'N',"U_BPP_PGMRUTA" = 'D:\SEBAS\PagosTXT\',"U_BPP_PAGCNTBN" = 'Y',
+			"U_BPP_CODTRAN" = 'DES',"U_BPP_GLOSAAST" = 'ASIENTO DESTINO',"U_BPP_CNTCONTR" = '791101',"U_BPP_CTANATU" = '9',"U_STR_OcrCode" = '3',"U_STR_NUMOPERTXT" = '1',
+			"U_BPP_SEPRDR" = '@',"U_BPP_CNTDOPCN" = '1' WHERE "Code" = 'BPP_CONFIG'
+		
+6/10/2024 20:55:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:55:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:55:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:55:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:55:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:55:21 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:55:22 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:55:22 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:55:22 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:55:22 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:55:22 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:55:22 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:55:22 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:55:22 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:56:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:56:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:56:08 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:56:08 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 20:56:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:56:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:56:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:56:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:56:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:56:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:56:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:56:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:56:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:56:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:56:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:56:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:56:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:56:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:56:08 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 20:56:09 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 20:56:16 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 20:56:17 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 20:56:17 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 20:56:20 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('240015','20240930')
+6/10/2024 20:56:20 - CALL  STR_SP_PAGOMASIVODETRACCIONESDETALLE ('240015','20240930')
+6/10/2024 20:56:22 - CALL  RML_SP_NOMBREARCHIVO ('71')
+6/10/2024 20:56:42 - 
+			UPDATE "@BPP_PAYDTR" SET "RML_RUTATXT" = 'D:\SEBAS\PagosTXT\20511649626_20240930.txt' WHERE "DocEntry" = '71';
+		
+6/10/2024 20:56:42 - 1). [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;260 invalid column name: RML_RUTATXT
+
+6/10/2024 20:56:47 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 20:56:47 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 21:00:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:00:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:00:49 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 21:00:49 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 21:00:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:00:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:00:49 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:00:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:00:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:00:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:00:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:00:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:00:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:00:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:00:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:00:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:00:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:00:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:00:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:00:50 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 21:00:57 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 21:01:00 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 21:01:00 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 21:02:12 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:02:12 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:02:13 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 21:02:13 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 21:02:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:02:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:02:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:02:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:02:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:02:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:02:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:02:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:02:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:02:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:02:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:02:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:02:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:02:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:02:13 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:02:13 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 21:02:16 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 21:02:17 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 21:02:17 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 21:02:21 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('240015','20240930')
+6/10/2024 21:02:21 - CALL  STR_SP_PAGOMASIVODETRACCIONESDETALLE ('240015','20240930')
+6/10/2024 21:02:21 - CALL  RML_SP_NOMBREARCHIVO ('71')
+6/10/2024 21:02:21 - 
+			UPDATE "@BPP_PAYDTR" SET "U_RML_RUTATXT" = 'D:\SEBAS\PagosTXT\20511649626_20240930.txt' WHERE "DocEntry" = '71';
+		
+6/10/2024 21:02:25 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 21:02:25 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 21:06:19 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:06:19 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:06:20 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 21:06:20 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 21:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:06:20 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:06:20 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 21:06:29 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 21:06:30 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 21:06:30 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 21:06:37 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('240015','20240930')
+6/10/2024 21:06:37 - CALL  STR_SP_PAGOMASIVODETRACCIONESDETALLE ('240015','20240930')
+6/10/2024 21:06:37 - CALL  RML_SP_NOMBREARCHIVO ('71')
+6/10/2024 21:06:37 - 
+			UPDATE "@BPP_PAYDTR" SET "U_RML_RUTATXT" = 'D:\SEBAS\PagosTXT\20511649626_20240930.txt' WHERE "DocEntry" = '71';
+		
+6/10/2024 21:06:38 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('','')
+6/10/2024 21:06:38 - 1). [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: not a valid number string ''
+
+6/10/2024 21:06:49 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 21:06:49 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 21:07:00 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('240015','20240930')
+6/10/2024 21:07:00 - CALL  STR_SP_PAGOMASIVODETRACCIONESDETALLE ('240015','20240930')
+6/10/2024 21:07:01 - CALL  RML_SP_NOMBREARCHIVO ('71')
+6/10/2024 21:07:01 - 
+			UPDATE "@BPP_PAYDTR" SET "U_RML_RUTATXT" = 'D:\SEBAS\PagosTXT\20511649626_20240930.txt' WHERE "DocEntry" = '71';
+		
+6/10/2024 21:07:04 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('','')
+6/10/2024 21:07:04 - 1). [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: not a valid number string ''
+
+6/10/2024 21:07:12 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 21:07:12 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 21:08:33 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:08:33 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:08:33 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 21:08:33 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 21:08:33 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:08:33 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:08:33 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:08:33 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:08:33 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:08:33 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:08:33 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:08:33 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:08:33 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:08:33 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:08:33 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:08:33 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:08:33 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:08:33 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:08:34 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 21:08:34 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 21:08:45 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 21:08:46 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 21:08:46 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 21:08:52 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('240015','20240930')
+6/10/2024 21:08:52 - CALL  STR_SP_PAGOMASIVODETRACCIONESDETALLE ('240015','20240930')
+6/10/2024 21:08:52 - CALL  RML_SP_NOMBREARCHIVO ('71')
+6/10/2024 21:08:52 - 
+			UPDATE "@BPP_PAYDTR" SET "U_RML_RUTATXT" = 'D:\SEBAS\PagosTXT\240015_20511649626_20240930.txt' WHERE "DocEntry" = '71';
+		
+6/10/2024 21:08:56 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 21:08:56 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 21:08:57 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 21:08:57 - CALL STR_SP_DetraccionesPagadas ('70')
+6/10/2024 21:08:59 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('240014','20240930')
+6/10/2024 21:08:59 - CALL  STR_SP_PAGOMASIVODETRACCIONESDETALLE ('240014','20240930')
+6/10/2024 21:08:59 - CALL  RML_SP_NOMBREARCHIVO ('70')
+6/10/2024 21:08:59 - 
+			UPDATE "@BPP_PAYDTR" SET "U_RML_RUTATXT" = 'D:\SEBAS\PagosTXT\240014_20511649626_20240930.txt' WHERE "DocEntry" = '70';
+		
+6/10/2024 21:10:00 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 21:10:00 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 21:10:01 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 21:10:01 - CALL STR_SP_DetraccionesPagadas ('70')
+6/10/2024 21:10:02 - CALL STR_SP_ObtNombreCuenta ('103101')
+6/10/2024 21:10:02 - CALL STR_SP_DetraccionesPagadas ('64')
+6/10/2024 21:10:03 - CALL STR_SP_ObtNombreCuenta ('103101')
+6/10/2024 21:10:03 - CALL STR_SP_DetraccionesPagadas ('63')
+6/10/2024 21:10:05 - CALL STR_SP_ObtNombreCuenta ('103101')
+6/10/2024 21:10:05 - CALL STR_SP_DetraccionesPagadas ('62')
+6/10/2024 21:10:06 - CALL STR_SP_ObtNombreCuenta ('103101')
+6/10/2024 21:10:06 - CALL STR_SP_DetraccionesPagadas ('61')
+6/10/2024 21:10:07 - CALL STR_SP_ObtNombreCuenta ('103101')
+6/10/2024 21:10:07 - CALL STR_SP_DetraccionesPagadas ('55')
+6/10/2024 21:10:08 - CALL STR_SP_ObtNombreCuenta ('104101')
+6/10/2024 21:10:08 - CALL STR_SP_DetraccionesPagadas ('50')
+6/10/2024 21:10:09 - CALL STR_SP_ObtNombreCuenta ('')
+6/10/2024 21:10:09 - CALL STR_SP_DetraccionesPagadas ('47')
+6/10/2024 21:10:09 - CALL STR_SP_ObtNombreCuenta ('')
+6/10/2024 21:10:09 - CALL STR_SP_DetraccionesPagadas ('45')
+6/10/2024 21:10:10 - CALL STR_SP_ObtNombreCuenta ('')
+6/10/2024 21:10:10 - CALL STR_SP_DetraccionesPagadas ('44')
+6/10/2024 21:10:11 - CALL STR_SP_ObtNombreCuenta ('')
+6/10/2024 21:10:11 - CALL STR_SP_DetraccionesPagadas ('43')
+6/10/2024 21:10:12 - CALL STR_SP_ObtNombreCuenta ('103101')
+6/10/2024 21:10:12 - CALL STR_SP_DetraccionesPagadas ('34')
+6/10/2024 21:10:13 - CALL STR_SP_ObtNombreCuenta ('103101')
+6/10/2024 21:10:13 - CALL STR_SP_DetraccionesPagadas ('32')
+6/10/2024 21:10:14 - CALL STR_SP_ObtNombreCuenta ('103101')
+6/10/2024 21:10:14 - CALL STR_SP_DetraccionesPagadas ('24')
+6/10/2024 21:10:15 - CALL STR_SP_ObtNombreCuenta ('104111')
+6/10/2024 21:10:15 - CALL STR_SP_DetraccionesPagadas ('10')
+6/10/2024 21:10:16 - CALL STR_SP_ObtNombreCuenta ('104111')
+6/10/2024 21:10:16 - CALL STR_SP_DetraccionesPagadas ('5')
+6/10/2024 21:10:17 - CALL STR_SP_ObtNombreCuenta ('104111')
+6/10/2024 21:10:17 - CALL STR_SP_DetraccionesPagadas ('4')
+6/10/2024 21:10:17 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 21:10:17 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 21:10:18 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 21:10:18 - CALL STR_SP_DetraccionesPagadas ('70')
+6/10/2024 21:10:19 - CALL STR_SP_ObtNombreCuenta ('103101')
+6/10/2024 21:10:19 - CALL STR_SP_DetraccionesPagadas ('64')
+6/10/2024 21:10:21 - CALL STR_SP_ObtNombreCuenta ('103101')
+6/10/2024 21:10:21 - CALL STR_SP_DetraccionesPagadas ('63')
+6/10/2024 21:10:22 - CALL STR_SP_ObtNombreCuenta ('103101')
+6/10/2024 21:10:22 - CALL STR_SP_DetraccionesPagadas ('62')
+6/10/2024 21:10:24 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 21:10:24 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 21:10:27 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 21:10:27 - CALL STR_SP_DetraccionesPagadas ('70')
+6/10/2024 21:10:35 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('240014','20240930')
+6/10/2024 21:10:35 - CALL  STR_SP_PAGOMASIVODETRACCIONESDETALLE ('240014','20240930')
+6/10/2024 21:10:35 - CALL  RML_SP_NOMBREARCHIVO ('70')
+6/10/2024 21:10:35 - 
+			UPDATE "@BPP_PAYDTR" SET "U_RML_RUTATXT" = 'D:\SEBAS\PagosTXT\240014_20511649626_20240930.txt' WHERE "DocEntry" = '70';
+		
+6/10/2024 21:10:35 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('','')
+6/10/2024 21:10:35 - 1). [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: not a valid number string ''
+
+6/10/2024 21:10:47 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 21:10:47 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 21:10:54 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('240016','20241006')
+6/10/2024 21:10:55 - CALL  STR_SP_PAGOMASIVODETRACCIONESDETALLE ('240016','20241006')
+6/10/2024 21:10:55 - CALL  RML_SP_NOMBREARCHIVO ('')
+6/10/2024 21:10:55 - 1). [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: not a valid number string ''
+
+6/10/2024 21:10:55 - 
+			UPDATE "@BPP_PAYDTR" SET "U_RML_RUTATXT" = 'D:\SEBAS\PagosTXT\.txt' WHERE "DocEntry" = '';
+		
+6/10/2024 21:10:55 - 1). [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: not a valid number string '' (at pos 87) 
+
+6/10/2024 21:10:55 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('','')
+6/10/2024 21:10:55 - 1). [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: not a valid number string ''
+
+6/10/2024 23:24:50 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:24:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:24:51 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 23:24:51 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 23:24:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:24:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:24:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:24:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:24:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:24:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:24:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:24:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:24:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:24:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:24:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:24:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:24:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:24:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:24:51 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:24:51 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 23:25:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:25:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:25:01 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:25:01 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:25:32 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 23:25:33 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 23:25:33 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 23:25:36 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('240015','20240930')
+6/10/2024 23:25:36 - CALL  STR_SP_PAGOMASIVODETRACCIONESDETALLE ('240015','20240930')
+6/10/2024 23:25:36 - CALL  RML_SP_NOMBREARCHIVO ('71')
+6/10/2024 23:25:36 - 
+			UPDATE "@BPP_PAYDTR" SET "U_RML_RUTATXT" = 'D:\SEBAS\PagosTXT\240015_20511649626_20240930.txt' WHERE "DocEntry" = '71';
+		
+6/10/2024 23:25:36 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('','')
+6/10/2024 23:25:36 - 1). [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: not a valid number string ''
+
+6/10/2024 23:25:46 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 23:25:46 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 23:25:53 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('240015','20240930')
+6/10/2024 23:26:12 - CALL  STR_SP_PAGOMASIVODETRACCIONESDETALLE ('240015','20240930')
+6/10/2024 23:27:02 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:27:02 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:27:02 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 23:27:02 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 23:27:02 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:27:02 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:27:02 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:27:02 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:27:02 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:27:02 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:27:02 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:27:02 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:27:02 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:27:02 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:27:02 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:27:02 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:27:02 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:27:02 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:27:02 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:27:02 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 23:27:09 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 23:27:10 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 23:27:10 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 23:27:13 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('240015','20240930')
+6/10/2024 23:27:13 - CALL  STR_SP_PAGOMASIVODETRACCIONESDETALLE ('240015','20240930')
+6/10/2024 23:34:07 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:34:07 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:34:07 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 23:34:07 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 23:34:07 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:34:07 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:34:07 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:34:07 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:34:07 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:34:07 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:34:07 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:34:07 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:34:07 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:34:07 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:34:07 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:34:07 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:34:07 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:34:07 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:34:07 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:34:07 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+6/10/2024 23:34:16 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 23:34:17 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 23:34:17 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 23:34:21 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('240015','20240930')
+6/10/2024 23:34:21 - CALL  STR_SP_PAGOMASIVODETRACCIONESDETALLE ('240015','20240930')
+6/10/2024 23:56:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:56:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:56:38 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 23:56:38 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+6/10/2024 23:56:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:56:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:56:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:56:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:56:38 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:56:39 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:56:39 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:56:39 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:56:39 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:56:39 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:56:39 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:56:39 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:56:39 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:56:39 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:56:39 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:56:39 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:56:47 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+6/10/2024 23:56:49 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 23:56:49 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 23:57:00 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:57:00 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('240015','20240930')
+6/10/2024 23:57:00 - CALL  STR_SP_PAGOMASIVODETRACCIONESDETALLE ('240015','20240930')
+6/10/2024 23:57:00 - CALL  RML_SP_NOMBREARCHIVO ('71')
+6/10/2024 23:57:00 - 
+			UPDATE "@BPP_PAYDTR" SET "U_RML_RUTATXT" = 'D:\SEBAS\PagosTXT\240015_20511649626_20240930.txt' WHERE "DocEntry" = '71';
+		
+6/10/2024 23:57:41 - CALL STR_SP_ObtNombreCuenta ('101101')
+6/10/2024 23:57:41 - CALL STR_SP_DetraccionesPagadas ('71')
+6/10/2024 23:57:42 - CALL STR_SP_ObtConfigLocaliz ()
+6/10/2024 23:57:42 - CALL  STR_SP_PAGOMASIVODETRACCIONESCABECERA ('240015','20240930')
+6/10/2024 23:57:42 - CALL  STR_SP_PAGOMASIVODETRACCIONESDETALLE ('240015','20240930')
+6/10/2024 23:57:42 - CALL  RML_SP_NOMBREARCHIVO ('71')
+6/10/2024 23:57:42 - 
+			UPDATE "@BPP_PAYDTR" SET "U_RML_RUTATXT" = 'D:\SEBAS\PagosTXT\240015_20511649626_20240930.txt' WHERE "DocEntry" = '71';
+		

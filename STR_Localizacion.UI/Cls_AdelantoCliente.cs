@@ -57,7 +57,8 @@ namespace STR_Localizacion.UI
             }
             catch (Exception exc)
             {
-                Cls_Global.WriteToFile(exc.Message);
+                
+                WriteToFile(exc.Message);
                 go_SBOApplication.SetStatusBarMessage(exc.Message, BoMessageTime.bmt_Short, true);
             }
             finally { go_SBOForm.Visible = true; }

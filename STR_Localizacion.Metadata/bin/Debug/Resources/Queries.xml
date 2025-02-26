@@ -207,11 +207,17 @@
   <query nameid="ObtBancoMnd" definition="I">
     <sql>SELECT T1."ActCurr" FROM DSC1 T0 INNER JOIN OACT T1 ON "GLAccount" = T1."AcctCode" WHERE "BankCode" = '{0}' AND "Account" ='{1}' </sql>
   </query>
-
+  <query nameid="ObtenerUbigeo" definition="I">
+	<sql>
+		SELECT TOP 1 T0."Code" FROM "@BPP_DISTRI" T0 INNER JOIN "@BPP_PROVIN" T1  ON
+		T0."U_BPP_COPR" = T1."Code" INNER JOIN OCST T3 ON T3."Code" = T1."U_BPP_CODE"
+		WHERE T3."Name" = '{0}' AND T1."U_BPP_NOPRO" = '{1}' AND T0."U_BPP_NODI" = '{2}' AND "Country" = 'PE'
+	</sql>
+  </query>
   <query nameid="ObtRutaArchivoTxt" definition="P">
     <sql>STR_SP_ObtRutaArchivoTxt</sql>
     <params>'{0}'</params>
-  </query>
+  </query>  
   <query nameid="ObtHeaderData" definition="P">
     <sql>STR_SP_ObtHeaderData</sql>
     <params>'{0}'</params>
@@ -220,10 +226,13 @@
     <sql>STR_SP_ObtDetailData</sql>
     <params>'{0}','{1}'</params>
   </query>
-
   <query nameid="ObtConfigData" definition="P">
     <sql>STR_SP_ObtConfigLocaliz</sql>
   </query>
+    <query nameid="ObtConfigDataMasivo" definition="D">
+		<hana>SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'</hana>
+		<tsql>SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'</tsql>
+    </query>
   <query nameid="CrtConfigData" definition="D">
      <tsql>
       INSERT INTO "@STR_LC_CONF" ("Code", "Name", "U_STR_MCTC", "U_STR_SRCTC", "U_STR_MTAD") VALUES ('01', '01', '{0}','{1}', '{2}')
@@ -234,20 +243,36 @@
   
   <query nameid="UpdtConfigData" definition="D">
     <tsql>
-      UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = '{0}' , "U_STR_SRCTC" = '{1}' , "U_STR_MTAD" = '{2}'
-      ,"U_STR_DIACT" = '{3}', "U_STR_DISFJ" = '{4}', "U_STR_PROV_IGV_ND" = '{5}' , "U_STR_IMPRET" = '{6}'
-      , "U_STR_IDCTA_DEB" = '{7}',"U_STR_IDCTA_CRE" = '{8}', "U_STR_FMCTA_DEB" = '{9}', "U_STR_FMCTA_CRE" = '{10}'
-      , "U_STR_RG_ACT" = '{11}', "U_STR_IMPRG" = '{12}', "U_STR_RECO_CTA" = '{13}', "U_STR_RECO_ACT" = '{14}' WHERE "Code" = '01'
-    </tsql>
+		UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = '{0}' , "U_STR_SRCTC" = '{1}' , "U_STR_MTAD" = '{2}'
+		,"U_STR_DIACT" = '{3}', "U_STR_DISFJ" = '{4}', "U_STR_PROV_IGV_ND" = '{5}' , "U_STR_IMPRET" = '{6}'
+		, "U_STR_IDCTA_DEB" = '{7}',"U_STR_IDCTA_CRE" = '{8}', "U_STR_FMCTA_DEB" = '{9}', "U_STR_FMCTA_CRE" = '{10}'
+		, "U_STR_RG_ACT" = '{11}', "U_STR_IMPRG" = '{12}', "U_STR_RECO_CTA" = '{13}', "U_STR_RECO_ACT" = '{14}', "U_RML_RUTADTR" = '{15}' WHERE "Code" = '01'
+	</tsql>
     <hana>
-      UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = '{0}' , "U_STR_SRCTC" = '{1}' , "U_STR_MTAD" = '{2}'
-      ,"U_STR_DIACT" = '{3}', "U_STR_DISFJ" = '{4}', "U_STR_PROV_IGV_ND" = '{5}' , "U_STR_IMPRET" = '{6}'
-      , "U_STR_IDCTA_DEB" = '{7}',"U_STR_IDCTA_CRE" = '{8}', "U_STR_FMCTA_DEB" = '{9}', "U_STR_FMCTA_CRE" = '{10}'
-      , "U_STR_RG_ACT" = '{11}', "U_STR_IMPRG" = '{12}', "U_STR_RECO_CTA" = '{13}', "U_STR_RECO_ACT" = '{14}'  WHERE "Code" = '01'</hana>
+		UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = '{0}' , "U_STR_SRCTC" = '{1}' , "U_STR_MTAD" = '{2}'
+		,"U_STR_DIACT" = '{3}', "U_STR_DISFJ" = '{4}', "U_STR_PROV_IGV_ND" = '{5}' , "U_STR_IMPRET" = '{6}'
+		, "U_STR_IDCTA_DEB" = '{7}',"U_STR_IDCTA_CRE" = '{8}', "U_STR_FMCTA_DEB" = '{9}', "U_STR_FMCTA_CRE" = '{10}'
+		, "U_STR_RG_ACT" = '{11}', "U_STR_IMPRG" = '{12}', "U_STR_RECO_CTA" = '{13}', "U_STR_RECO_ACT" = '{14}', "U_RML_RUTADTR" = '{15}' WHERE "Code" = '01'</hana>
   </query>
+	<query nameid="UpdtConfigDataOp" definition="D">
+		<tsql>
+			UPDATE "@BPP_PARAMS" SET "U_BPP_PAGCNTPT" = '{0}' ,"U_BPP_MONCNTBN" = '{1}',"U_BPP_APROB" = '{2}',"U_BPP_PGMRUTA" = '{3}',"U_BPP_PAGCNTBN" = '{4}',
+			"U_BPP_CODTRAN" = '{5}',"U_BPP_GLOSAAST" = '{6}',"U_BPP_CNTCONTR" = '{7}',"U_BPP_CTANATU" = '{8}',"U_STR_OcrCode" = '{9}',"U_STR_NUMOPERTXT" = '{10}',
+			"U_BPP_SEPRDR" = '{11}',"U_BPP_CNTDOPCN" = '{12}',"U_BPP_PGMAGRP" = '{13}'  WHERE "Code" = 'BPP_CONFIG'
+		</tsql>
+		<hana>
+			UPDATE "@BPP_PARAMS" SET "U_BPP_PAGCNTPT" = '{0}' ,"U_BPP_MONCNTBN" = '{1}',"U_BPP_APROB" = '{2}',"U_BPP_PGMRUTA" = '{3}',"U_BPP_PAGCNTBN" = '{4}',
+			"U_BPP_CODTRAN" = '{5}',"U_BPP_GLOSAAST" = '{6}',"U_BPP_CNTCONTR" = '{7}',"U_BPP_CTANATU" = '{8}',"U_STR_OcrCode" = '{9}',"U_STR_NUMOPERTXT" = '{10}',
+			"U_BPP_SEPRDR" = '{11}',"U_BPP_CNTDOPCN" = '{12}',"U_BPP_PGMAGRP" = '{13}' WHERE "Code" = 'BPP_CONFIG'
+		</hana>
+	</query>
   <query nameid="RegConfigData" definition="D">
     <tsql>SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'</tsql>
     <hana>SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'</hana>
+  </query>
+   <query nameid="RegConfigDataOp" definition="D">
+	<tsql>SELECT COUNT(*) AS "Registros" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'</tsql>
+	<hana>SELECT COUNT(*) AS "Registros" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'</hana>
   </query>
   <query nameid="isCashFlowAccount" definition="D">
     <hana>SELECT "CfwRlvnt" FROM "OACT" WHERE "FormatCode" = '{0}'</hana>
@@ -263,6 +288,9 @@
   <query nameid="ObtCtasDifCambio" definition="I">
       <sql>SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '{0}'</sql>
   </query>
+	<query nameid="DeletePayDtrDet" definition="I">
+		<sql>DELETE FROM "@BPP_PAYDTRDET" WHERE "DocEntry" = '{0}' AND "U_BPP_NmDc" = '{1}'</sql>
+	</query>
   <query nameid="ObtUsuarios" definition="I">
     <sql>SELECT "USERID","U_NAME" FROM OUSR WHERE "Locked" = 'N' and "GROUPS" = 0 ORDER BY "U_NAME"</sql>
   </query>
@@ -272,4 +300,24 @@
   <query nameid="ObtListaMateriales" definition="I">
     <sql>SELECT "U_STR_ItemCode","U_STR_WhsCode", "U_STR_Quantity" FROM "@STR_LC_LISTALM" WHERE "U_STR_Item"= '{0}' AND "U_STR_Almacen" = '{1}'</sql>
   </query>
+	<query nameid="ObtDtrccnsCabeceraTXT" definition="P">
+		<sql> STR_SP_PAGOMASIVODETRACCIONESCABECERA</sql>
+		<params>'{0}','{1}'</params>
+	</query>
+	<query nameid="ObtDtrccnsDetalleTXT" definition="P">
+		<sql> STR_SP_PAGOMASIVODETRACCIONESDETALLE</sql>
+		<params>'{0}','{1}'</params>
+	</query>
+	<query nameid="ObtNombreArchivo" definition="P">
+		<sql> RML_SP_NOMBREARCHIVO</sql>
+		<params>'{0}'</params>
+	</query>
+	<query nameid="UpdtPgmDTRTXT" definition="D">
+		<tsql>
+			UPDATE "@BPP_PAYDTR" SET "U_RML_RUTATXT" = '{0}' WHERE "DocEntry" = '{1}';
+		</tsql>
+		<hana>
+			UPDATE "@BPP_PAYDTR" SET "U_RML_RUTATXT" = '{0}' WHERE "DocEntry" = '{1}';
+		</hana>
+	</query>
 </root>

@@ -176,13 +176,13 @@ namespace STR_Localizacion.UI
 
                     if (s.Row != -1)
                     {
-                        if (ls_Tipo.Equals("Factura de Clientes"))
+                        if (ls_Tipo.Equals("Factura de Clientes") || ls_Tipo.Equals("Factura de Clientes"))
                             lo_Linked.LinkedObject = BoLinkedObject.lf_Invoice;
-                        else if (ls_Tipo.Equals("Factura de Proveedor"))
+                        else if (ls_Tipo.Equals("Factura de Proveedor") || ls_Tipo.Equals("Factura de Proveedor"))
                             lo_Linked.LinkedObject = BoLinkedObject.lf_PurchaseInvoice;
-                        else if (ls_Tipo.Equals("Fac. Anticipo de Proveedores"))
+                        else if (ls_Tipo.Equals("Fac. Anticipo de Proveedores") || ls_Tipo.Equals("Fac. Anticipo de Pro"))
                             lo_Linked.LinkedObject = (BoLinkedObject)204;
-                        else if (ls_Tipo.Equals("Nota de Credito Proveedores"))
+                        else if (ls_Tipo.Equals("Nota de Credito Proveedores") || ls_Tipo.Equals("Nota de Credito Prov"))
                             lo_Linked.LinkedObject = BoLinkedObject.lf_PurchaseInvoiceCreditMemo;
                     }
                 }

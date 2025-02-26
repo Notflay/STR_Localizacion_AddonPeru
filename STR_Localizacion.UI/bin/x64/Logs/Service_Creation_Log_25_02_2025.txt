@@ -1,0 +1,899 @@
+25/02/2025 10:28:54 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 10:28:54 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 10:28:54 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 10:28:54 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 10:28:54 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 10:28:54 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 10:28:54 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 10:28:54 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 10:28:54 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 10:28:54 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 10:28:54 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 10:28:54 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 10:28:54 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 10:28:54 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 10:28:54 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 10:28:54 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 10:28:54 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 10:28:54 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 10:28:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 10:28:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:33:11 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:33:11 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:33:11 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 12:33:11 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 12:33:11 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:33:11 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:33:11 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:33:11 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:33:11 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:33:11 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:33:11 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:33:11 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:33:11 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:33:11 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:33:11 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:33:11 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:33:11 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:33:11 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:33:12 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:33:12 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:34:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:34:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:34:04 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 12:34:04 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 12:34:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:34:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:34:05 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:34:05 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:34:05 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:34:05 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:34:05 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:34:05 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:34:05 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:34:05 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:34:05 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:34:05 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:34:05 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:34:05 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:34:05 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:34:05 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:34:10 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 12:34:15 - EXEC STR_SP_ObtNombreCuenta '103111000000'
+25/02/2025 12:34:15 - EXEC STR_SP_DetraccionesPagadas '17'
+25/02/2025 12:36:00 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 12:36:18 - EXEC STR_SP_RegistroPagoDetrac '0'
+25/02/2025 12:36:19 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 12:36:19 - EXEC STR_SP_DetraccionesPagadas '18'
+25/02/2025 12:36:28 - EXEC STR_SP_ObtNombreCuenta '103111000000'
+25/02/2025 12:36:28 - EXEC STR_SP_DetraccionesPagadas '17'
+25/02/2025 12:36:33 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 12:36:59 - EXEC STR_SP_RegistroPagoDetrac '0'
+25/02/2025 12:37:00 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 12:37:00 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 12:37:19 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 12:37:30 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 12:37:30 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 12:37:35 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 12:43:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:43:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:43:58 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 12:43:58 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 12:43:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:43:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:43:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:43:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:43:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:43:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:43:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:43:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:43:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:43:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:43:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:43:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:43:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:43:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:43:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:43:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:45:25 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 12:45:27 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 12:45:27 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 12:45:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:45:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:45:57 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 12:45:57 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 12:45:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:45:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:45:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:45:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:45:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:45:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:45:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:45:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:45:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:45:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:45:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:45:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:45:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:45:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:45:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:45:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:46:13 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 12:46:17 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 12:46:17 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 12:46:31 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 12:46:31 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 12:47:08 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 12:47:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:47:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:47:34 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 12:47:34 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 12:47:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:47:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:47:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:47:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:47:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:47:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:47:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:47:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:47:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:47:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:47:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:47:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:47:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:47:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:47:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:47:35 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:47:51 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 12:47:56 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 12:47:56 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 12:48:03 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 12:48:27 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 12:48:27 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 12:48:31 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 12:48:36 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 12:48:36 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 12:49:38 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 12:53:16 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:53:16 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:53:16 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 12:53:16 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 12:53:17 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:53:17 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:53:17 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:53:17 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:53:17 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:53:17 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:53:17 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:53:17 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:53:17 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:53:17 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:53:17 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:53:17 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:53:17 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:53:17 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:53:17 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:53:17 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:53:26 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 12:53:28 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 12:53:28 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 12:53:47 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 12:53:47 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 12:55:17 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 12:55:17 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 12:55:29 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 12:55:29 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 12:55:45 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 12:55:46 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 12:57:56 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:57:56 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:57:56 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 12:57:56 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 12:57:56 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:57:56 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:57:56 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:57:56 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:57:56 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:57:56 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:57:56 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:57:56 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:57:56 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:57:56 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:57:56 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:57:56 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:57:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:57:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:57:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:57:57 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:58:13 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 12:58:40 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 12:58:41 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 12:59:50 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:59:51 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:59:51 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 12:59:51 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 12:59:51 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:59:51 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:59:51 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:59:51 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:59:51 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:59:51 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:59:51 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:59:51 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:59:51 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:59:51 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:59:51 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:59:51 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:59:51 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:59:51 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:59:51 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 12:59:51 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:00:00 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 13:00:04 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 13:00:06 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 13:00:37 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:00:37 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:00:37 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 13:00:37 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 13:00:37 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:00:37 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:00:37 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:00:37 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:00:37 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:00:37 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:00:37 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:00:37 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:00:37 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:00:37 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:00:37 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:00:37 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:00:37 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:00:37 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:00:37 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:00:37 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:00:43 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 13:00:49 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 13:00:49 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 13:04:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:04:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:04:58 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 13:04:58 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 13:04:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:04:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:04:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:04:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:04:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:04:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:04:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:04:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:04:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:04:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:04:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:04:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:04:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:04:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:04:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:04:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 13:05:14 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 13:05:23 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 13:05:24 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 13:05:42 - EXEC STR_SP_ObtNombreCuenta '103111000000'
+25/02/2025 13:05:42 - EXEC STR_SP_DetraccionesPagadas '17'
+25/02/2025 13:06:00 - EXEC STR_SP_ObtNombreCuenta '103111000000'
+25/02/2025 13:06:00 - EXEC STR_SP_DetraccionesPagadas '17'
+25/02/2025 13:06:53 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 13:06:54 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 13:07:06 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 13:07:06 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:17:33 - EXEC STR_SP_ObtNombreCuenta '103111000000'
+25/02/2025 14:17:33 - EXEC STR_SP_DetraccionesPagadas '17'
+25/02/2025 14:20:54 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:20:54 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:20:55 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:20:55 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:20:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:20:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:20:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:20:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:20:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:20:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:20:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:20:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:20:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:20:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:20:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:20:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:20:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:20:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:20:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:20:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:21:00 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 14:21:01 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:21:01 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:21:10 - EXEC STR_SP_ObtNombreCuenta '103111000000'
+25/02/2025 14:21:10 - EXEC STR_SP_DetraccionesPagadas '17'
+25/02/2025 14:21:24 - EXEC STR_SP_ObtNombreCuenta '103111000000'
+25/02/2025 14:21:24 - EXEC STR_SP_DetraccionesPagadas '17'
+25/02/2025 14:21:44 - EXEC STR_SP_ObtNombreCuenta '103111000000'
+25/02/2025 14:21:44 - EXEC STR_SP_DetraccionesPagadas '17'
+25/02/2025 14:23:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:03 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:23:03 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:23:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:11 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 14:23:14 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:23:14 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:23:25 - EXEC STR_SP_ObtNombreCuenta '103111000000'
+25/02/2025 14:23:26 - EXEC STR_SP_DetraccionesPagadas '17'
+25/02/2025 14:23:54 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:55 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:23:55 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:23:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:23:55 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:24:10 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 14:24:11 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:24:11 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:24:16 - EXEC STR_SP_ObtNombreCuenta '103111000000'
+25/02/2025 14:24:16 - EXEC STR_SP_DetraccionesPagadas '17'
+25/02/2025 14:24:18 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:24:18 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:26:36 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 14:27:03 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:27:03 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:27:13 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:27:13 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:27:42 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 14:27:47 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:27:47 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:30:48 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:30:48 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:30:49 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:30:49 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:30:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:30:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:30:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:30:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:30:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:30:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:30:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:30:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:30:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:30:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:30:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:30:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:30:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:30:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:30:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:30:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:30:57 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 14:30:58 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 14:31:09 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:31:09 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:31:28 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:31:28 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:31:29 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:31:29 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:36:07 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:36:07 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:36:19 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:36:19 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:36:19 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:36:19 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:36:19 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:36:19 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:36:19 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:36:19 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:36:19 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:36:19 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:36:19 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:36:19 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:36:19 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:36:19 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:36:19 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:36:19 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:36:19 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:36:19 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:36:19 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:36:19 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:36:25 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 14:36:26 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:36:26 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:38:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:38:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:38:09 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:38:09 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:38:09 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:38:09 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:38:09 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:38:09 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:38:09 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:38:09 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:38:09 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:38:09 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:38:09 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:38:09 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:38:09 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:38:09 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:38:09 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:38:09 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:38:09 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:38:09 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:38:16 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 14:38:17 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:38:17 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:38:33 - EXEC STR_SP_RegistroPagoDetrac '19'
+25/02/2025 14:38:33 - SELECT "MltpBrnchs" FROM OADM
+25/02/2025 14:38:34 - EXEC STR_SP_ObtMoneda 'P10468738789'
+25/02/2025 14:38:34 - EXEC STR_SP_ObtLineaId 'P10468738789','208755'
+25/02/2025 14:38:34 - EXEC STR_SP_ObtCodigoDetrac ''
+25/02/2025 14:38:35 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:38:35 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:38:36 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:38:36 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:39:17 - EXEC STR_SP_RegistroPagoDetrac '19'
+25/02/2025 14:39:18 - SELECT "MltpBrnchs" FROM OADM
+25/02/2025 14:39:18 - EXEC STR_SP_ObtMoneda 'P10468738789'
+25/02/2025 14:39:18 - EXEC STR_SP_ObtLineaId 'P10468738789','208755'
+25/02/2025 14:39:18 - EXEC STR_SP_ObtCodigoDetrac ''
+25/02/2025 14:39:21 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:39:21 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:39:22 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:39:22 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:40:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:40:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:40:34 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:40:34 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:40:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:40:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:40:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:40:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:40:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:40:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:40:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:40:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:40:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:40:34 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:40:35 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:40:35 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:40:35 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:40:35 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:40:35 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:40:35 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:40:44 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 14:40:45 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:40:45 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:41:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:41:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:41:04 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:41:04 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:41:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:41:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:41:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:41:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:41:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:41:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:41:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:41:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:41:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:41:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:41:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:41:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:41:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:41:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:41:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:41:04 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:41:11 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 14:41:13 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:41:13 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:41:32 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:41:32 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:41:33 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:41:33 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:41:45 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:41:45 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:41:46 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:41:46 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:50:48 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:50:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:50:49 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:50:49 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:50:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:50:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:50:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:50:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:50:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:50:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:50:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:50:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:50:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:50:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:50:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:50:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:50:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:50:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:50:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:50:49 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:51:00 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 14:51:01 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:51:01 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:51:16 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:51:16 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 14:52:35 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 14:53:01 - EXEC STR_SP_RegistroPagoDetrac '0'
+25/02/2025 14:53:02 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:53:02 - EXEC STR_SP_DetraccionesPagadas '20'
+25/02/2025 14:53:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:53:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:53:31 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:53:31 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 14:53:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:53:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:53:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:53:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:53:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:53:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:53:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:53:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:53:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:53:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:53:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:53:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:53:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:53:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:53:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:53:32 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 14:53:42 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 14:53:43 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:53:43 - EXEC STR_SP_DetraccionesPagadas '20'
+25/02/2025 14:54:17 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:54:17 - EXEC STR_SP_DetraccionesPagadas '20'
+25/02/2025 14:54:18 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:54:18 - EXEC STR_SP_DetraccionesPagadas '20'
+25/02/2025 14:54:45 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:54:45 - EXEC STR_SP_DetraccionesPagadas '20'
+25/02/2025 14:54:45 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:54:45 - EXEC STR_SP_DetraccionesPagadas '20'
+25/02/2025 14:55:31 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:55:31 - EXEC STR_SP_DetraccionesPagadas '20'
+25/02/2025 14:56:16 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 14:56:54 - EXEC STR_SP_RegistroPagoDetrac '0'
+25/02/2025 14:56:54 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:56:54 - EXEC STR_SP_DetraccionesPagadas '21'
+25/02/2025 14:57:10 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:57:10 - EXEC STR_SP_DetraccionesPagadas '21'
+25/02/2025 14:57:27 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 14:58:05 - EXEC STR_SP_RegistroPagoDetrac '0'
+25/02/2025 14:58:05 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:58:05 - EXEC STR_SP_DetraccionesPagadas '22'
+25/02/2025 14:58:19 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 14:58:19 - EXEC STR_SP_DetraccionesPagadas '22'
+25/02/2025 14:59:15 - EXEC STR_SP_ObtNombreCuenta '000001000000'
+25/02/2025 14:59:20 - EXEC STR_SP_ObtNombreCuenta '000001000000'
+25/02/2025 14:59:20 - EXEC STR_SP_DetraccionesPagadas '22'
+25/02/2025 14:59:21 - EXEC STR_SP_ObtNombreCuenta '000001000000'
+25/02/2025 14:59:21 - EXEC STR_SP_DetraccionesPagadas '22'
+25/02/2025 14:59:29 - EXEC STR_SP_ObtNombreCuenta '000001000000'
+25/02/2025 14:59:29 - EXEC STR_SP_DetraccionesPagadas '22'
+25/02/2025 14:59:29 - EXEC STR_SP_ObtNombreCuenta '000001000000'
+25/02/2025 14:59:29 - EXEC STR_SP_DetraccionesPagadas '22'
+25/02/2025 15:01:30 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:01:30 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:01:30 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 15:01:30 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 15:01:30 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:01:30 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:01:30 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:01:30 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:01:30 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:01:30 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:01:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:01:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:01:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:01:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:01:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:01:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:01:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:01:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:01:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:01:31 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:01:36 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 15:01:37 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 15:01:51 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 15:01:52 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 15:02:28 - EXEC STR_SP_RegistroPagoDetrac '0'
+25/02/2025 15:02:29 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:02:29 - EXEC STR_SP_DetraccionesPagadas '23'
+25/02/2025 15:02:53 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 15:02:54 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:02:54 - EXEC STR_SP_DetraccionesPagadas '23'
+25/02/2025 15:02:57 - EXEC STR_SP_ObtNombreCuenta '000001000000'
+25/02/2025 15:02:57 - EXEC STR_SP_DetraccionesPagadas '22'
+25/02/2025 15:02:59 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:02:59 - EXEC STR_SP_DetraccionesPagadas '21'
+25/02/2025 15:03:00 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:03:00 - EXEC STR_SP_DetraccionesPagadas '20'
+25/02/2025 15:03:02 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:03:02 - EXEC STR_SP_DetraccionesPagadas '19'
+25/02/2025 15:03:04 - EXEC STR_SP_ObtNombreCuenta '103111000000'
+25/02/2025 15:03:04 - EXEC STR_SP_DetraccionesPagadas '17'
+25/02/2025 15:03:11 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 15:03:41 - EXEC STR_SP_RegistroPagoDetrac '0'
+25/02/2025 15:03:41 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:03:41 - EXEC STR_SP_DetraccionesPagadas '24'
+25/02/2025 15:04:14 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 15:04:15 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:04:15 - EXEC STR_SP_DetraccionesPagadas '24'
+25/02/2025 15:04:36 - EXEC STR_SP_ObtNombreCuenta '103111000000'
+25/02/2025 15:04:36 - EXEC STR_SP_DetraccionesPagadas '17'
+25/02/2025 15:07:39 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:07:39 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:07:40 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 15:07:40 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 15:07:40 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:07:40 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:07:40 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:07:40 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:07:40 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:07:40 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:07:40 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:07:40 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:07:40 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:07:40 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:07:40 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:07:40 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:07:40 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:07:40 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:07:40 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:07:40 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:07:47 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 15:07:52 - EXEC STR_SP_ObtNombreCuenta '103111000000'
+25/02/2025 15:07:52 - EXEC STR_SP_DetraccionesPagadas '17'
+25/02/2025 15:07:55 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 15:08:17 - EXEC STR_SP_RegistroPagoDetrac '0'
+25/02/2025 15:08:18 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:08:18 - EXEC STR_SP_DetraccionesPagadas '25'
+25/02/2025 15:08:31 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:08:31 - EXEC STR_SP_DetraccionesPagadas '25'
+25/02/2025 15:08:31 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:08:31 - EXEC STR_SP_DetraccionesPagadas '25'
+25/02/2025 15:08:53 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:08:53 - EXEC STR_SP_DetraccionesPagadas '25'
+25/02/2025 15:08:54 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:08:54 - EXEC STR_SP_DetraccionesPagadas '25'
+25/02/2025 15:08:57 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:08:57 - EXEC STR_SP_DetraccionesPagadas '25'
+25/02/2025 15:08:58 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:08:58 - EXEC STR_SP_DetraccionesPagadas '25'
+25/02/2025 15:09:08 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:09:08 - EXEC STR_SP_DetraccionesPagadas '25'
+25/02/2025 15:09:44 - EXEC STR_SP_ObtNombreCuenta '103111000000'
+25/02/2025 15:09:44 - EXEC STR_SP_DetraccionesPagadas '17'
+25/02/2025 15:10:57 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 15:11:17 - EXEC STR_SP_RegistroPagoDetrac '0'
+25/02/2025 15:11:18 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:11:18 - EXEC STR_SP_DetraccionesPagadas '26'
+25/02/2025 15:11:27 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:11:27 - EXEC STR_SP_DetraccionesPagadas '26'
+25/02/2025 15:11:27 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:11:27 - EXEC STR_SP_DetraccionesPagadas '26'
+25/02/2025 15:11:30 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:11:30 - EXEC STR_SP_DetraccionesPagadas '26'
+25/02/2025 15:11:31 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:11:31 - EXEC STR_SP_DetraccionesPagadas '26'
+25/02/2025 15:11:33 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:11:33 - EXEC STR_SP_DetraccionesPagadas '26'
+25/02/2025 15:11:34 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:11:34 - EXEC STR_SP_DetraccionesPagadas '26'
+25/02/2025 15:11:39 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:11:39 - EXEC STR_SP_DetraccionesPagadas '26'
+25/02/2025 15:11:39 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:11:39 - EXEC STR_SP_DetraccionesPagadas '26'
+25/02/2025 15:11:42 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:11:42 - EXEC STR_SP_DetraccionesPagadas '26'
+25/02/2025 15:11:42 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:11:42 - EXEC STR_SP_DetraccionesPagadas '26'
+25/02/2025 15:11:45 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:11:45 - EXEC STR_SP_DetraccionesPagadas '26'
+25/02/2025 15:11:46 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:11:46 - EXEC STR_SP_DetraccionesPagadas '26'
+25/02/2025 15:11:49 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:11:49 - EXEC STR_SP_DetraccionesPagadas '26'
+25/02/2025 15:11:49 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:11:49 - EXEC STR_SP_DetraccionesPagadas '26'
+25/02/2025 15:12:00 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:12:00 - EXEC STR_SP_DetraccionesPagadas '26'
+25/02/2025 15:12:00 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:12:00 - EXEC STR_SP_DetraccionesPagadas '26'
+25/02/2025 15:12:51 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:12:51 - EXEC STR_SP_DetraccionesPagadas '26'
+25/02/2025 15:13:02 - EXEC STR_SP_ObtNombreCuenta '103111000000'
+25/02/2025 15:13:02 - EXEC STR_SP_DetraccionesPagadas '17'
+25/02/2025 15:13:07 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 15:13:25 - EXEC STR_SP_RegistroPagoDetrac '0'
+25/02/2025 15:13:26 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:13:26 - EXEC STR_SP_DetraccionesPagadas '27'
+25/02/2025 15:13:39 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:13:39 - EXEC STR_SP_DetraccionesPagadas '27'
+25/02/2025 15:13:40 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:13:40 - EXEC STR_SP_DetraccionesPagadas '27'
+25/02/2025 15:17:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:17:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:17:08 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 15:17:08 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 15:17:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:17:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:17:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:17:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:17:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:17:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:17:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:17:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:17:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:17:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:17:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:17:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:17:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:17:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:17:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:17:08 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:17:11 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 15:17:12 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:17:12 - EXEC STR_SP_DetraccionesPagadas '27'
+25/02/2025 15:17:18 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:17:18 - EXEC STR_SP_DetraccionesPagadas '27'
+25/02/2025 15:17:26 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 15:17:37 - EXEC STR_SP_RegistroPagoDetrac '0'
+25/02/2025 15:17:38 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:17:38 - EXEC STR_SP_DetraccionesPagadas '28'
+25/02/2025 15:17:42 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:17:42 - EXEC STR_SP_DetraccionesPagadas '28'
+25/02/2025 15:17:43 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:17:43 - EXEC STR_SP_DetraccionesPagadas '28'
+25/02/2025 15:17:46 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:17:46 - EXEC STR_SP_DetraccionesPagadas '28'
+25/02/2025 15:17:46 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:17:46 - EXEC STR_SP_DetraccionesPagadas '28'
+25/02/2025 15:17:54 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:17:54 - EXEC STR_SP_DetraccionesPagadas '28'
+25/02/2025 15:17:55 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:17:55 - EXEC STR_SP_DetraccionesPagadas '28'
+25/02/2025 15:18:05 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:18:05 - EXEC STR_SP_DetraccionesPagadas '28'
+25/02/2025 15:18:06 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:18:06 - EXEC STR_SP_DetraccionesPagadas '28'
+25/02/2025 15:18:17 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:18:17 - EXEC STR_SP_DetraccionesPagadas '28'
+25/02/2025 15:18:17 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:18:17 - EXEC STR_SP_DetraccionesPagadas '28'
+25/02/2025 15:18:31 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:18:31 - EXEC STR_SP_DetraccionesPagadas '28'
+25/02/2025 15:18:32 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:18:32 - EXEC STR_SP_DetraccionesPagadas '28'
+25/02/2025 15:19:00 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:19:00 - EXEC STR_SP_DetraccionesPagadas '28'
+25/02/2025 15:19:01 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:19:01 - EXEC STR_SP_DetraccionesPagadas '28'
+25/02/2025 15:20:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:20:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:20:03 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 15:20:03 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 15:20:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:20:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:20:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:20:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:20:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:20:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:20:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:20:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:20:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:20:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:20:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:20:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:20:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:20:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:20:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:20:03 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:20:09 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 15:20:10 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:20:10 - EXEC STR_SP_DetraccionesPagadas '28'
+25/02/2025 15:20:18 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:20:18 - EXEC STR_SP_DetraccionesPagadas '28'
+25/02/2025 15:20:22 - EXEC STR_SP_ObtNombreCuenta '103111000000'
+25/02/2025 15:20:22 - EXEC STR_SP_DetraccionesPagadas '17'
+25/02/2025 15:20:25 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 15:20:36 - EXEC STR_SP_RegistroPagoDetrac '0'
+25/02/2025 15:20:37 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:20:37 - EXEC STR_SP_DetraccionesPagadas '29'
+25/02/2025 15:20:45 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:20:45 - EXEC STR_SP_DetraccionesPagadas '29'
+25/02/2025 15:20:46 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:20:46 - EXEC STR_SP_DetraccionesPagadas '29'
+25/02/2025 15:23:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:23:58 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:23:59 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 15:23:59 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+25/02/2025 15:23:59 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:23:59 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:23:59 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:23:59 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:23:59 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:23:59 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:23:59 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:23:59 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:23:59 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:23:59 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:23:59 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:23:59 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:23:59 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:23:59 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:23:59 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:23:59 - EXEC STR_SP_ObtConfigLocaliz
+25/02/2025 15:24:04 - Referencia a objeto no establecida como instancia de un objeto.
+25/02/2025 15:24:11 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+25/02/2025 15:24:11 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 15:24:40 - EXEC STR_SP_RegistroPagoDetrac '0'
+25/02/2025 15:24:41 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:24:41 - EXEC STR_SP_DetraccionesPagadas '30'
+25/02/2025 15:25:06 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:25:06 - EXEC STR_SP_DetraccionesPagadas '30'
+25/02/2025 15:25:06 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:25:07 - EXEC STR_SP_DetraccionesPagadas '30'
+25/02/2025 15:25:32 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:25:32 - EXEC STR_SP_DetraccionesPagadas '30'
+25/02/2025 15:25:33 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:25:33 - EXEC STR_SP_DetraccionesPagadas '30'
+25/02/2025 15:25:58 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:25:58 - EXEC STR_SP_DetraccionesPagadas '30'
+25/02/2025 15:25:59 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:25:59 - EXEC STR_SP_DetraccionesPagadas '30'
+25/02/2025 15:33:41 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:33:41 - EXEC STR_SP_DetraccionesPagadas '30'
+25/02/2025 15:33:59 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:33:59 - EXEC STR_SP_DetraccionesPagadas '29'
+25/02/2025 15:34:03 - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+25/02/2025 15:34:27 - EXEC STR_SP_RegistroPagoDetrac '0'
+25/02/2025 15:34:27 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:34:27 - EXEC STR_SP_DetraccionesPagadas '31'
+25/02/2025 15:34:37 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:34:37 - EXEC STR_SP_DetraccionesPagadas '31'
+25/02/2025 15:34:38 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:34:38 - EXEC STR_SP_DetraccionesPagadas '31'
+25/02/2025 15:34:57 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:34:57 - EXEC STR_SP_DetraccionesPagadas '31'
+25/02/2025 15:34:58 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:34:58 - EXEC STR_SP_DetraccionesPagadas '31'
+25/02/2025 15:35:06 - EXEC STR_SP_ObtNombreCuenta ''
+25/02/2025 15:35:06 - EXEC STR_SP_DetraccionesPagadas '31'
+25/02/2025 15:36:15 - EXEC STR_SP_ObtNombreCuenta '103111000000'
+25/02/2025 15:36:15 - EXEC STR_SP_DetraccionesPagadas '17'

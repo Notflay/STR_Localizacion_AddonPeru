@@ -58,6 +58,7 @@
         public static readonly string get_BancoCdgo = "ObtBancoCdgo";
         public static readonly string get_BancoCta = "ObtBancoCta";
         public static readonly string get_BancoMnd = "ObtBancoMnd";
+        public static readonly string get_Ubigeo = "ObtenerUbigeo";
 
         public static readonly string get_Transferencias = "ObtTransferencias";
         public static readonly string get_StratConfig = "ObtStratConfig";
@@ -68,8 +69,10 @@
 
         public static readonly string get_ConfigData = "ObtConfigData";
         public static readonly string update_LOCConfig = "UpdtConfigData";
+        public static readonly string update_LOCConfigOp = "UpdtConfigDataOp";
         public static readonly string create_LOCConfig = "CrtConfigData";
         public static readonly string obt_RegConfig = "RegConfigData";
+        public static readonly string obt_RegConfigOp = "RegConfigDataOp";
         public static readonly string info_AsientoDestinoAlt = "InfoAsientoDestinoAlternativo";
         public static readonly string get_FacturasPendientesAsientoDestino = "ObtenerFacturasPendientesAD";
         public static readonly string get_CtasDifCambio = "ObtCtasDifCambio";
@@ -77,5 +80,12 @@
         public static readonly string get_Usuarios = "ObtUsuarios";
         public static readonly string get_ImporteDocumento = "ObtImporteDocumento";
         public static readonly string get_ListaMateriales = "ObtListaMateriales";
+
+        public static readonly string get_NombreArchivoTXT = "ObtNombreArchivo";
+        public static readonly string get_DtrccnsCabTXT = "ObtDtrccnsCabeceraTXT";
+        public static readonly string get_DtrccnsDetTXT = "ObtDtrccnsDetalleTXT";
+        public static readonly string update_ArchivoTXT = "UpdtPgmDTRTXT";
+
+        public static readonly string dlt_PgmDTRTXT = "DeletePayDtrDet";
     }
 }

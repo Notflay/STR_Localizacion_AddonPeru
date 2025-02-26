@@ -103,9 +103,7 @@ namespace STR_Localizacion.UI
                         go_SBOForm = go_SBOFormEvent;
                         if (go_SBOForm.Mode == BoFormMode.fm_ADD_MODE)
                         {
-                            try
-                            {
-                                Cls_Global.WriteToFile("lrs_BtnCrear 106");
+
                             string ls_msgStatus = string.Empty;
                             //Recupera valores de la Matrix del formulario
                             go_Grid = go_SBOForm.Items.Item(this.lrs_GrdPayDTRDET).Specific;
@@ -117,14 +115,20 @@ namespace STR_Localizacion.UI
                                 throw new InvalidOperationException("Debe ingresar Fecha Contable Pagos.");
                             //Inicio de validación del flujo de efectivo
                             lb_registrarCshFlw = false;
+
                             SAPbobsCOM.ChartOfAccounts chrtAcct = go_SBOCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oChartOfAccounts);
                             string cashFlowID = go_SBOForm.GetComboBox("cbCshFlw").Value;
                             string ctaBank = ls_CtaTransferSYS;
-                            if (chrtAcct.GetByKey(ctaBank) && chrtAcct.CashFlowRelevant == SAPbobsCOM.BoYesNoEnum.tYES)
+
+                            if (!string.IsNullOrEmpty(cashFlowID) && cashFlowID != "---")
                             {
-                                if (string.IsNullOrEmpty(cashFlowID))
-                                    throw new ArgumentNullException("Art. Form. Primario", "Seleccione el flujo de caja");
-                                lb_registrarCshFlw = true;
+                                if (chrtAcct.GetByKey(ctaBank) && chrtAcct.CashFlowRelevant == SAPbobsCOM.BoYesNoEnum.tYES)
+                                {
+                                    if (string.IsNullOrEmpty(cashFlowID))
+                                        throw new ArgumentNullException("Art. Form. Primario", "Seleccione el flujo de caja");
+                                    lb_registrarCshFlw = true;
+                                    //  throw new ArgumentNullException("Art. Form. Primario", "Seleccione el flujo de caja");
+                                }
                             }
 
                             this.fn_ingresarDetalleUDO();
@@ -140,6 +144,15 @@ namespace STR_Localizacion.UI
                         go_SBOApplication.Menus.Item("1291").Activate();
                     }
                 }),
+                new sapitemevent(lrs_BtnTXT, s => {
+                    if (!s.BeforeAction) {
+                        if (go_SBOForm.Mode != BoFormMode.fm_ADD_MODE)
+                        {
+                            this.Sb_DescargarArchivo(this.Fn_GenerarTxt(), this.Fn_NombreArchivo());
+                            go_SBOForm.Items.Item(this.lrs_BtnTXT).Enabled = false;
+                        }
+                    }
+                }), 
                 new sapitemevent(lrs_BtnGnrPagos, s =>
                 {
                     go_SBOForm = go_SBOFormEvent;

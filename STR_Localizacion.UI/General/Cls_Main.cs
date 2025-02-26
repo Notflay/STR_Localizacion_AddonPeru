@@ -55,6 +55,7 @@ namespace STR_Localizacion.UI
         {
             try
             {
+                string queryID = "ObtConfigDataMasivo";
                 SAPbobsCOM.Recordset go_RecordSet;
                 Cls_Global.APDifGain = Cls_QueryManager.Retorna(Cls_Query.get_CtasDifCambio, "APConDiffG", go_SBOCompany.GetDBServerDate().Year);
                 Cls_Global.APDifLoss = Cls_QueryManager.Retorna(Cls_Query.get_CtasDifCambio, "APConDiffL", go_SBOCompany.GetDBServerDate().Year);
@@ -80,14 +81,15 @@ namespace STR_Localizacion.UI
                 Cls_Global.ImpuestoRetencionDeGarantia = Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, "U_STR_IMPRG");
                 Cls_Global.ReconciliacionActivo = Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, "U_STR_RECO_ACT");
                 Cls_Global.ReconciliacionCuenta = Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, "U_STR_RECO_CTA");
-
+                Cls_Global.RutaArchivoTXTDTR = Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, "U_RML_RUTADTR");
+                Cls_Global.ConfiguracionMasiva = Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, "U_STR_NUMOPERTXT");
 
             }
             catch (Exception)
             {
                 Cls_Global.metCalculoTC = string.Empty;
                 Cls_Global.fuenteTC = string.Empty;
-                throw;
+                Cls_Global.ConfiguracionMasiva = "1";
             }
 
         }
@@ -246,7 +248,7 @@ namespace STR_Localizacion.UI
             lo_EventFilter.AddEx(lo_SeleccionSeriesArticulo.gs_FormName);
 
             lo_EventFilter.AddEx("1470000200");
-            lo_EventFilter.AddEx("1250000940");
+            //lo_EventFilter.AddEx("1250000940");
 
 
             lo_EventFilter.AddEx("143");//Entrada de Mercancia(Proveedores)

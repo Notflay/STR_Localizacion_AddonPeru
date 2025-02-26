@@ -21,6 +21,7 @@ namespace STR_Localizacion.UI
         public static string RetencionDeGarantiaImpuesto { get; set; }
         public static string ReconciliacionActivo { get; set; }
         public static string ReconciliacionCuenta { get; set; }
+        public static string RutaArchivoTXTDTR { get; set; }
         static Cls_MenuConfiguracion()
         {
             DscInvActivo = string.Equals(Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, "U_STR_DIACT"), "Y");
@@ -124,8 +125,24 @@ namespace STR_Localizacion.UI
                     CargarDatosReconciliacionAuto();
                     ActivarReconciliacionAuto();
 
+                    go_SBOForm.DataSources.UserDataSources.Item("UD_RUTADTR").Value = go_RecordSet.Fields.Item("U_RML_RUTADTR").Value.ToString();
                     go_SBOForm.DataSources.UserDataSources.Item("UD_DIACT").Value = go_RecordSet.Fields.Item("U_STR_DIACT").Value.ToString();
                     go_SBOForm.DataSources.UserDataSources.Item("UD_DISFJ").Value = go_RecordSet.Fields.Item("U_STR_DISFJ").Value.ToString();
+
+                    go_SBOForm.DataSources.UserDataSources.Item("UD_CNTPNT").Value = go_RecordSet.Fields.Item("U_BPP_PAGCNTPT").Value.ToString();
+                    go_SBOForm.DataSources.UserDataSources.Item("UD_MNCNTBN").Value = go_RecordSet.Fields.Item("U_BPP_MONCNTBN").Value.ToString();
+                    go_SBOForm.DataSources.UserDataSources.Item("UD_APROB").Value = go_RecordSet.Fields.Item("U_BPP_APROB").Value.ToString();
+                    go_SBOForm.DataSources.UserDataSources.Item("UD_PGMRUTA").Value = go_RecordSet.Fields.Item("U_BPP_PGMRUTA").Value.ToString();
+                    go_SBOForm.DataSources.UserDataSources.Item("UD_PGCNTBN").Value = go_RecordSet.Fields.Item("U_BPP_PAGCNTBN").Value.ToString();
+                    go_SBOForm.DataSources.UserDataSources.Item("UD_CDTRAN").Value = go_RecordSet.Fields.Item("U_BPP_CODTRAN").Value.ToString();
+                    go_SBOForm.DataSources.UserDataSources.Item("UD_GLSST").Value = go_RecordSet.Fields.Item("U_BPP_GLOSAAST").Value.ToString();
+                    go_SBOForm.DataSources.UserDataSources.Item("UD_CTCNTR").Value = go_RecordSet.Fields.Item("U_BPP_CNTCONTR").Value.ToString();
+                    go_SBOForm.DataSources.UserDataSources.Item("UD_CTNTU").Value = go_RecordSet.Fields.Item("U_BPP_CTANATU").Value.ToString();
+                    go_SBOForm.DataSources.UserDataSources.Item("UD_OCRCD").Value = go_RecordSet.Fields.Item("U_STR_OcrCode").Value.ToString();
+                    go_SBOForm.DataSources.UserDataSources.Item("UD_NMPRTT").Value = go_RecordSet.Fields.Item("U_STR_NUMOPERTXT").Value.ToString();
+                    go_SBOForm.DataSources.UserDataSources.Item("UD_SPRDR").Value = go_RecordSet.Fields.Item("U_BPP_SEPRDR").Value.ToString();
+                    go_SBOForm.DataSources.UserDataSources.Item("UD_CNTDPN").Value = go_RecordSet.Fields.Item("U_BPP_CNTDOPCN").Value.ToString();
+                    go_SBOForm.DataSources.UserDataSources.Item("UD_PGMAGRP").Value = go_RecordSet.Fields.Item("U_BPP_PGMAGRP").Value.ToString();
                 }
             }
             catch (Exception)
@@ -262,6 +279,7 @@ namespace STR_Localizacion.UI
                             Cls_Global.RetencionDeGarantiaActivo = Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, "U_STR_RG_ACT");
                             Cls_Global.ImpuestoRetencionDeGarantia = Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, "U_STR_IMPRG");
 
+                            Cls_Global.RutaArchivoTXTDTR = Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, "U_RML_RUTADTR");    
                             Cls_Global.ReconciliacionActivo = Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, "U_STR_RECO_ACT");
                             Cls_Global.ReconciliacionCuenta = Cls_QueryManager.Retorna(Cls_Query.get_ConfigData, "U_STR_RECO_CTA");
                         }
@@ -533,9 +551,63 @@ namespace STR_Localizacion.UI
         {
             int registros = int.Parse(Cls_QueryManager.Retorna(Cls_Query.obt_RegConfig, "Registros").ToString());
             var strDIActivo = diActivo ? "Y" : "N";//Descarga de inventario activo?
-            Cls_QueryManager.Procesa(registros == 0 ? Cls_Query.create_LOCConfig : Cls_Query.update_LOCConfig, metTC, fuenteTC, metAsientoDestino, strDIActivo, diSufijo, ProvisionIGVNoDomiciliadoActivo, ProvisionIGVNDImpuestosRetencion, ProvisionIGVNDCuentaDebito, ProvisionIGVNDCuentaCredito, ProvisionIGVNDFormatoDebito, ProvisionIGVNDFormatoCredito, RetencionDeGarantiaActivo, RetencionDeGarantiaImpuesto, ReconciliacionCuenta, ReconciliacionActivo);
-        }
+            Cls_QueryManager.Procesa(registros == 0 ? Cls_Query.create_LOCConfig : Cls_Query.update_LOCConfig, metTC, fuenteTC, metAsientoDestino, strDIActivo, diSufijo,
+                ProvisionIGVNoDomiciliadoActivo, ProvisionIGVNDImpuestosRetencion, ProvisionIGVNDCuentaDebito, ProvisionIGVNDCuentaCredito, ProvisionIGVNDFormatoDebito,
+                ProvisionIGVNDFormatoCredito, RetencionDeGarantiaActivo, RetencionDeGarantiaImpuesto, ReconciliacionCuenta, ReconciliacionActivo, go_SBOForm.DataSources.UserDataSources.Item("UD_RUTADTR").Value);
 
+            int registrosOp = int.Parse(Cls_QueryManager.Retorna(Cls_Query.obt_RegConfigOp, "Registros").ToString());
+            if (registrosOp == 0)
+                Sb_ConfigLocalizacionPgm();
+
+            Cls_QueryManager.Procesa(Cls_Query.update_LOCConfigOp, go_SBOForm.DataSources.UserDataSources.Item("UD_CNTPNT").Value,
+                go_SBOForm.DataSources.UserDataSources.Item("UD_MNCNTBN").Value, go_SBOForm.DataSources.UserDataSources.Item("UD_APROB").Value,
+                go_SBOForm.DataSources.UserDataSources.Item("UD_PGMRUTA").Value, go_SBOForm.DataSources.UserDataSources.Item("UD_PGCNTBN").Value,
+                go_SBOForm.DataSources.UserDataSources.Item("UD_CDTRAN").Value, go_SBOForm.DataSources.UserDataSources.Item("UD_GLSST").Value,
+                go_SBOForm.DataSources.UserDataSources.Item("UD_CTCNTR").Value, go_SBOForm.DataSources.UserDataSources.Item("UD_CTNTU").Value,
+                go_SBOForm.DataSources.UserDataSources.Item("UD_OCRCD").Value, go_SBOForm.DataSources.UserDataSources.Item("UD_NMPRTT").Value,
+                go_SBOForm.DataSources.UserDataSources.Item("UD_SPRDR").Value, go_SBOForm.DataSources.UserDataSources.Item("UD_CNTDPN").Value,
+                go_SBOForm.DataSources.UserDataSources.Item("UD_PGMAGRP").Value);
+
+        }
+        private void Sb_ConfigLocalizacionPgm()
+        {
+            // Crear un objeto UserTable
+            SAPbobsCOM.UserTable oUserTable = null;
+            oUserTable = go_SBOCompany.UserTables.Item("BPP_PARAMS"); // Nombre de la tabla de usuario sin "@"
+
+            try
+            {
+                // Asignar valores a las columnas
+                oUserTable.Code = "BPP_CONFIG"; // Campo obligatorio: Código único
+                oUserTable.Name = "BPP_CONFIG"; // Campo obligatorio: Nombre único (puede ser igual al Code o diferente)
+
+                // Intentar agregar el registro
+                if (oUserTable.Add() != 0)
+                {
+                    string error = go_SBOCompany.GetLastErrorDescription();
+                    throw new Exception($"Error al agregar registro en la tabla de usuario: {error}");
+                }
+                else
+                {
+                    Console.WriteLine("Registro agregado exitosamente en la tabla de usuario.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+            finally
+            {
+                // Liberar el objeto UserTable
+                if (oUserTable != null)
+                {
+                    System.Runtime.InteropServices.Marshal.ReleaseComObject(oUserTable);
+                    oUserTable = null;
+                    GC.Collect();
+                }
+            }
+
+        }
         private string ObtenerFuenteTC(Form go_SBOForm)
         {
             go_Combo = go_SBOForm.GetComboBox("cbSrc");

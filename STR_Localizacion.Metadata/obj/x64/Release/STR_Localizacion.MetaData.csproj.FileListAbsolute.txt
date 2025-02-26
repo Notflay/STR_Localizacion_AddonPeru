@@ -87,3 +87,23 @@ C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Loc
 C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.Metadata\obj\x64\Release\Interop.SAPbouiCOM.dll
 C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.Metadata\obj\x64\Release\STR_Localizacion.MetaData.csproj.ResolveComReference.cache
 C:\Users\ncondori\Desktop\Fuentes - Mejorada Localizacion\Fuentes - Mejorada Localizacion\STR_Addon\STR_Localizacion.Metadata\obj\x64\Release\STR_Localizacion.Metadata.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Release\x64\x64\liblept172.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Release\x64\x64\libtesseract304.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Release\x64\x86\liblept172.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Release\x64\x86\libtesseract304.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Release\x64\Properties\Resources.resx
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Release\x64\Properties\Resources.Designer.cs
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Release\x64\Resources\Queries.xml
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Release\x64\Resources\tessdata\eng.traineddata
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Release\x64\STR_Localizacion.Metadata.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Release\x64\STR_Localizacion.DL.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Release\x64\STR_Localizacion.UTIL.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Release\x64\Tesseract.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\bin\Release\x64\Tesseract.xml
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\obj\x64\Release\STR_Localizacion.MetaData.csproj.AssemblyReference.cache
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\obj\x64\Release\Interop.SAPbobsCOM.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\obj\x64\Release\Interop.SAPbouiCOM.dll
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\obj\x64\Release\STR_Localizacion.MetaData.csproj.ResolveComReference.cache
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\obj\x64\Release\STR_Localizacion.MetaData.csproj.CoreCompileInputs.cache
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\obj\x64\Release\STR_Loca.484986BD.Up2Date
+E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.Metadata\obj\x64\Release\STR_Localizacion.Metadata.dll

@@ -266,8 +266,8 @@ namespace STR_Localizacion.UI
                 throw new InvalidOperationException("Debe ingresar la fecha de anulación.");
             //Recupera la fecha del último correlativo anulado
             ld_UltFecha = (DateTime)Cls_QueryManager.Retorna(Cls_Query.get_FechaAnulacion, "U_BPP_FchAnl", ls_TpSUNAT, ls_Serie);
-            if (ld_fchAnul < ld_UltFecha)
-                throw new InvalidOperationException("La fecha de anulación no puede ser menor a la última fecha de anulación registrada para este tipo y serie de documento");
+            //if (ld_fchAnul < ld_UltFecha)
+            //    throw new InvalidOperationException("La fecha de anulación no puede ser menor a la última fecha de anulación registrada para este tipo y serie de documento");
             //se carga el recordset
             ls_UltCorr = (string)Cls_QueryManager.Retorna(Cls_Query.validate_AnulacionSunat, "U_BPP_NDCD", ls_TpSUNAT, ls_Serie);
             if (ls_NumCorrD.Length < ls_UltCorr.Length || ls_NumCorrH.Length < ls_UltCorr.Length)

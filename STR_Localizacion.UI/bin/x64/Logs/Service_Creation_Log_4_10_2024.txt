@@ -1,0 +1,52 @@
+4/10/2024 03:10:17 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+4/10/2024 03:10:19 - CALL STR_SP_ObtNombreCuenta ('101101')
+4/10/2024 03:10:19 - sb_prepararControlesEstadoAbierto 145
+4/10/2024 03:10:19 - CALL STR_SP_DetraccionesPagadas ('71')
+4/10/2024 03:12:30 - CALL STR_SP_DetraccionesXPagar ('', '', '', '', '', '','O1','')
+4/10/2024 10:02:48 - CALL STR_SP_ObtConfigLocaliz ()
+4/10/2024 10:02:48 - CALL STR_SP_ObtConfigLocaliz ()
+4/10/2024 10:02:48 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+4/10/2024 10:02:48 - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2024'
+4/10/2024 10:02:48 - CALL STR_SP_ObtConfigLocaliz ()
+4/10/2024 10:02:48 - CALL STR_SP_ObtConfigLocaliz ()
+4/10/2024 10:02:48 - CALL STR_SP_ObtConfigLocaliz ()
+4/10/2024 10:02:48 - CALL STR_SP_ObtConfigLocaliz ()
+4/10/2024 10:02:48 - CALL STR_SP_ObtConfigLocaliz ()
+4/10/2024 10:02:48 - CALL STR_SP_ObtConfigLocaliz ()
+4/10/2024 10:02:48 - CALL STR_SP_ObtConfigLocaliz ()
+4/10/2024 10:02:48 - CALL STR_SP_ObtConfigLocaliz ()
+4/10/2024 10:02:48 - CALL STR_SP_ObtConfigLocaliz ()
+4/10/2024 10:02:48 - CALL STR_SP_ObtConfigLocaliz ()
+4/10/2024 10:02:49 - CALL STR_SP_ObtConfigLocaliz ()
+4/10/2024 10:02:49 - CALL STR_SP_ObtConfigLocaliz ()
+4/10/2024 10:02:49 - CALL STR_SP_ObtConfigLocaliz ()
+4/10/2024 10:02:49 - CALL STR_SP_ObtConfigLocaliz ()
+4/10/2024 10:02:49 - SELECT "U_STR_NUMOPERTXT" FROM "@BPP_PARAMS" WHERE "Code" = 'BPP_CONFIG'
+4/10/2024 10:02:55 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+4/10/2024 10:03:00 - CALL STR_SP_DetraccionesXPagar ('', '', '', '', '', '','O1','')
+4/10/2024 10:06:06 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+4/10/2024 10:06:07 - CALL STR_SP_DetraccionesXPagar ('', '', '', '', '', '','O1','')
+4/10/2024 10:06:34 - CALL STR_SP_DetraccionesXPagar ('', '', '', '', '', '','O1','')
+4/10/2024 10:09:19 - CALL STR_SP_ObtTipoXForm ('181')
+4/10/2024 10:09:19 - CALL STR_SP_ObtTipoDefXForm ('181')
+4/10/2024 10:11:14 - SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'
+4/10/2024 10:11:15 - CALL STR_SP_DetraccionesXPagar ('', '', '', '', '', '','O1','')
+4/10/2024 10:12:02 - CALL STR_SP_ObtTipoXForm ('65301')
+4/10/2024 10:12:02 - CALL STR_SP_ObtTipoDefXForm ('65301')
+4/10/2024 10:17:02 - CALL STR_SP_ObtTipoXForm ('65306')
+4/10/2024 10:17:02 - CALL STR_SP_ObtTipoDefXForm ('65306')
+4/10/2024 10:19:06 - CALL STR_SP_DetraccionesXPagar ('', '', '', '', '', '','O1','')
+4/10/2024 10:21:03 - CALL STR_SP_DetraccionesXPagar ('', '', '', '', '', '','O1','')
+4/10/2024 10:21:57 - CALL STR_SP_ObtTipoXForm ('65301')
+4/10/2024 10:21:57 - CALL STR_SP_ObtTipoDefXForm ('65301')
+4/10/2024 10:28:18 - CALL STR_SP_DetraccionesXPagar ('', '', '', '', '', '','O1','')
+4/10/2024 10:28:32 - CALL STR_SP_ObtTipoXForm ('181')
+4/10/2024 10:28:32 - CALL STR_SP_ObtTipoDefXForm ('181')
+4/10/2024 10:30:27 - CALL STR_SP_ObtTipoXForm ('181')
+4/10/2024 10:30:27 - CALL STR_SP_ObtTipoDefXForm ('181')
+4/10/2024 10:30:38 - CALL STR_SP_ObtNumDias ()
+4/10/2024 10:30:38 - SELECT "MltpBrnchs" FROM OADM
+4/10/2024 10:30:38 - CALL STR_SP_ObtCodigoFormato ('421209')
+4/10/2024 10:32:22 - CALL STR_SP_DetraccionesXPagar ('P20100195080', 'P20506248036', '', '', '', '','O1','')
+4/10/2024 10:32:36 - CALL STR_SP_DetraccionesXPagar ('P20100195080', 'P20506248036', '20240701', '20240731', '', '','O1','')
+4/10/2024 10:32:48 - CALL STR_SP_DetraccionesXPagar ('P20100195080', 'P20506248036', '20240801', '20240831', '', '','O1','')

@@ -29,6 +29,7 @@
         private readonly string lrs_UflCrtDate = "CreateDate";
         private readonly string lrs_UflEstado = "Status";
         private readonly string lrs_UflCanceled = "Canceled";
+        private readonly string lrs_UflLineId = "Line_ID";
         //private readonly string lrs_ = "Canceled";
 
         private readonly string lrs_UflPrvDd = "U_BPP_PvDd";
@@ -113,6 +114,7 @@
         private readonly string lrs_BtnBuscar = "btBuscar";
         private readonly string lrs_BtnGnrPagos = "btPagar";
         private readonly string lrs_BtnCrear = "1";
+        private readonly string lrs_BtnTXT= "btnTxt";
         //________________________Static________________________
         private readonly string lrs_lblDesCtaTrs = "lbCtTr";
         //________________________DataTable - Grid______________
