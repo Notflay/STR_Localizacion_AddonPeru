@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Administrador\\source\\repos\\Notflay\\STR_Localizacion_AddonPeru\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA29874E-E802-4DAF-95B1-1363397ADF46}|STR_Localizacion.UI\\STR_Localizacion.UI.csproj|c:\\users\\administrador\\source\\repos\\notflay\\str_localizacion_addonperu\\str_localizacion.ui\\cls_pagomasivodetraccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA29874E-E802-4DAF-95B1-1363397ADF46}|STR_Localizacion.UI\\STR_Localizacion.UI.csproj|solutionrelative:str_localizacion.ui\\cls_pagomasivodetraccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A8F752C-BA84-42E6-B10E-4A88731AEA93}|STR_Localizacion.DL\\STR_Localizacion.DL.csproj|c:\\users\\administrador\\source\\repos\\notflay\\str_localizacion_addonperu\\str_localizacion.dl\\cls_obtruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A8F752C-BA84-42E6-B10E-4A88731AEA93}|STR_Localizacion.DL\\STR_Localizacion.DL.csproj|solutionrelative:str_localizacion.dl\\cls_obtruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA29874E-E802-4DAF-95B1-1363397ADF46}|STR_Localizacion.UI\\STR_Localizacion.UI.csproj|C:\\Users\\Administrador\\source\\repos\\Notflay\\STR_Localizacion_AddonPeru\\str_localizacion.ui\\cls_pagomasivodetraccionevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA29874E-E802-4DAF-95B1-1363397ADF46}|STR_Localizacion.UI\\STR_Localizacion.UI.csproj|solutionrelative:str_localizacion.ui\\cls_pagomasivodetraccionevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA29874E-E802-4DAF-95B1-1363397ADF46}|STR_Localizacion.UI\\STR_Localizacion.UI.csproj|c:\\users\\administrador\\source\\repos\\notflay\\str_localizacion_addonperu\\str_localizacion.ui\\cls_pagomasivodetraccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA29874E-E802-4DAF-95B1-1363397ADF46}|STR_Localizacion.UI\\STR_Localizacion.UI.csproj|solutionrelative:str_localizacion.ui\\cls_pagomasivodetraccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A8F752C-BA84-42E6-B10E-4A88731AEA93}|STR_Localizacion.DL\\STR_Localizacion.DL.csproj|c:\\users\\administrador\\source\\repos\\notflay\\str_localizacion_addonperu\\str_localizacion.dl\\resources\\queries.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -22,8 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cls_PagoMasivoDetraccion.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Notflay\\STR_Localizacion_AddonPeru\\STR_Localizacion.UI\\Cls_PagoMasivoDetraccion.cs",
+              "RelativeDocumentMoniker": "STR_Localizacion.UI\\Cls_PagoMasivoDetraccion.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Notflay\\STR_Localizacion_AddonPeru\\STR_Localizacion.UI\\Cls_PagoMasivoDetraccion.cs",
+              "RelativeToolTip": "STR_Localizacion.UI\\Cls_PagoMasivoDetraccion.cs",
+              "ViewState": "AgIAAMEDAAAAAAAAAAAAAO0DAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T17:38:49.949Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cls_PagoMasivoDetraccionEvents.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Notflay\\STR_Localizacion_AddonPeru\\STR_Localizacion.UI\\Cls_PagoMasivoDetraccionEvents.cs",
+              "RelativeDocumentMoniker": "STR_Localizacion.UI\\Cls_PagoMasivoDetraccionEvents.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Notflay\\STR_Localizacion_AddonPeru\\STR_Localizacion.UI\\Cls_PagoMasivoDetraccionEvents.cs",
+              "RelativeToolTip": "STR_Localizacion.UI\\Cls_PagoMasivoDetraccionEvents.cs",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAkwBQBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T17:51:08.132Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Queries.xml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Notflay\\STR_Localizacion_AddonPeru\\STR_Localizacion.DL\\Resources\\Queries.xml",
+              "RelativeDocumentMoniker": "STR_Localizacion.DL\\Resources\\Queries.xml",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Notflay\\STR_Localizacion_AddonPeru\\STR_Localizacion.DL\\Resources\\Queries.xml",
+              "RelativeToolTip": "STR_Localizacion.DL\\Resources\\Queries.xml",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAuwAgBAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-02-26T07:13:28.597Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cls_ObtRuc.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Notflay\\STR_Localizacion_AddonPeru\\STR_Localizacion.DL\\Cls_ObtRuc.cs",
+              "RelativeDocumentMoniker": "STR_Localizacion.DL\\Cls_ObtRuc.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Notflay\\STR_Localizacion_AddonPeru\\STR_Localizacion.DL\\Cls_ObtRuc.cs",
+              "RelativeToolTip": "STR_Localizacion.DL\\Cls_ObtRuc.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAAJEAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T08:08:27.468Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -47,48 +106,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Cls_PagoMasivoDetraccion.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Notflay\\STR_Localizacion_AddonPeru\\STR_Localizacion.UI\\Cls_PagoMasivoDetraccion.cs",
-              "RelativeDocumentMoniker": "STR_Localizacion.UI\\Cls_PagoMasivoDetraccion.cs",
-              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Notflay\\STR_Localizacion_AddonPeru\\STR_Localizacion.UI\\Cls_PagoMasivoDetraccion.cs",
-              "RelativeToolTip": "STR_Localizacion.UI\\Cls_PagoMasivoDetraccion.cs",
-              "ViewState": "AgIAABEBAAAAAAAAAAAMwCIBAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T17:38:49.949Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Cls_PagoMasivoDetraccionEvents.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Notflay\\STR_Localizacion_AddonPeru\\STR_Localizacion.UI\\Cls_PagoMasivoDetraccionEvents.cs",
-              "RelativeDocumentMoniker": "STR_Localizacion.UI\\Cls_PagoMasivoDetraccionEvents.cs",
-              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Notflay\\STR_Localizacion_AddonPeru\\STR_Localizacion.UI\\Cls_PagoMasivoDetraccionEvents.cs",
-              "RelativeToolTip": "STR_Localizacion.UI\\Cls_PagoMasivoDetraccionEvents.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAAAGMAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T17:51:08.132Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Queries.xml",
-              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Notflay\\STR_Localizacion_AddonPeru\\STR_Localizacion.DL\\Resources\\Queries.xml",
-              "RelativeDocumentMoniker": "STR_Localizacion.DL\\Resources\\Queries.xml",
-              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Notflay\\STR_Localizacion_AddonPeru\\STR_Localizacion.DL\\Resources\\Queries.xml",
-              "RelativeToolTip": "STR_Localizacion.DL\\Resources\\Queries.xml",
-              "ViewState": "AgIAAAkBAAAAAAAAAAAuwCMBAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-02-26T07:13:28.597Z",
-              "IsPinned": true,
-              "EditorCaption": ""
             }
           ]
         },
