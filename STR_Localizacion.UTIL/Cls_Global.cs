@@ -435,6 +435,10 @@ namespace STR_Localizacion.UTIL
             po_SBOForm.DataSources.DBDataSources.Item(ps_tabla).SetValue(ps_campo, pi_fila, ps_valor.Trim());
         }
 
+        public static void sb_FormDeleteValueToDBDataSource(SAPbouiCOM.Form po_SBOForm, string ps_tabla, string ps_campo, string ps_valor, int pi_fila)
+        {
+            po_SBOForm.DataSources.DBDataSources.Item(ps_tabla).RemoveRecord(pi_fila);
+        }
         /// <Obtiene el valor de una posición de una tabla>
         /// Se envía como parámetro el nombre de la tabla y campo para poder recuperar el valor
         /// </>

@@ -85,5 +85,7 @@
         public static readonly string get_DtrccnsCabTXT = "ObtDtrccnsCabeceraTXT";
         public static readonly string get_DtrccnsDetTXT = "ObtDtrccnsDetalleTXT";
         public static readonly string update_ArchivoTXT = "UpdtPgmDTRTXT";
+
+        public static readonly string dlt_PgmDTRTXT = "DeletePayDtrDet";
     }
 }

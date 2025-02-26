@@ -288,6 +288,9 @@
   <query nameid="ObtCtasDifCambio" definition="I">
       <sql>SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '{0}'</sql>
   </query>
+	<query nameid="DeletePayDtrDet" definition="I">
+		<sql>DELETE FROM "@BPP_PAYDTRDET" WHERE "DocEntry" = '{0}' AND "U_BPP_NmDc" = '{1}'</sql>
+	</query>
   <query nameid="ObtUsuarios" definition="I">
     <sql>SELECT "USERID","U_NAME" FROM OUSR WHERE "Locked" = 'N' and "GROUPS" = 0 ORDER BY "U_NAME"</sql>
   </query>

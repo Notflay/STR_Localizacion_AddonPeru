@@ -136,8 +136,10 @@ namespace STR_Localizacion.DL
                                                     if (oEnSUNAT.Padrones.Contains("Incorporado al Régimen de Agentes de Percepción"))
                                                         go_SBOForm.GetComboBox("cbxAgtPer").SelectExclusive("Y", BoSearchKey.psk_ByValue);
 
-                                                   
-                                                    go_SBOForm.GetComboBox("cbxBnCntr").SelectExclusive(oEnSUNAT.EstadoContribuyente.Equals("ACTIVO") ? "Y" : "N", BoSearchKey.psk_ByValue);
+                                                    if (oEnSUNAT.Padrones.Contains("Incorporado al Régimen de Buenos Contribuyentes"))
+                                                        go_SBOForm.GetComboBox("cbxBnCntr").SelectExclusive("Y", BoSearchKey.psk_ByValue);
+                                                    else
+                                                        go_SBOForm.GetComboBox("cbxBnCntr").SelectExclusive("N", BoSearchKey.psk_ByValue);
 
                                                     // SegmentarDireccion(oEnSUNAT.DomicilioFiscal);
                                                     go_SBOForm.PaneLevel = 7;

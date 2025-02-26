@@ -103,7 +103,7 @@ namespace STR_Localizacion.UI
                         go_SBOForm = go_SBOFormEvent;
                         if (go_SBOForm.Mode == BoFormMode.fm_ADD_MODE)
                         {
-                           
+
                             string ls_msgStatus = string.Empty;
                             //Recupera valores de la Matrix del formulario
                             go_Grid = go_SBOForm.Items.Item(this.lrs_GrdPayDTRDET).Specific;

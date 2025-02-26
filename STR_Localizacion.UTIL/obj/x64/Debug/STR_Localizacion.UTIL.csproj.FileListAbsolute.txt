@@ -113,3 +113,12 @@ E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x64\D
 E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.CoreCompileInputs.cache
 E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.dll
 E:\Repos\source\repos\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.pdb
+C:\Users\Administrador\source\repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.dll
+C:\Users\Administrador\source\repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\bin\Debug\STR_Localizacion.UTIL.pdb
+C:\Users\Administrador\source\repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.AssemblyReference.cache
+C:\Users\Administrador\source\repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x64\Debug\Interop.SAPbobsCOM.dll
+C:\Users\Administrador\source\repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x64\Debug\Interop.SAPbouiCOM.dll
+C:\Users\Administrador\source\repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.ResolveComReference.cache
+C:\Users\Administrador\source\repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.dll
+C:\Users\Administrador\source\repos\Notflay\STR_Localizacion_AddonPeru\STR_Localizacion.UTIL\obj\x64\Debug\STR_Localizacion.UTIL.pdb

@@ -1,0 +1,427 @@
+2/26/2025 2:17:46 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:17:46 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:17:46 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:17:46 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:17:47 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:17:47 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:17:47 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:17:47 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:17:47 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:17:47 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:17:47 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:17:47 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:17:47 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:17:47 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:17:47 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:17:47 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:17:47 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:17:47 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:17:47 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:17:47 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:18:30 AM - EXEC STR_SP_RegistroPagoDetrac '0'
+2/26/2025 2:18:36 AM - DELETE FROM "@BPP_PAYDTRDET" WHERE DocEntry = '32' AND LineId = '1'
+2/26/2025 2:18:37 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:18:37 AM - EXEC STR_SP_DetraccionesPagadas '32'
+2/26/2025 2:19:24 AM - DELETE FROM "@BPP_PAYDTRDET" WHERE DocEntry = '32' AND LineId = '0'
+2/26/2025 2:19:24 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:19:24 AM - EXEC STR_SP_DetraccionesPagadas '32'
+2/26/2025 2:21:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:18 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:21:18 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:21:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:55 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:55 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:55 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:21:55 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:21:55 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:55 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:55 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:55 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:55 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:55 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:55 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:55 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:55 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:55 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:56 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:56 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:56 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:56 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:56 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:21:56 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:22:57 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:22:58 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:22:58 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:22:58 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:22:58 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:22:58 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:22:58 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:22:58 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:22:58 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:22:58 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:22:58 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:22:58 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:22:58 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:22:58 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:22:58 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:22:58 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:22:58 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:22:58 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:22:58 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:22:58 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:23:03 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:23:03 AM - EXEC STR_SP_DetraccionesPagadas '32'
+2/26/2025 2:25:20 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:25:20 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:25:20 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:25:20 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:25:20 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:25:20 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:25:20 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:25:20 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:25:20 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:25:20 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:25:20 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:25:20 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:25:20 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:25:20 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:25:20 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:25:20 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:25:21 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:25:21 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:25:21 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:25:21 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:26:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:26:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:26:15 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:26:15 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:26:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:26:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:26:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:26:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:26:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:26:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:26:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:26:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:26:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:26:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:26:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:26:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:26:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:26:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:26:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:26:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:29:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:29:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:29:15 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:29:15 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:29:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:29:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:29:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:29:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:29:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:29:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:29:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:29:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:29:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:29:15 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:29:16 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:29:16 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:29:16 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:29:16 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:29:16 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:29:16 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:29:45 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:29:45 AM - EXEC STR_SP_DetraccionesPagadas '32'
+2/26/2025 2:31:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:31:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:31:37 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:31:37 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:31:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:31:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:31:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:31:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:31:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:31:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:31:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:31:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:31:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:31:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:31:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:31:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:31:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:31:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:31:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:31:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:31:44 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:31:44 AM - EXEC STR_SP_DetraccionesPagadas '32'
+2/26/2025 2:32:01 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:32:01 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:32:01 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:32:01 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:32:01 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:32:01 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:32:01 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:32:01 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:32:01 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:32:01 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:32:02 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:32:02 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:32:02 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:32:02 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:32:02 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:32:02 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:32:02 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:32:02 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:32:02 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:32:02 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:32:29 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:32:29 AM - EXEC STR_SP_DetraccionesPagadas '32'
+2/26/2025 2:32:44 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:32:44 AM - EXEC STR_SP_DetraccionesPagadas '32'
+2/26/2025 2:32:55 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:32:55 AM - EXEC STR_SP_DetraccionesPagadas '32'
+2/26/2025 2:32:55 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:32:55 AM - EXEC STR_SP_DetraccionesPagadas '32'
+2/26/2025 2:33:51 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:33:51 AM - EXEC STR_SP_DetraccionesPagadas '32'
+2/26/2025 2:37:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:37:18 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:37:19 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:37:19 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:37:19 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:37:19 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:37:19 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:37:19 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:37:19 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:37:19 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:37:19 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:37:19 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:37:19 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:37:19 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:37:19 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:37:19 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:37:19 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:37:19 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:37:19 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:37:19 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:38:34 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:38:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:38:37 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:38:37 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:38:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:38:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:38:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:38:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:38:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:38:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:38:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:38:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:38:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:38:37 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:38:38 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:38:38 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:38:38 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:38:38 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:38:38 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:38:38 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:38:57 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:38:57 AM - EXEC STR_SP_DetraccionesPagadas '32'
+2/26/2025 2:41:07 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:41:07 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:41:07 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:41:07 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:41:07 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:41:07 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:41:07 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:41:07 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:41:07 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:41:07 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:41:07 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:41:07 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:41:07 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:41:07 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:41:07 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:41:07 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:41:07 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:41:07 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:41:07 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:41:07 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:41:26 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:41:26 AM - EXEC STR_SP_DetraccionesPagadas '32'
+2/26/2025 2:41:49 AM - DELETE FROM "@BPP_PAYDTRDET" WHERE "DocEntry" = '32' AND "U_BPP_NmDc" = '01-E001-00000126'
+2/26/2025 2:42:07 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:42:07 AM - EXEC STR_SP_DetraccionesPagadas '32'
+2/26/2025 2:44:10 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:44:10 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:44:11 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:44:11 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:44:11 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:44:11 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:44:11 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:44:11 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:44:11 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:44:11 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:44:11 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:44:11 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:44:11 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:44:11 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:44:11 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:44:11 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:44:11 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:44:11 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:44:11 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:44:11 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:44:23 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:44:23 AM - EXEC STR_SP_DetraccionesPagadas '32'
+2/26/2025 2:44:28 AM - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+2/26/2025 2:44:37 AM - EXEC STR_SP_RegistroPagoDetrac '0'
+2/26/2025 2:45:48 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:45:48 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:45:48 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:45:48 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:45:48 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:45:48 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:45:48 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:45:48 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:45:48 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:45:48 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:45:48 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:45:48 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:45:48 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:45:48 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:45:48 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:45:48 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:45:48 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:45:48 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:45:48 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:45:48 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:46:03 AM - DELETE FROM "@BPP_PAYDTRDET" WHERE "DocEntry" = '33' AND "U_BPP_NmDc" = '01-E001-00000126'
+2/26/2025 2:46:05 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:46:05 AM - EXEC STR_SP_DetraccionesPagadas '33'
+2/26/2025 2:46:56 AM - DELETE FROM "@BPP_PAYDTRDET" WHERE "DocEntry" = '33' AND "U_BPP_NmDc" = '01-E001-00000126'
+2/26/2025 2:47:02 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:47:02 AM - EXEC STR_SP_DetraccionesPagadas '33'
+2/26/2025 2:47:02 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:47:02 AM - EXEC STR_SP_DetraccionesPagadas '33'
+2/26/2025 2:52:23 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:52:23 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:52:23 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:52:23 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:52:23 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:52:23 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:52:23 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:52:23 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:52:23 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:52:23 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:52:23 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:52:23 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:52:23 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:52:23 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:52:23 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:52:23 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:52:23 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:52:23 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:52:23 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:52:23 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:52:42 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:52:42 AM - EXEC STR_SP_DetraccionesPagadas '33'
+2/26/2025 2:53:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:53:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:53:08 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:53:08 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:53:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:53:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:53:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:53:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:53:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:53:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:53:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:53:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:53:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:53:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:53:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:53:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:53:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:53:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:53:09 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:53:09 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:53:24 AM - EXEC STR_SP_DetraccionesXPagar '', '', '', '', '', '','E',''
+2/26/2025 2:53:33 AM - EXEC STR_SP_RegistroPagoDetrac '0'
+2/26/2025 2:53:33 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:53:33 AM - EXEC STR_SP_DetraccionesPagadas '34'
+2/26/2025 2:53:44 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:53:44 AM - EXEC STR_SP_DetraccionesPagadas '34'
+2/26/2025 2:55:54 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:55:54 AM - EXEC STR_SP_DetraccionesPagadas '34'
+2/26/2025 2:58:50 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:58:50 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:58:50 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:58:50 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 2:58:50 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:58:50 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:58:50 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:58:50 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:58:50 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:58:50 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:58:50 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:58:50 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:58:50 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:58:50 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:58:50 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:58:50 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:58:50 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:58:51 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:58:51 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:58:51 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 2:59:24 AM - EXEC STR_SP_RegistroPagoDetrac '0'
+2/26/2025 2:59:26 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:59:26 AM - EXEC STR_SP_DetraccionesPagadas '35'
+2/26/2025 2:59:38 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:59:38 AM - EXEC STR_SP_DetraccionesPagadas '35'
+2/26/2025 2:59:57 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:59:57 AM - EXEC STR_SP_DetraccionesPagadas '35'
+2/26/2025 2:59:57 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 2:59:58 AM - EXEC STR_SP_DetraccionesPagadas '35'
+2/26/2025 3:01:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 3:01:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 3:01:08 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 3:01:08 AM - SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '2025'
+2/26/2025 3:01:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 3:01:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 3:01:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 3:01:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 3:01:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 3:01:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 3:01:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 3:01:08 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 3:01:09 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 3:01:09 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 3:01:09 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 3:01:09 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 3:01:09 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 3:01:09 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 3:01:09 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 3:01:09 AM - EXEC STR_SP_ObtConfigLocaliz
+2/26/2025 3:01:27 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 3:01:27 AM - EXEC STR_SP_DetraccionesPagadas '35'
+2/26/2025 3:01:28 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 3:01:28 AM - EXEC STR_SP_DetraccionesPagadas '35'
+2/26/2025 3:02:36 AM - EXEC STR_SP_ObtNombreCuenta ''
+2/26/2025 3:02:36 AM - EXEC STR_SP_DetraccionesPagadas '35'

@@ -29,6 +29,7 @@
         private readonly string lrs_UflCrtDate = "CreateDate";
         private readonly string lrs_UflEstado = "Status";
         private readonly string lrs_UflCanceled = "Canceled";
+        private readonly string lrs_UflLineId = "Line_ID";
         //private readonly string lrs_ = "Canceled";
 
         private readonly string lrs_UflPrvDd = "U_BPP_PvDd";
